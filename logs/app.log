@@ -2724,3 +2724,521 @@ AnaCredit Berichtsanweisungen 4 / 27
 2025-12-11 12:48:32,272 [INFO] regulai: [NotificationAgent] Notification sent for id=1
 2025-12-11 12:48:33,280 [INFO] regulai: [NotificationAgent] Notification sent for id=2
 2025-12-11 12:48:33,280 [INFO] regulai: [SchedulerAgent] Pipeline completed. New docs: 2
+2025-12-11 14:13:46,643 [INFO] regulai: [SchedulerAgent] Running full pipeline for authorities: ['BCL']
+2025-12-11 14:13:46,739 [INFO] regulai: [BCL] Fetching page: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/index.html
+2025-12-11 14:13:47,126 [INFO] regulai: [BCL] Found 27 PDF links
+2025-12-11 14:13:47,129 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 14:13:47,687 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 14:13:47,687 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 14:13:47,991 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 14:13:47,991 [INFO] regulai: [BCL] Total NEW documents this run: 0
+2025-12-11 14:13:48,066 [INFO] regulai: [TranslationAgent] Documents to translate: 0
+2025-12-11 14:13:48,151 [INFO] regulai: [KeywordAnalysisAgent] Documents to analyse: 0
+2025-12-11 14:13:48,152 [INFO] regulai: [NotificationAgent] Documents to notify: 0
+2025-12-11 14:13:48,153 [INFO] regulai: [SchedulerAgent] Pipeline completed. New docs: 0
+2025-12-11 15:07:52,164 [INFO] regulai: [SchedulerAgent] Running full pipeline for authorities: ['BCL']
+2025-12-11 15:07:52,176 [INFO] regulai: [BCL] Fetching page: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/index.html
+2025-12-11 15:07:54,336 [INFO] regulai: [BCL] Found 27 PDF links
+2025-12-11 15:07:54,397 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 15:07:55,693 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/c69d7f4cea23f20794aae661a8a2861568e279451130a5e5591bac651fa9a1e6_Instructions.pdf
+2025-12-11 15:07:55,695 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 15:07:57,205 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/567fe6e49139a8ee889564b24172430c1b9a3eef2d971e911781bcc9e8e549ab_version with revision marks.pdf
+2025-12-11 15:07:57,207 [INFO] regulai: [BCL] Total NEW documents this run: 2
+2025-12-11 15:07:58,660 [INFO] regulai: [TranslationAgent] Documents to translate: 2
+2025-12-11 15:08:15,285 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 15:08:41,237 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 15:08:41,271 [INFO] regulai: [TranslationAgent] Translated document id=1
+2025-12-11 15:08:45,450 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 15:09:15,979 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 15:09:15,984 [INFO] regulai: [TranslationAgent] Translated document id=2
+2025-12-11 15:09:16,060 [INFO] regulai: [KeywordAnalysisAgent] Documents to analyse: 2
+2025-12-11 15:09:16,060 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 15:09:19,256 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 15:09:19,260 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=1 with keywords: ['reporting']
+2025-12-11 15:09:19,260 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 15:09:21,659 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 15:09:21,665 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=2 with keywords: ['reporting']
+2025-12-11 15:09:21,667 [INFO] regulai: [NotificationAgent] Documents to notify: 2
+2025-12-11 15:09:23,113 [INFO] regulai: [NotificationAgent] Notification sent for id=1
+2025-12-11 15:09:24,262 [INFO] regulai: [NotificationAgent] Notification sent for id=2
+2025-12-11 15:09:24,262 [INFO] regulai: [SchedulerAgent] Pipeline completed. New docs: 2
+2025-12-11 15:13:28,289 [INFO] regulai: [SchedulerAgent] Running full pipeline for authorities: ['BCL']
+2025-12-11 15:13:28,290 [INFO] regulai: [BCL] Fetching page: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/index.html
+2025-12-11 15:13:28,643 [INFO] regulai: [BCL] Found 27 PDF links
+2025-12-11 15:13:28,646 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 15:13:29,278 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 15:13:29,280 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 15:13:29,760 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 15:13:29,760 [INFO] regulai: [BCL] Total NEW documents this run: 0
+2025-12-11 15:13:29,956 [INFO] regulai: [TranslationAgent] Documents to translate: 0
+2025-12-11 15:13:30,135 [INFO] regulai: [KeywordAnalysisAgent] Documents to analyse: 0
+2025-12-11 15:13:30,137 [INFO] regulai: [NotificationAgent] Documents to notify: 0
+2025-12-11 15:13:30,137 [INFO] regulai: [SchedulerAgent] Pipeline completed. New docs: 0
+2025-12-11 15:13:42,886 [INFO] regulai: [SchedulerAgent] Running full pipeline for authorities: ['BCL']
+2025-12-11 15:13:42,903 [INFO] regulai: [BCL] Fetching page: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/index.html
+2025-12-11 15:13:43,348 [INFO] regulai: [BCL] Found 27 PDF links
+2025-12-11 15:13:43,350 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 15:13:44,058 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/c69d7f4cea23f20794aae661a8a2861568e279451130a5e5591bac651fa9a1e6_Instructions.pdf
+2025-12-11 15:13:44,058 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 15:13:44,513 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/567fe6e49139a8ee889564b24172430c1b9a3eef2d971e911781bcc9e8e549ab_version with revision marks.pdf
+2025-12-11 15:13:44,513 [INFO] regulai: [BCL] Total NEW documents this run: 2
+2025-12-11 15:13:44,751 [INFO] regulai: [TranslationAgent] Documents to translate: 2
+2025-12-11 15:13:55,391 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 15:14:25,282 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 15:14:25,308 [INFO] regulai: [TranslationAgent] Translated document id=1
+2025-12-11 15:14:30,166 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 15:14:52,236 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 15:14:52,243 [INFO] regulai: [TranslationAgent] Translated document id=2
+2025-12-11 15:14:52,333 [INFO] regulai: [KeywordAnalysisAgent] Documents to analyse: 2
+2025-12-11 15:14:52,333 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 15:14:55,194 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 15:14:55,202 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=1 with keywords: []
+2025-12-11 15:14:55,203 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 15:14:57,517 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 15:14:57,531 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=2 with keywords: []
+2025-12-11 15:14:57,532 [INFO] regulai: [NotificationAgent] Documents to notify: 2
+2025-12-11 15:14:58,716 [INFO] regulai: [NotificationAgent] Notification sent for id=1
+2025-12-11 15:14:59,635 [INFO] regulai: [NotificationAgent] Notification sent for id=2
+2025-12-11 15:14:59,635 [INFO] regulai: [SchedulerAgent] Pipeline completed. New docs: 2
+2025-12-11 15:20:43,630 [INFO] regulai: [SchedulerAgent] Running full pipeline for authorities: ['BCL']
+2025-12-11 15:20:43,631 [INFO] regulai: [BCL] Fetching page: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/index.html
+2025-12-11 15:20:44,281 [INFO] regulai: [BCL] Found 27 PDF links
+2025-12-11 15:20:44,299 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 15:20:45,079 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/c69d7f4cea23f20794aae661a8a2861568e279451130a5e5591bac651fa9a1e6_Instructions.pdf
+2025-12-11 15:20:45,080 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 15:20:45,852 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/567fe6e49139a8ee889564b24172430c1b9a3eef2d971e911781bcc9e8e549ab_version with revision marks.pdf
+2025-12-11 15:20:45,852 [INFO] regulai: [BCL] Total NEW documents this run: 2
+2025-12-11 15:20:46,231 [INFO] regulai: [TranslationAgent] Documents to translate: 2
+2025-12-11 15:20:55,427 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 15:21:23,518 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 15:21:23,551 [INFO] regulai: [TranslationAgent] Translated document id=1
+2025-12-11 15:21:27,931 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 15:21:52,446 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 15:21:52,458 [INFO] regulai: [TranslationAgent] Translated document id=2
+2025-12-11 15:21:52,543 [INFO] regulai: [KeywordAnalysisAgent] Documents to analyse: 2
+2025-12-11 15:21:52,544 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 15:22:01,148 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 15:22:01,154 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=1 with keywords: ['reporting']
+2025-12-11 15:22:01,154 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 15:22:03,401 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 15:22:03,405 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=2 with keywords: ['reporting']
+2025-12-11 15:22:03,406 [INFO] regulai: [NotificationAgent] Documents to notify: 2
+2025-12-11 15:22:05,379 [INFO] regulai: [NotificationAgent] Notification sent for id=1
+2025-12-11 15:22:06,919 [INFO] regulai: [NotificationAgent] Notification sent for id=2
+2025-12-11 15:22:06,919 [INFO] regulai: [SchedulerAgent] Pipeline completed. New docs: 2
+2025-12-11 15:23:02,389 [INFO] regulai: [SchedulerAgent] Running full pipeline for authorities: ['BCL']
+2025-12-11 15:23:02,392 [INFO] regulai: [BCL] Fetching page: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/index.html
+2025-12-11 15:23:02,931 [INFO] regulai: [BCL] Found 27 PDF links
+2025-12-11 15:23:02,939 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 15:23:03,464 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/c69d7f4cea23f20794aae661a8a2861568e279451130a5e5591bac651fa9a1e6_Instructions.pdf
+2025-12-11 15:23:03,465 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 15:23:04,209 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/567fe6e49139a8ee889564b24172430c1b9a3eef2d971e911781bcc9e8e549ab_version with revision marks.pdf
+2025-12-11 15:23:04,209 [INFO] regulai: [BCL] Total NEW documents this run: 2
+2025-12-11 15:23:04,442 [INFO] regulai: [TranslationAgent] Documents to translate: 2
+2025-12-11 15:23:22,836 [INFO] regulai: [SchedulerAgent] Running full pipeline for authorities: ['BCL']
+2025-12-11 15:23:22,837 [INFO] regulai: [BCL] Fetching page: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/index.html
+2025-12-11 15:23:23,114 [INFO] regulai: [BCL] Found 27 PDF links
+2025-12-11 15:23:23,117 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 15:23:23,379 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 15:23:23,379 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 15:23:23,667 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 15:23:23,667 [INFO] regulai: [BCL] Total NEW documents this run: 0
+2025-12-11 15:23:23,747 [INFO] regulai: [TranslationAgent] Documents to translate: 2
+2025-12-11 15:23:27,524 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 15:23:51,410 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 15:23:51,434 [INFO] regulai: [TranslationAgent] Translated document id=1
+2025-12-11 15:23:55,766 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 15:24:21,413 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 15:24:21,418 [INFO] regulai: [TranslationAgent] Translated document id=2
+2025-12-11 15:24:21,493 [INFO] regulai: [KeywordAnalysisAgent] Documents to analyse: 2
+2025-12-11 15:24:21,494 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 15:24:25,338 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 15:24:25,343 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=1 with keywords: ['reporting']
+2025-12-11 15:24:25,343 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 15:24:30,552 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 15:24:30,557 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=2 with keywords: []
+2025-12-11 15:24:30,558 [INFO] regulai: [NotificationAgent] Documents to notify: 2
+2025-12-11 15:24:31,657 [INFO] regulai: [NotificationAgent] Notification sent for id=1
+2025-12-11 15:24:32,602 [INFO] regulai: [NotificationAgent] Notification sent for id=2
+2025-12-11 15:24:32,602 [INFO] regulai: [SchedulerAgent] Pipeline completed. New docs: 0
+2025-12-11 15:27:20,419 [INFO] regulai: [SchedulerAgent] Running full pipeline for authorities: ['BCL']
+2025-12-11 15:27:20,420 [INFO] regulai: [BCL] Fetching page: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/index.html
+2025-12-11 15:27:20,796 [INFO] regulai: [BCL] Found 27 PDF links
+2025-12-11 15:27:20,799 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 15:27:21,159 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/c69d7f4cea23f20794aae661a8a2861568e279451130a5e5591bac651fa9a1e6_Instructions.pdf
+2025-12-11 15:27:21,159 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 15:27:21,540 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/567fe6e49139a8ee889564b24172430c1b9a3eef2d971e911781bcc9e8e549ab_version with revision marks.pdf
+2025-12-11 15:27:21,540 [INFO] regulai: [BCL] Total NEW documents this run: 2
+2025-12-11 15:27:21,625 [INFO] regulai: [TranslationAgent] Documents to translate: 2
+2025-12-11 15:27:27,944 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 15:27:56,396 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 15:27:56,421 [INFO] regulai: [TranslationAgent] Translated document id=1
+2025-12-11 15:28:01,575 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 15:28:26,049 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 15:28:26,054 [INFO] regulai: [TranslationAgent] Translated document id=2
+2025-12-11 15:28:26,124 [INFO] regulai: [KeywordAnalysisAgent] Documents to analyse: 2
+2025-12-11 15:28:26,124 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 15:28:30,886 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 15:28:30,896 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=1 with keywords: []
+2025-12-11 15:28:30,896 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 15:28:33,109 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 15:28:33,113 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=2 with keywords: ['reporting']
+2025-12-11 15:28:33,114 [INFO] regulai: [NotificationAgent] Documents to notify: 2
+2025-12-11 15:28:34,585 [INFO] regulai: [NotificationAgent] Notification sent for id=1
+2025-12-11 15:28:35,498 [INFO] regulai: [NotificationAgent] Notification sent for id=2
+2025-12-11 15:28:35,498 [INFO] regulai: [SchedulerAgent] Pipeline completed. New docs: 2
+2025-12-11 15:35:23,703 [INFO] regulai: [SchedulerAgent] Running full pipeline for authorities: ['BCL']
+2025-12-11 15:35:23,706 [INFO] regulai: [BCL] Fetching page: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/index.html
+2025-12-11 15:35:24,095 [INFO] regulai: [BCL] Found 27 PDF links
+2025-12-11 15:35:24,099 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 15:35:24,621 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/c69d7f4cea23f20794aae661a8a2861568e279451130a5e5591bac651fa9a1e6_Instructions.pdf
+2025-12-11 15:35:24,621 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 15:35:25,006 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/567fe6e49139a8ee889564b24172430c1b9a3eef2d971e911781bcc9e8e549ab_version with revision marks.pdf
+2025-12-11 15:35:25,006 [INFO] regulai: [BCL] Total NEW documents this run: 2
+2025-12-11 15:35:25,101 [INFO] regulai: [TranslationAgent] Documents to translate: 2
+2025-12-11 15:35:29,646 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 15:36:06,737 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 15:36:06,785 [INFO] regulai: [TranslationAgent] Translated document id=1
+2025-12-11 15:36:11,259 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 15:36:40,834 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 15:36:40,846 [INFO] regulai: [TranslationAgent] Translated document id=2
+2025-12-11 15:36:40,939 [INFO] regulai: [KeywordAnalysisAgent] Documents to analyse: 2
+2025-12-11 15:36:40,939 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 15:36:44,324 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 15:36:44,335 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=1 with keywords: []
+2025-12-11 15:36:44,336 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 15:36:47,758 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 15:36:47,771 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=2 with keywords: ['reporting']
+2025-12-11 15:36:47,772 [INFO] regulai: [NotificationAgent] Documents to notify: 2
+2025-12-11 15:36:49,118 [INFO] regulai: [NotificationAgent] Notification sent for id=1
+2025-12-11 15:36:49,992 [INFO] regulai: [NotificationAgent] Notification sent for id=2
+2025-12-11 15:36:49,992 [INFO] regulai: [SchedulerAgent] Pipeline completed. New docs: 2
+2025-12-11 15:42:55,421 [INFO] regulai: [SchedulerAgent] Running full pipeline for authorities: ['BCL']
+2025-12-11 15:42:55,424 [INFO] regulai: [BCL] Fetching page: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/index.html
+2025-12-11 15:42:56,055 [INFO] regulai: [BCL] Found 27 PDF links
+2025-12-11 15:42:56,058 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 15:42:56,365 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/c69d7f4cea23f20794aae661a8a2861568e279451130a5e5591bac651fa9a1e6_Instructions.pdf
+2025-12-11 15:42:56,365 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 15:42:56,922 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/567fe6e49139a8ee889564b24172430c1b9a3eef2d971e911781bcc9e8e549ab_version with revision marks.pdf
+2025-12-11 15:42:56,922 [INFO] regulai: [BCL] Total NEW documents this run: 2
+2025-12-11 15:42:57,021 [INFO] regulai: [TranslationAgent] Documents to translate: 2
+2025-12-11 15:43:01,324 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 15:43:41,695 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 15:43:41,719 [INFO] regulai: [TranslationAgent] Translated document id=1
+2025-12-11 15:43:46,365 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 15:44:18,047 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 15:44:18,059 [INFO] regulai: [TranslationAgent] Translated document id=2
+2025-12-11 15:44:18,142 [INFO] regulai: [KeywordAnalysisAgent] Documents to analyse: 2
+2025-12-11 15:44:18,143 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 15:44:21,159 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 15:44:21,163 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=1 with keywords: ['reporting']
+2025-12-11 15:44:21,163 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 15:44:26,110 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 15:44:26,119 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=2 with keywords: ['reporting']
+2025-12-11 15:44:26,120 [INFO] regulai: [NotificationAgent] Documents to notify: 2
+2025-12-11 15:44:27,382 [INFO] regulai: [NotificationAgent] Notification sent for id=1
+2025-12-11 15:44:28,399 [INFO] regulai: [NotificationAgent] Notification sent for id=2
+2025-12-11 15:44:28,399 [INFO] regulai: [SchedulerAgent] Pipeline completed. New docs: 2
+2025-12-11 15:55:33,549 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 15:55:34,489 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 15:55:44,323 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 15:55:44,980 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 16:16:14,854 [INFO] regulai: [SchedulerAgent] Running full pipeline for authorities: ['BCL']
+2025-12-11 16:16:14,856 [INFO] regulai: [BCL] Fetching page: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/index.html
+2025-12-11 16:16:15,818 [INFO] regulai: [BCL] Found 27 PDF links
+2025-12-11 16:16:15,832 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 16:16:16,735 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 16:16:16,737 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 16:16:17,341 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 16:16:17,341 [INFO] regulai: [BCL] Total NEW documents this run: 0
+2025-12-11 16:16:17,525 [INFO] regulai: [TranslationAgent] Documents to translate: 0
+2025-12-11 16:16:17,765 [INFO] regulai: [KeywordAnalysisAgent] Documents to analyse: 0
+2025-12-11 16:16:17,770 [INFO] regulai: [NotificationAgent] Documents to notify: 0
+2025-12-11 16:16:17,775 [INFO] regulai: [SchedulerAgent] Pipeline completed. New docs: 0
+2025-12-11 16:17:14,810 [INFO] regulai: [SchedulerAgent] Running full pipeline for authorities: ['BCL']
+2025-12-11 16:17:14,812 [INFO] regulai: [BCL] Fetching page: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/index.html
+2025-12-11 16:17:15,196 [INFO] regulai: [BCL] Found 27 PDF links
+2025-12-11 16:17:15,201 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 16:17:15,555 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/c69d7f4cea23f20794aae661a8a2861568e279451130a5e5591bac651fa9a1e6_Instructions.pdf
+2025-12-11 16:17:15,556 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 16:17:16,558 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/567fe6e49139a8ee889564b24172430c1b9a3eef2d971e911781bcc9e8e549ab_version with revision marks.pdf
+2025-12-11 16:17:16,558 [INFO] regulai: [BCL] Total NEW documents this run: 2
+2025-12-11 16:17:16,700 [INFO] regulai: [TranslationAgent] Documents to translate: 2
+2025-12-11 16:17:20,974 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 16:17:57,944 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 16:17:57,975 [INFO] regulai: [TranslationAgent] Translated document id=1
+2025-12-11 16:18:02,268 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 16:18:31,632 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 16:18:31,650 [INFO] regulai: [TranslationAgent] Translated document id=2
+2025-12-11 16:18:31,791 [INFO] regulai: [KeywordAnalysisAgent] Documents to analyse: 2
+2025-12-11 16:18:31,791 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 16:18:36,526 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 16:18:36,543 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=1 with keywords: ['reporting']
+2025-12-11 16:18:36,543 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 16:18:39,519 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 16:18:39,530 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=2 with keywords: ['reporting']
+2025-12-11 16:18:39,533 [INFO] regulai: [NotificationAgent] Documents to notify: 2
+2025-12-11 16:18:40,815 [INFO] regulai: [NotificationAgent] Notification sent for id=1
+2025-12-11 16:18:41,757 [INFO] regulai: [NotificationAgent] Notification sent for id=2
+2025-12-11 16:18:41,759 [INFO] regulai: [SchedulerAgent] Pipeline completed. New docs: 2
+2025-12-11 16:21:31,855 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 16:21:32,672 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 16:22:12,124 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 16:22:13,969 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 16:22:24,716 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 16:22:26,227 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 16:22:53,317 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 16:22:54,897 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 16:24:55,571 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 16:24:56,238 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 16:25:07,939 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 16:25:08,609 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 16:27:34,018 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 16:29:35,667 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 16:29:41,874 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 16:29:46,418 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 16:52:01,143 [INFO] regulai: [SchedulerAgent] Running full pipeline for authorities: ['BCL', 'ECB']
+2025-12-11 16:52:01,147 [INFO] regulai: [BCL] Fetching page: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/index.html
+2025-12-11 16:52:01,814 [INFO] regulai: [BCL] Found 27 PDF links
+2025-12-11 16:52:01,824 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 16:52:02,560 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 16:52:02,560 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 16:52:03,080 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 16:52:03,080 [INFO] regulai: [BCL] Total NEW documents this run: 0
+2025-12-11 17:03:13,734 [INFO] regulai: [SchedulerAgent] Running full pipeline for authorities: ['BCL']
+2025-12-11 17:03:13,736 [INFO] regulai: [BCL] Fetching page: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/index.html
+2025-12-11 17:03:14,385 [INFO] regulai: [BCL] Found 27 PDF links
+2025-12-11 17:03:14,409 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 17:03:15,071 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 17:03:15,072 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 17:03:15,533 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 17:03:15,533 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_Member_States_EN.pdf
+2025-12-11 17:03:15,792 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/082a7ff51b136e61c0439cc23e2e61ba7093603f3d92ac83b67f2ff0d3d9fc74_List of reporting Member States.pdf
+2025-12-11 17:03:15,793 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_member_states_EN_Revision_marks.pdf
+2025-12-11 17:03:15,980 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/4bab9fbde1bf0e63615cd9b5dd7459ac10926260841460ad30a9a6d26d7cfb17_version with revision marks.pdf
+2025-12-11 17:03:15,980 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN.pdf
+2025-12-11 17:03:16,477 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/8104376b9064336ff389dca6043fa3d4d80979ec1e6ced95ef0ee2c424a54b74_Comparison methodology FINREP up to December 2023.pdf
+2025-12-11 17:03:16,478 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN_Revision_marks.pdf
+2025-12-11 17:03:16,911 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/4011da9d7b85d0ceaf7d21a2e33a66781ca52d55c7f85cb92e19810ca79595c9_version with revision marks.pdf
+2025-12-11 17:03:16,911 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_2023_12_EN.pdf
+2025-12-11 17:03:17,351 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/23227e1017350465a01bd7d3fd41fd707335d1c2e0b59a35ada90e94c60f5fcb_Comparison methodology FINREP from December 2023 onwards.pdf
+2025-12-11 17:03:17,352 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_2023_12_EN_RM.pdf
+2025-12-11 17:03:17,834 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/8b328ee1549c898551478ff9fb7d7e1dce77e6c2cbfd8d8ea4c026924dba6995_version with revision marks.pdf
+2025-12-11 17:03:17,834 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_iBSI_iMIR_EN.pdf
+2025-12-11 17:03:18,370 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/489d28ec88412d6ba008c46a2e444877c7ca5db3817cb8c2bc211e247943b121_Comparison methodology iBSI-iMIR up to December 2023.pdf
+2025-12-11 17:03:18,372 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_iBSI_iMIR_EN_revision_marks.pdf
+2025-12-11 17:03:18,935 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/ff6e762993779690e3f29b58a6bb670ff77651b1ad7c83738342ad6f6bd68de0_version with revision marks.pdf
+2025-12-11 17:03:18,936 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_BSI_MIR_2023_12_EN.pdf
+2025-12-11 17:03:19,671 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/c0c77f9604e3b4aa75592b9d137b45be49a27efc2b0c73691dbf058ada47f930_Comparison methodology BSI-MIR from December 2023 onwards.pdf
+2025-12-11 17:03:19,673 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_BSI_MIR_2023_12_EN_Rm.pdf
+2025-12-11 17:03:20,575 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/7383a2130fc93d6c4a7810d89978becb313314ce2a4a62c814cf8d7d4a14df9b_version with revision marks.pdf
+2025-12-11 17:03:20,580 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_S25L_EN.pdf
+2025-12-11 17:03:21,149 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/2ce17fc25d785cb0690f5b2187517edb764a1806bb0d750a65b2b797db6724f1_Comparison methodology S 2.5-L from December 2025 onwards.pdf
+2025-12-11 17:03:21,151 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_13.pdf
+2025-12-11 17:03:21,598 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/e86637b82b024ccc0ddd5eca874d6969239d51d2f91f284d9df22aadb876590a_Technical specifications.pdf
+2025-12-11 17:03:21,599 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_13_revision_marks.pdf
+2025-12-11 17:03:22,269 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/ef965724b783c066232394b9f0e958378dfd00a60ff4a62921791e50283defa6_version with revision marks.pdf
+2025-12-11 17:03:22,270 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_12.pdf
+2025-12-11 17:03:22,904 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/be5b125da19a9d9519aa64bb459631b6225ba50615d04f9888711429aa40b2cd_Technical specifications.pdf
+2025-12-11 17:03:22,905 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_12_track_changes.pdf
+2025-12-11 17:03:23,787 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/2481378f14722ab29a8eb5fc41ebdeddf54caede2c18a081daeb2eabf862b32d_version with revision marks.pdf
+2025-12-11 17:03:23,788 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_11.pdf
+2025-12-11 17:03:24,573 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/e4b784d3cdfad110904a36a1dfad0a79c67a29cd33dfe3b94c4fa9a704238709_Technical specifications.pdf
+2025-12-11 17:03:24,574 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_11_revision_marks.pdf
+2025-12-11 17:03:25,115 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/c350efa1c2133899fe880b39d5a0d676594add21fdffb99872d95711af5839c3_version with revision marks.pdf
+2025-12-11 17:03:25,116 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_10.pdf
+2025-12-11 17:03:25,780 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/bedd5479ce71da433db6bfa9e7247a78f30cc97413c5570a6afb9ceebe007990_Technical specifications.pdf
+2025-12-11 17:03:25,781 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_10_revision_marks.pdf
+2025-12-11 17:03:26,386 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/3be71bed5d2619c11b8af183244afdef00791305f818e591b30958e60f057f8d_version with revision marks.pdf
+2025-12-11 17:03:26,387 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_9.pdf
+2025-12-11 17:03:27,312 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20d7f83f959e94104df5184337e0ca5bcd65c3917810643b529cc7586eee6ad7_Technical specifications.pdf
+2025-12-11 17:03:27,313 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_9_Revision_marks.pdf
+2025-12-11 17:03:28,436 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/2a16d84352d53d7f4355889bfcadfa2497d26ff3653dc3af0926f00c94abdffd_version with revision marks.pdf
+2025-12-11 17:03:28,438 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_8_2023_EN.pdf
+2025-12-11 17:03:29,068 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/ec7cb0c94d8ec0366c39c3f03c04c6dd2e36737be7453f0b1a1b0d28d279134d_Technical specifications.pdf
+2025-12-11 17:03:29,069 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_8_2023_EN_Revision_marks.pdf
+2025-12-11 17:03:29,770 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/087d4e89d76c58cbf08a730cda569b82001cce8bbcda05bfc784ba1f20351885_version with revision marks.pdf
+2025-12-11 17:03:29,771 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_7.pdf
+2025-12-11 17:03:30,353 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/d7affd01ee269906317138dc762490ac35c1978b0969467f9644f4c44ac1173c_Technical specifications.pdf
+2025-12-11 17:03:30,353 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_7_Revision_marks.pdf
+2025-12-11 17:03:31,159 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/54368787abbf3b103a9a8eb1836637fa0e7e6e094a78874126d62445023040ca_version with revision marks.pdf
+2025-12-11 17:03:31,159 [INFO] regulai: [BCL] Total NEW documents this run: 25
+2025-12-11 17:03:31,705 [INFO] regulai: [TranslationAgent] Documents to translate: 25
+2025-12-11 17:03:33,151 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 17:03:48,829 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:03:48,907 [INFO] regulai: [TranslationAgent] Translated document id=3
+2025-12-11 17:03:49,829 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 17:04:01,726 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:04:01,739 [INFO] regulai: [TranslationAgent] Translated document id=4
+2025-12-11 17:04:18,627 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 17:04:50,775 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:04:50,802 [INFO] regulai: [TranslationAgent] Translated document id=5
+2025-12-11 17:05:04,306 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 17:05:42,693 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:05:42,719 [INFO] regulai: [TranslationAgent] Translated document id=6
+2025-12-11 17:05:56,401 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 17:06:36,421 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:06:36,477 [INFO] regulai: [TranslationAgent] Translated document id=7
+2025-12-11 17:06:51,021 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 17:07:24,681 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:07:24,708 [INFO] regulai: [TranslationAgent] Translated document id=8
+2025-12-11 17:07:37,612 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 17:08:10,045 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:08:10,064 [INFO] regulai: [TranslationAgent] Translated document id=9
+2025-12-11 17:08:22,252 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 17:09:00,322 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:09:00,351 [INFO] regulai: [TranslationAgent] Translated document id=10
+2025-12-11 17:09:27,079 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 17:10:06,881 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:10:06,908 [INFO] regulai: [TranslationAgent] Translated document id=11
+2025-12-11 17:10:39,075 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 17:11:25,421 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:11:25,452 [INFO] regulai: [TranslationAgent] Translated document id=12
+2025-12-11 17:11:31,886 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 17:12:21,538 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:12:21,558 [INFO] regulai: [TranslationAgent] Translated document id=13
+2025-12-11 17:12:25,742 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 17:12:50,618 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:12:50,626 [INFO] regulai: [TranslationAgent] Translated document id=14
+2025-12-11 17:12:54,781 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 17:13:34,648 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:13:34,664 [INFO] regulai: [TranslationAgent] Translated document id=15
+2025-12-11 17:13:38,118 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 17:14:11,819 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:14:11,833 [INFO] regulai: [TranslationAgent] Translated document id=16
+2025-12-11 17:14:15,862 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 17:14:55,235 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:14:55,258 [INFO] regulai: [TranslationAgent] Translated document id=17
+2025-12-11 17:14:59,372 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 17:15:35,669 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:15:35,688 [INFO] regulai: [TranslationAgent] Translated document id=18
+2025-12-11 17:15:39,880 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 17:16:11,627 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:16:11,649 [INFO] regulai: [TranslationAgent] Translated document id=19
+2025-12-11 17:16:16,215 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 17:16:48,081 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:16:48,102 [INFO] regulai: [TranslationAgent] Translated document id=20
+2025-12-11 17:16:52,229 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 17:17:23,817 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:17:23,824 [INFO] regulai: [TranslationAgent] Translated document id=21
+2025-12-11 17:17:27,934 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 17:17:57,308 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:17:57,343 [INFO] regulai: [TranslationAgent] Translated document id=22
+2025-12-11 17:18:01,805 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 17:18:34,474 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:18:34,493 [INFO] regulai: [TranslationAgent] Translated document id=23
+2025-12-11 17:18:39,029 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 17:19:10,192 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:19:10,197 [INFO] regulai: [TranslationAgent] Translated document id=24
+2025-12-11 17:19:14,952 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 17:19:51,290 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:19:51,298 [INFO] regulai: [TranslationAgent] Translated document id=25
+2025-12-11 17:19:55,700 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 17:20:22,362 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:20:22,406 [INFO] regulai: [TranslationAgent] Translated document id=26
+2025-12-11 17:20:28,733 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 17:20:59,263 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:20:59,297 [INFO] regulai: [TranslationAgent] Translated document id=27
+2025-12-11 17:20:59,639 [INFO] regulai: [KeywordAnalysisAgent] Documents to analyse: 25
+2025-12-11 17:20:59,639 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 17:21:03,707 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:21:03,728 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=3 with keywords: ['reporting', 'currency']
+2025-12-11 17:21:03,729 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 17:21:06,934 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:21:06,939 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=4 with keywords: ['reporting', 'credit risk']
+2025-12-11 17:21:06,939 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 17:21:11,093 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:21:11,126 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=5 with keywords: ['reporting', 'credit risk', 'risk', 'contract']
+2025-12-11 17:21:11,127 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 17:21:15,372 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:21:15,393 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=6 with keywords: ['reporting', 'credit risk', 'risk', 'contract']
+2025-12-11 17:21:15,396 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 17:21:19,305 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:21:19,310 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=7 with keywords: ['reporting', 'credit risk', 'risk', 'contract']
+2025-12-11 17:21:19,310 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 17:21:23,000 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:21:23,017 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=8 with keywords: ['reporting', 'credit risk', 'risk', 'contract']
+2025-12-11 17:21:23,017 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 17:21:27,244 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:21:27,261 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=9 with keywords: ['reporting']
+2025-12-11 17:21:27,261 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 17:21:30,517 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:21:30,536 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=10 with keywords: ['reporting', 'risk']
+2025-12-11 17:21:30,536 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 17:21:35,206 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:21:35,211 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=11 with keywords: ['reporting']
+2025-12-11 17:21:35,211 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 17:21:38,192 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:21:38,197 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=12 with keywords: ['reporting']
+2025-12-11 17:21:38,205 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 17:21:42,902 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:21:42,911 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=13 with keywords: ['reporting', 'risk', 'currency']
+2025-12-11 17:21:42,911 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 17:21:46,673 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:21:46,678 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=14 with keywords: ['reporting']
+2025-12-11 17:21:46,678 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 17:21:50,398 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:21:50,413 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=15 with keywords: ['reporting']
+2025-12-11 17:21:50,413 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 17:21:53,485 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:21:53,503 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=16 with keywords: ['reporting']
+2025-12-11 17:21:53,504 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 17:21:57,238 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:21:57,244 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=17 with keywords: ['reporting', 'contract']
+2025-12-11 17:21:57,244 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 17:22:00,666 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:22:00,676 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=18 with keywords: ['reporting']
+2025-12-11 17:22:00,677 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 17:22:04,131 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:22:04,142 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=19 with keywords: ['reporting', 'contract']
+2025-12-11 17:22:04,142 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 17:22:07,546 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:22:07,565 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=20 with keywords: ['reporting', 'risk', 'contract']
+2025-12-11 17:22:07,566 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 17:22:10,495 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:22:10,509 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=21 with keywords: ['reporting']
+2025-12-11 17:22:10,510 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 17:22:13,810 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:22:13,832 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=22 with keywords: ['reporting', 'risk']
+2025-12-11 17:22:13,832 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 17:22:17,007 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:22:17,012 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=23 with keywords: ['reporting']
+2025-12-11 17:22:17,013 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 17:22:20,327 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:22:20,332 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=24 with keywords: ['reporting']
+2025-12-11 17:22:20,332 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 17:22:25,038 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:22:25,061 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=25 with keywords: ['reporting']
+2025-12-11 17:22:25,062 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 17:22:28,653 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:22:28,673 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=26 with keywords: ['reporting', 'risk']
+2025-12-11 17:22:28,674 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 17:22:32,714 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 17:22:32,721 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=27 with keywords: ['reporting']
+2025-12-11 17:22:32,745 [INFO] regulai: [NotificationAgent] Documents to notify: 25
+2025-12-11 17:22:34,329 [INFO] regulai: [NotificationAgent] Notification sent for id=3
+2025-12-11 17:22:35,642 [INFO] regulai: [NotificationAgent] Notification sent for id=4
+2025-12-11 17:22:37,022 [INFO] regulai: [NotificationAgent] Notification sent for id=5
+2025-12-11 17:22:38,016 [INFO] regulai: [NotificationAgent] Notification sent for id=6
+2025-12-11 17:22:39,043 [INFO] regulai: [NotificationAgent] Notification sent for id=7
+2025-12-11 17:22:40,066 [INFO] regulai: [NotificationAgent] Notification sent for id=8
+2025-12-11 17:22:41,118 [INFO] regulai: [NotificationAgent] Notification sent for id=9
+2025-12-11 17:22:42,169 [INFO] regulai: [NotificationAgent] Notification sent for id=10
+2025-12-11 17:22:43,318 [INFO] regulai: [NotificationAgent] Notification sent for id=11
+2025-12-11 17:22:44,364 [INFO] regulai: [NotificationAgent] Notification sent for id=12
+2025-12-11 17:22:45,333 [INFO] regulai: [NotificationAgent] Notification sent for id=13
+2025-12-11 17:22:46,379 [INFO] regulai: [NotificationAgent] Notification sent for id=14
+2025-12-11 17:22:47,415 [INFO] regulai: [NotificationAgent] Notification sent for id=15
+2025-12-11 17:22:48,640 [INFO] regulai: [NotificationAgent] Notification sent for id=16
+2025-12-11 17:22:49,575 [INFO] regulai: [NotificationAgent] Notification sent for id=17
+2025-12-11 17:22:50,591 [INFO] regulai: [NotificationAgent] Notification sent for id=18
+2025-12-11 17:22:53,055 [INFO] regulai: [NotificationAgent] Notification sent for id=19
+2025-12-11 17:22:54,099 [INFO] regulai: [NotificationAgent] Notification sent for id=20
+2025-12-11 17:22:54,905 [INFO] regulai: [NotificationAgent] Notification sent for id=21
+2025-12-11 17:22:55,877 [INFO] regulai: [NotificationAgent] Notification sent for id=22
+2025-12-11 17:22:56,873 [INFO] regulai: [NotificationAgent] Notification sent for id=23
+2025-12-11 17:22:57,899 [INFO] regulai: [NotificationAgent] Notification sent for id=24
+2025-12-11 17:22:58,703 [INFO] regulai: [NotificationAgent] Notification sent for id=25
+2025-12-11 17:22:59,994 [INFO] regulai: [NotificationAgent] Notification sent for id=26
+2025-12-11 17:23:01,050 [INFO] regulai: [NotificationAgent] Notification sent for id=27
+2025-12-11 17:23:01,052 [INFO] regulai: [SchedulerAgent] Pipeline completed. New docs: 25

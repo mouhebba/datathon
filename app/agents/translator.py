@@ -1,4 +1,5 @@
 # app/agents/translator.py
+from http import client
 from pathlib import Path
 from typing import Optional
 from openai import OpenAI
@@ -37,6 +38,30 @@ class TranslationAgent:
             temperature=0.1,
         )
         return resp.choices[0].message.content
+    
+    def translate_keywords_gpt(keywords, target_lang):
+        """Translate a list of keywords using GPT."""
+        if not keywords:
+            return []
+
+        prompt = (
+            f"Translate the following keywords into {target_lang}. "
+            "Return only a comma-separated list.\n\n"
+            f"{', '.join(keywords)}"
+        )
+
+        response = client.chat.completions.create(
+            model="gpt-4o-mini",   # cheap + fast, change if needed
+            messages=[
+                {"role": "system", "content": "You are a translation assistant."},
+                {"role": "user", "content": prompt},
+            ],
+            max_tokens=200,
+            temperature=0,
+        )
+
+        translated = response.choices[0].message.content
+        return [k.strip() for k in translated.split(",")]
 
     def run(self):
         docs = get_untranslated_documents()

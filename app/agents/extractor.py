@@ -68,7 +68,7 @@ class ExtractionAgent:
         links = self.fetch_document_links()
         new_count = 0
 
-        for item in links[:2]:
+        for item in links:
             url = item["url"]
             title = item["title"]
 
