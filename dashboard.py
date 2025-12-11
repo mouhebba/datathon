@@ -8,6 +8,32 @@ from app.agents.scheduler_agent import run_full_pipeline
 
 LOG_FILE = Path("logs/app.log")
 
+def show_pipeline_progress():
+    status = st.status("Running pipeline...", expanded=True)
+
+    def cb(event, data=None):
+        if event == "extract_start":
+            status.write(f"🟦 **Agent 1 – Extractor** starting for `{data['authority']}`…")
+        elif event == "extract_done":
+            status.write(f"✔ **Extractor finished** → {data['new']} new document(s)")
+
+        elif event == "translate_start":
+            status.write(f"🟨 **Agent 2 – Translator** translating documents…")
+        elif event == "translate_done":
+            status.write(f"✔ **Translator finished**")
+
+        elif event == "analysis_start":
+            status.write(f"🟧 **Agent 3 – Analysis** running keyword detection…")
+        elif event == "analysis_done":
+            status.write(f"✔ **Analysis completed**")
+
+        elif event == "notify_start":
+            status.write(f"🟪 **Agent 4 – Notification** sending emails…")
+        elif event == "notify_done":
+            status.write(f"✔ **Notifications sent**")
+
+    return cb, status
+
 def show_logs():
     st.subheader("📜 Application Logs")
 

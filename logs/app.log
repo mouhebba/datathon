@@ -1443,3 +1443,1284 @@
 2025-12-11 11:43:18,004 [INFO] regulai: [TranslationAgent] Documents to translate: 27
 2025-12-11 11:43:22,562 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
 2025-12-11 11:43:22,768 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-12-11 11:48:26,654 [INFO] regulai: [SchedulerAgent] Running full pipeline for authorities: ['BCL']
+2025-12-11 11:48:26,656 [INFO] regulai: [BCL] Fetching page: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/index.html
+2025-12-11 11:48:27,367 [INFO] regulai: [BCL] Found 27 PDF links
+2025-12-11 11:49:33,680 [INFO] regulai: [SchedulerAgent] Running full pipeline for authorities: ['BCL']
+2025-12-11 11:49:33,681 [INFO] regulai: [BCL] Fetching page: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/index.html
+2025-12-11 11:49:33,999 [INFO] regulai: [BCL] Found 27 PDF links
+2025-12-11 11:49:34,001 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 11:49:34,421 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/c69d7f4cea23f20794aae661a8a2861568e279451130a5e5591bac651fa9a1e6_Instructions.pdf
+2025-12-11 11:49:34,422 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 11:49:34,947 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/567fe6e49139a8ee889564b24172430c1b9a3eef2d971e911781bcc9e8e549ab_version with revision marks.pdf
+2025-12-11 11:49:34,947 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_Member_States_EN.pdf
+2025-12-11 11:49:35,220 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/082a7ff51b136e61c0439cc23e2e61ba7093603f3d92ac83b67f2ff0d3d9fc74_List of reporting Member States.pdf
+2025-12-11 11:49:35,220 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_member_states_EN_Revision_marks.pdf
+2025-12-11 11:49:35,359 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/4bab9fbde1bf0e63615cd9b5dd7459ac10926260841460ad30a9a6d26d7cfb17_version with revision marks.pdf
+2025-12-11 11:49:35,360 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN.pdf
+2025-12-11 11:49:35,933 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/8104376b9064336ff389dca6043fa3d4d80979ec1e6ced95ef0ee2c424a54b74_Comparison methodology FINREP up to December 2023.pdf
+2025-12-11 11:49:35,933 [INFO] regulai: [BCL] Total NEW documents this run: 5
+2025-12-11 11:49:35,933 [WARNING] regulai: [TranslationAgent] OPENAI_API_KEY is not set!
+2025-12-11 11:49:36,159 [INFO] regulai: [TranslationAgent] Documents to translate: 5
+2025-12-11 11:50:18,546 [INFO] regulai: [SchedulerAgent] Running full pipeline for authorities: ['BCL']
+2025-12-11 11:50:18,547 [INFO] regulai: [BCL] Fetching page: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/index.html
+2025-12-11 11:50:18,872 [INFO] regulai: [BCL] Found 27 PDF links
+2025-12-11 11:50:18,877 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 11:50:19,148 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 11:50:19,149 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 11:50:19,411 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 11:50:19,411 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_Member_States_EN.pdf
+2025-12-11 11:50:19,549 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_Member_States_EN.pdf
+2025-12-11 11:50:19,550 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_member_states_EN_Revision_marks.pdf
+2025-12-11 11:50:19,694 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_member_states_EN_Revision_marks.pdf
+2025-12-11 11:50:19,695 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN.pdf
+2025-12-11 11:50:20,033 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN.pdf
+2025-12-11 11:50:20,034 [INFO] regulai: [BCL] Total NEW documents this run: 0
+2025-12-11 11:50:20,195 [INFO] regulai: [TranslationAgent] Documents to translate: 5
+2025-12-11 11:50:24,332 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 11:50:46,950 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 11:50:46,997 [INFO] regulai: [TranslationAgent] Translated document id=1
+2025-12-11 11:50:51,550 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 11:51:12,459 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 11:51:12,473 [INFO] regulai: [TranslationAgent] Translated document id=2
+2025-12-11 11:51:12,795 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 11:51:21,353 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 11:51:21,357 [INFO] regulai: [TranslationAgent] Translated document id=3
+2025-12-11 11:51:21,778 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 11:51:31,593 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 11:51:31,598 [INFO] regulai: [TranslationAgent] Translated document id=4
+2025-12-11 11:51:40,688 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 11:52:02,889 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 11:52:02,903 [INFO] regulai: [TranslationAgent] Translated document id=5
+2025-12-11 11:52:02,997 [INFO] regulai: [KeywordAnalysisAgent] Documents to analyse: 5
+2025-12-11 11:52:02,998 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 11:52:05,019 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 11:52:05,034 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=1 with keywords: []
+2025-12-11 11:52:05,034 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 11:52:07,970 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 11:52:07,975 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=2 with keywords: []
+2025-12-11 11:52:07,975 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 11:52:11,583 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 11:52:11,588 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=3 with keywords: ['reporting', 'credit risk']
+2025-12-11 11:52:11,588 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 11:52:14,661 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 11:52:14,666 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=4 with keywords: ['reporting', 'credit risk']
+2025-12-11 11:52:14,667 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 11:52:17,931 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 11:52:17,945 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=5 with keywords: ['reporting', 'credit risk']
+2025-12-11 11:52:17,947 [INFO] regulai: [NotificationAgent] Documents to notify: 5
+2025-12-11 12:04:17,288 [INFO] regulai: [SchedulerAgent] Running full pipeline for authorities: ['BCL']
+2025-12-11 12:04:17,289 [INFO] regulai: [BCL] Fetching page: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/index.html
+2025-12-11 12:04:17,810 [INFO] regulai: [BCL] Found 27 PDF links
+2025-12-11 12:04:17,816 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 12:04:18,631 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/c69d7f4cea23f20794aae661a8a2861568e279451130a5e5591bac651fa9a1e6_Instructions.pdf
+2025-12-11 12:04:18,632 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 12:04:19,270 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/567fe6e49139a8ee889564b24172430c1b9a3eef2d971e911781bcc9e8e549ab_version with revision marks.pdf
+2025-12-11 12:04:19,272 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_Member_States_EN.pdf
+2025-12-11 12:04:19,503 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/082a7ff51b136e61c0439cc23e2e61ba7093603f3d92ac83b67f2ff0d3d9fc74_List of reporting Member States.pdf
+2025-12-11 12:04:19,503 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_member_states_EN_Revision_marks.pdf
+2025-12-11 12:04:19,677 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/4bab9fbde1bf0e63615cd9b5dd7459ac10926260841460ad30a9a6d26d7cfb17_version with revision marks.pdf
+2025-12-11 12:04:19,678 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN.pdf
+2025-12-11 12:04:20,398 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/8104376b9064336ff389dca6043fa3d4d80979ec1e6ced95ef0ee2c424a54b74_Comparison methodology FINREP up to December 2023.pdf
+2025-12-11 12:04:20,399 [INFO] regulai: [BCL] Total NEW documents this run: 5
+2025-12-11 12:04:20,739 [INFO] regulai: [TranslationAgent] Documents to translate: 5
+2025-12-11 12:04:30,336 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 12:05:00,682 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 12:05:00,705 [INFO] regulai: [TranslationAgent] Translated document id=1
+2025-12-11 12:05:04,880 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 12:05:28,632 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 12:05:28,646 [INFO] regulai: [TranslationAgent] Translated document id=2
+2025-12-11 12:05:28,909 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 12:05:39,704 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 12:05:39,709 [INFO] regulai: [TranslationAgent] Translated document id=3
+2025-12-11 12:05:39,966 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 12:05:47,652 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 12:05:47,656 [INFO] regulai: [TranslationAgent] Translated document id=4
+2025-12-11 12:05:53,270 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 12:06:19,528 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 12:06:19,541 [INFO] regulai: [TranslationAgent] Translated document id=5
+2025-12-11 12:06:19,689 [INFO] regulai: [KeywordAnalysisAgent] Documents to analyse: 5
+2025-12-11 12:06:19,689 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 12:06:21,461 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 12:06:21,468 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=1 with keywords: []
+2025-12-11 12:06:21,469 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 12:06:23,602 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 12:06:23,606 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=2 with keywords: ['reporting']
+2025-12-11 12:06:23,606 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 12:06:25,958 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 12:06:25,966 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=3 with keywords: ['reporting', 'credit risk']
+2025-12-11 12:06:25,968 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 12:06:28,714 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 12:06:28,724 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=4 with keywords: ['reporting', 'credit risk']
+2025-12-11 12:06:28,724 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 12:06:31,507 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 12:06:31,513 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=5 with keywords: ['reporting', 'credit risk']
+2025-12-11 12:06:31,515 [INFO] regulai: [NotificationAgent] Documents to notify: 5
+2025-12-11 12:06:32,766 [INFO] regulai: [NotificationAgent] Notification sent for id=1
+2025-12-11 12:06:33,708 [INFO] regulai: [NotificationAgent] Notification sent for id=2
+2025-12-11 12:06:34,801 [INFO] regulai: [NotificationAgent] Notification sent for id=3
+2025-12-11 12:06:35,689 [INFO] regulai: [NotificationAgent] Notification sent for id=4
+2025-12-11 12:06:37,373 [INFO] regulai: [NotificationAgent] Notification sent for id=5
+2025-12-11 12:06:37,375 [INFO] regulai: [SchedulerAgent] Pipeline completed. New docs: 5
+2025-12-11 12:08:06,152 [INFO] regulai: [SchedulerAgent] Running full pipeline for authorities: ['BCL']
+2025-12-11 12:08:06,158 [INFO] regulai: [BCL] Fetching page: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/index.html
+2025-12-11 12:08:06,450 [INFO] regulai: [BCL] Found 27 PDF links
+2025-12-11 12:08:06,453 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 12:08:06,732 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 12:08:06,732 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 12:08:07,240 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 12:08:07,241 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_Member_States_EN.pdf
+2025-12-11 12:08:07,377 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_Member_States_EN.pdf
+2025-12-11 12:08:07,377 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_member_states_EN_Revision_marks.pdf
+2025-12-11 12:08:07,558 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_member_states_EN_Revision_marks.pdf
+2025-12-11 12:08:07,558 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN.pdf
+2025-12-11 12:08:07,928 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN.pdf
+2025-12-11 12:08:07,928 [INFO] regulai: [BCL] Total NEW documents this run: 0
+2025-12-11 12:08:07,996 [INFO] regulai: [TranslationAgent] Documents to translate: 0
+2025-12-11 12:08:08,076 [INFO] regulai: [KeywordAnalysisAgent] Documents to analyse: 0
+2025-12-11 12:08:08,077 [INFO] regulai: [NotificationAgent] Documents to notify: 0
+2025-12-11 12:08:08,077 [INFO] regulai: [SchedulerAgent] Pipeline completed. New docs: 0
+2025-12-11 12:08:29,580 [INFO] regulai: [SchedulerAgent] Running full pipeline for authorities: ['BCL']
+2025-12-11 12:08:29,581 [INFO] regulai: [BCL] Fetching page: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/index.html
+2025-12-11 12:08:30,543 [INFO] regulai: [BCL] Found 27 PDF links
+2025-12-11 12:08:30,546 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 12:08:31,046 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/c69d7f4cea23f20794aae661a8a2861568e279451130a5e5591bac651fa9a1e6_Instructions.pdf
+2025-12-11 12:08:31,047 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 12:08:31,550 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/567fe6e49139a8ee889564b24172430c1b9a3eef2d971e911781bcc9e8e549ab_version with revision marks.pdf
+2025-12-11 12:08:31,551 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_Member_States_EN.pdf
+2025-12-11 12:08:31,910 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/082a7ff51b136e61c0439cc23e2e61ba7093603f3d92ac83b67f2ff0d3d9fc74_List of reporting Member States.pdf
+2025-12-11 12:08:31,910 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_member_states_EN_Revision_marks.pdf
+2025-12-11 12:08:32,077 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/4bab9fbde1bf0e63615cd9b5dd7459ac10926260841460ad30a9a6d26d7cfb17_version with revision marks.pdf
+2025-12-11 12:08:32,078 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN.pdf
+2025-12-11 12:08:32,973 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/8104376b9064336ff389dca6043fa3d4d80979ec1e6ced95ef0ee2c424a54b74_Comparison methodology FINREP up to December 2023.pdf
+2025-12-11 12:08:32,974 [INFO] regulai: [BCL] Total NEW documents this run: 5
+2025-12-11 12:08:33,134 [INFO] regulai: [TranslationAgent] Documents to translate: 5
+2025-12-11 12:08:41,656 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 12:09:02,447 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 12:09:02,457 [INFO] regulai: [TranslationAgent] Translated document id=1
+2025-12-11 12:09:06,464 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 12:09:26,741 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 12:09:26,749 [INFO] regulai: [TranslationAgent] Translated document id=2
+2025-12-11 12:09:26,958 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 12:09:34,848 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 12:09:34,858 [INFO] regulai: [TranslationAgent] Translated document id=3
+2025-12-11 12:09:35,174 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 12:09:49,556 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 12:09:49,576 [INFO] regulai: [TranslationAgent] Translated document id=4
+2025-12-11 12:09:58,346 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 12:10:21,577 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 12:10:21,584 [INFO] regulai: [TranslationAgent] Translated document id=5
+2025-12-11 12:10:21,660 [INFO] regulai: [KeywordAnalysisAgent] Documents to analyse: 5
+2025-12-11 12:10:21,660 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 12:10:23,781 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 12:10:23,803 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=1 with keywords: []
+2025-12-11 12:10:23,803 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 12:10:26,400 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 12:10:26,409 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=2 with keywords: ['reporting']
+2025-12-11 12:10:26,410 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 12:10:28,675 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 12:10:28,679 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=3 with keywords: ['credit risk', 'reporting']
+2025-12-11 12:10:28,680 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 12:10:31,344 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 12:10:31,348 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=4 with keywords: ['credit risk', 'reporting']
+2025-12-11 12:10:31,348 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 12:10:34,188 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 12:10:34,193 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=5 with keywords: ['reporting', 'credit risk']
+2025-12-11 12:10:34,194 [INFO] regulai: [NotificationAgent] Documents to notify: 5
+2025-12-11 12:10:35,200 [INFO] regulai: [NotificationAgent] Notification sent for id=1
+2025-12-11 12:10:36,233 [INFO] regulai: [NotificationAgent] Notification sent for id=2
+2025-12-11 12:10:37,261 [INFO] regulai: [NotificationAgent] Notification sent for id=3
+2025-12-11 12:10:38,312 [INFO] regulai: [NotificationAgent] Notification sent for id=4
+2025-12-11 12:10:39,382 [INFO] regulai: [NotificationAgent] Notification sent for id=5
+2025-12-11 12:10:39,382 [INFO] regulai: [SchedulerAgent] Pipeline completed. New docs: 5
+2025-12-11 12:17:16,241 [INFO] regulai: [SchedulerAgent] Running full pipeline for authorities: ['BCL']
+2025-12-11 12:17:16,241 [INFO] regulai: [BCL] Fetching page: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/index.html
+2025-12-11 12:17:16,733 [INFO] regulai: [BCL] Found 27 PDF links
+2025-12-11 12:17:16,742 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 12:17:17,103 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/c69d7f4cea23f20794aae661a8a2861568e279451130a5e5591bac651fa9a1e6_Instructions.pdf
+2025-12-11 12:17:17,107 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 12:17:17,738 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/567fe6e49139a8ee889564b24172430c1b9a3eef2d971e911781bcc9e8e549ab_version with revision marks.pdf
+2025-12-11 12:17:17,740 [INFO] regulai: [BCL] Total NEW documents this run: 2
+2025-12-11 12:17:18,055 [INFO] regulai: [TranslationAgent] Documents to translate: 2
+2025-12-11 12:17:29,757 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 12:17:29,758 [INFO] regulai: TARGET LANGUAGE en
+2025-12-11 12:17:52,737 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 12:17:52,769 [INFO] regulai: [TranslationAgent] Translated document id=1
+2025-12-11 12:17:57,085 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 12:17:57,086 [INFO] regulai: TARGET LANGUAGE en
+2025-12-11 12:18:20,460 [INFO] regulai: [SchedulerAgent] Running full pipeline for authorities: ['BCL']
+2025-12-11 12:18:20,460 [INFO] regulai: [BCL] Fetching page: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/index.html
+2025-12-11 12:18:20,821 [INFO] regulai: [BCL] Found 27 PDF links
+2025-12-11 12:18:20,824 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 12:18:21,105 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/c69d7f4cea23f20794aae661a8a2861568e279451130a5e5591bac651fa9a1e6_Instructions.pdf
+2025-12-11 12:18:21,105 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 12:18:21,425 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/567fe6e49139a8ee889564b24172430c1b9a3eef2d971e911781bcc9e8e549ab_version with revision marks.pdf
+2025-12-11 12:18:21,425 [INFO] regulai: [BCL] Total NEW documents this run: 2
+2025-12-11 12:18:21,595 [INFO] regulai: [TranslationAgent] Documents to translate: 2
+2025-12-11 12:18:29,334 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 12:18:29,334 [INFO] regulai: TARGET LANGUAGE de
+2025-12-11 12:18:50,419 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 12:18:50,443 [INFO] regulai: [TranslationAgent] Translated document id=1
+2025-12-11 12:18:54,721 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 12:18:54,721 [INFO] regulai: TARGET LANGUAGE de
+2025-12-11 12:19:20,712 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 12:19:20,723 [INFO] regulai: [TranslationAgent] Translated document id=2
+2025-12-11 12:19:20,800 [INFO] regulai: [KeywordAnalysisAgent] Documents to analyse: 2
+2025-12-11 12:19:20,801 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 12:19:23,159 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 12:19:23,170 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=1 with keywords: ['reporting']
+2025-12-11 12:19:23,170 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 12:19:25,391 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 12:19:25,396 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=2 with keywords: ['reporting']
+2025-12-11 12:19:25,397 [INFO] regulai: [NotificationAgent] Documents to notify: 2
+2025-12-11 12:19:26,575 [INFO] regulai: [NotificationAgent] Notification sent for id=1
+2025-12-11 12:19:27,416 [INFO] regulai: [NotificationAgent] Notification sent for id=2
+2025-12-11 12:19:27,416 [INFO] regulai: [SchedulerAgent] Pipeline completed. New docs: 2
+2025-12-11 12:21:10,795 [INFO] regulai: [SchedulerAgent] Running full pipeline for authorities: ['BCL']
+2025-12-11 12:21:10,801 [INFO] regulai: [BCL] Fetching page: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/index.html
+2025-12-11 12:21:11,137 [INFO] regulai: [BCL] Found 27 PDF links
+2025-12-11 12:21:11,142 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 12:21:11,471 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/c69d7f4cea23f20794aae661a8a2861568e279451130a5e5591bac651fa9a1e6_Instructions.pdf
+2025-12-11 12:21:11,472 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 12:21:12,037 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/567fe6e49139a8ee889564b24172430c1b9a3eef2d971e911781bcc9e8e549ab_version with revision marks.pdf
+2025-12-11 12:21:12,037 [INFO] regulai: [BCL] Total NEW documents this run: 2
+2025-12-11 12:21:12,448 [INFO] regulai: [TranslationAgent] Documents to translate: 2
+2025-12-11 12:21:33,456 [INFO] regulai: [SchedulerAgent] Running full pipeline for authorities: ['BCL']
+2025-12-11 12:21:33,457 [INFO] regulai: [BCL] Fetching page: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/index.html
+2025-12-11 12:21:34,064 [INFO] regulai: [BCL] Found 27 PDF links
+2025-12-11 12:21:34,079 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 12:21:34,512 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 12:21:34,513 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 12:21:35,179 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 12:21:35,180 [INFO] regulai: [BCL] Total NEW documents this run: 0
+2025-12-11 12:21:35,563 [INFO] regulai: [TranslationAgent] Documents to translate: 2
+2025-12-11 12:21:40,057 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 12:22:00,553 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 12:22:00,580 [INFO] regulai: TRANSLATED Bericht AnaCredit
+Berichtsanweisungen
+Version 4.6
+Oktober 2025
+Zusammenfassung der Versionen
+Version Datum Kommentare
+1.0 26. April 2017 Erstversion
+2.0 20. Juli 2017 Aktualisierte Berichtsfristen
+2.1 26. Oktober 2017 Beschreibung der Testphasen
+2.1.1 10. November 2017 Kleinere Änderungen
+2.3 11. Januar 2018 Hinzugefügte Datenerhebungsoperation
+Hinzugefügtes Datenqualitätsmanagement
+2.3.1 2. Februar 2018 Aktualisierte Testphasen
+2.3.2 26. März 2018 Kleinere Änderungen
+2.3.3 9. April 2018 Kleinere Änderungen
+2.3.4 4. Mai 2018 Änderungen bezüglich des Startdatums der zweiten Testphase
+2.3.5 9. August 2018 Ansässige Gegenparteien ohne nationale Identifikationsnummer
+Internationale Organisationen
+Einreichungsarten
+2.3.6 17. Dezember 2018 Aktion „Löschen“
+Verwendung von Deltas
+2.4 23. September 2019 Verwendung von „Dummy-Werten“
+Schlüsselattribute
+Ausarbeitung der Datenflüsse
+Erweiterte Nutzung des Übertragungsformats „Vollständiger Ersatz“
+2.4.1 24. Oktober 2019 Link zur Anleitung zur Suche nach Identifikatoren nicht-EU-Entitäten
+Versionierung der SDMX-Schemata
+Berichterstattung von LEI-Codes
+2.4.2 8. Juni 2020 Aktualisiertes Schema zu Datenflüssen
+Klarstellung zu den Typen von Qualitätsberichten
+Kapitel zu DQIs
+Klarstellung zu internationalen Organisationen
+2.5 22. März 2021 Umstrukturierung der Kapitel zu Rückmeldungen
+Klarstellungen zu den DQIs
+3.0 14. März 2022 Allgemeine Aktualisierung der Anweisungen
+Neue Funktionsweise von Nachreichungen
+4.0 10. Oktober 2022 Neuer Datenqualitätsrahmen ab September 2022
+4.1 27. Januar 2023 Aktualisierung der Rückmeldungen
+4.2 8. März 2023 Informationen über die Begrenzung von 10.000 Fehlern pro Rückmeldung hinzugefügt
+4.3 27. November 2023 Kleinere Aktualisierung der gesendeten Rückmeldungen
+4.4 6. Februar 2024 Aktualisierung der Frist für T2Q
+Aktualisierung des Zeitplans für Korrekturen im Vergleich zu AnaCredit
+AnaCredit Berichtsanweisungen 2 / 25
+4.5 3. Januar 2025 Aktualisierung der DQIs
+4.6 23. Oktober 2025 Aktualisierung der Prioritäten
+Einführung des alternativen DQI
+AnaCredit Berichtsanweisungen 3 / 25
+Inhalt
+1 Einführung .............................................................................................................. 6
+1.1 Rechtsgrundlage und Berichtsrahmen ............................................................ 6
+1.2 Berichterstattungspopulation und Berichtspflichten ...................................... 6
+1.3 Berichterstattungsfrequenz und Fristen ......................................................... 7
+1.3.1 Monatliche Übertragung durchzuführen .................................................. 7
+1.3.2 Vierteljährliche Übertragung durchzuführen ........................................... 7
+1.4 Spezifische Berichtspflichten .......................................................................... 8
+1.4.1 Bestimmungen zu Anhang II und III der Verordnung .............................. 8
+1.4.2 Sonderfälle ............................................................................................ 8
+2 Die zu berichtenden Daten ................................................................................... 9
+2.1 Die zu verwendenden Gegenparteien-Identifikatoren .................................. 9
+2.2 Sonderwerte (Nicht anwendbar – Nicht erforderlich) .................................. 11
+2.3 Internationale Organisationen ....................................................................... 12
+3 Datenerhebungsoperation .................................................................................. 12
+3.1 Übertragungskanäle ...................................................................................... 12
+3.2 Übertragungsprinzipien ................................................................................ 13
+3.2.1 Übertragungsstandards ......................................................................... 13
+3.2.2 Einreichung von SDMX-ML-Dateien .................................................... 13
+3.2.3 Merkmale der übertragenen Daten ......................................................... 13
+3.2.4 Nachreichungen .................................................................................... 14
+3.2.5 Schlüsselattribute ................................................................................ 15
+4 Datenqualitätsmanagement ................................................................................ 15
+4.1 Bewusstsein der Berichtserstatter bezüglich der Datenqualität .................. 15
+4.2 Dimensionen der geschäftlichen Datenqualitätsprüfungen ......................... 16
+4.2.1 Referenzielle Integrität .......................................................................... 16
+4.2.2 Konsistenz ............................................................................................ 16
+4.2.3 Vollständigkeit ...................................................................................... 17
+4.2.4 Einzigartigkeit ....................................................................................... 17
+AnaCredit Berichtsanweisungen 4 / 25
+4.2.5 Datenkonformität .................................................................................. 17
+4.2.6 Plausibilität ........................................................................................... 18
+4.2.7 Vergleich mit anderen statistischen und aufsichtsrechtlichen Berichten ... 18
+4.2.8 Überprüfung der referenziellen Datenqualität ....................................... 18
+4.2.9 Erweiterte Datenqualitätsprüfungen .................................................... 18
+4.3 Datenqualitätsberichte ................................................................................ 18
+4.4 Fehlerarten .................................................................................................. 20
+4.5 Überarbeitungsfristen und Datenaufbewahrung .......................................... 21
+4.6 Datenqualitätsindikatoren ab dem Referenzdatum September 2022 ........ 21
+4.7 Datenqualitätsindikatoren ab dem Referenzdatum November 2025 .......... 23
+5
+2025-12-11 12:22:00,586 [INFO] regulai: [TranslationAgent] Translated document id=1
+2025-12-11 12:22:05,481 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 12:22:28,814 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 12:22:28,817 [INFO] regulai: TRANSLATED Bericht AnaCredit
+Berichtsanweisungen
+Version 4.56
+Januar Oktober 2025
+Zusammenfassung der Versionen
+Version Datum Kommentare
+1.0 26. April 2017 Erstversion
+2.0 20. Juli 2017 Aktualisierte Berichtsfristen
+2.1 26. Oktober 2017 Beschreibung der Testphasen
+2.1.1 10. November 2017 Kleinere Änderungen
+2.3 11. Januar 2018 Hinzugefügte Datensammlungsoperation
+Hinzugefügtes Datenqualitätsmanagement
+2.3.1 2. Februar 2018 Aktualisierte Testphasen
+2.3.2 26. März 2018 Kleinere Änderungen
+2.3.3 9. April 2018 Kleinere Änderungen
+2.3.4 4. Mai 2018 Änderungen bezüglich des Startdatums der zweiten Testphase
+2.3.5 9. August 2018 Ansässige Gegenparteien ohne nationale Identifikationsnummer
+Internationale Organisationen
+Einreichungsarten
+2.3.6 17. Dezember 2018 Aktion „Löschen“
+Verwendung von Deltas
+2.4 23. September 2019 Verwendung von „Dummy-Werten“
+Schlüsselattribute
+Ausarbeitung der Datenflüsse
+Erweiterte Nutzung des Übertragungsformats „Vollständiger Ersatz“
+2.4.1 24. Oktober 2019 Link zur Anleitung zur Suche nach Identifikatoren nicht-EU-Entitäten
+Versionierung der SDMX-Schemata
+Berichterstattung von LEI-Codes
+2.4.2 8. Juni 2020 Aktualisiertes Schema zu Datenflüssen
+Klarstellung zu den Arten von Qualitätsberichten
+Kapitel zu DQIs
+Klarstellung zu internationalen Organisationen
+2.5 22. März 2021 Umstrukturierung der Kapitel zu Rückmeldungen
+Klarstellungen zu den DQIs
+3.0 14. März 2022 Allgemeine Aktualisierung der Anweisungen
+Neue Funktionsweise von Nachreichungen
+4.0 10. Oktober 2022 Neuer Datenqualitätsrahmen ab September 2022
+4.1 27. Januar 2023 Aktualisierung der Rückmeldungen
+4.2 8. März 2023 Informationen über die Begrenzung von 10.000 Fehlern pro Rückmeldung hinzugefügt
+4.3 27. November 2023 Kleinere Aktualisierung der gesendeten Rückmeldungen
+4.4 6. Februar 2024 Aktualisierung der Frist für T2Q
+Aktualisierung des Zeitplans für Korrekturen im Vergleich zu AnaCredit
+AnaCredit Berichtsanweisungen 2 / 27
+4.5 3. Januar 2025 Aktualisierung der DQIs
+4.6 23. Oktober 2025 Aktualisierung der Prioritäten
+Einführung des alternativen DQI
+AnaCredit Berichtsanweisungen 3 / 27
+Inhalt
+1 Einführung .............................................................................................................. 6
+1.1 Rechtsgrundlage und Berichtsrahmen ............................................................ 6
+1.2 Berichtsbevölkerung und Berichtspflichten .................................................... 6
+1.3 Berichterstattungsfrequenz und Fristen ......................................................... 7
+1.3.1 Monatliche Übertragung durchzuführen .................................................. 7
+1.3.2 Vierteljährliche Übertragung durchzuführen ........................................... 7
+1.4 Spezifische Berichtspflichten ......................................................................... 8
+1.4.1 Bestimmungen zu Anhang II und III der Verordnung ............................. 8
+1.4.2 Sonderfälle ............................................................................................ 8
+2 Die zu berichtenden Daten .................................................................................. 9
+2.1 Die zu verwendenden Gegenparteien-Identifikatoren .................................. 9
+2.2 Sonderwerte (Nicht anwendbar – Nicht erforderlich) .................................. 11
+2.3 Internationale Organisationen ...................................................................... 12
+3 Datensammlungsoperation ............................................................................... 1312
+3.1 Übertragungskanäle .................................................................................... 1312
+3.2 Übertragungsprinzipien ................................................................................ 13
+3.2.1 Übertragungsstandards ......................................................................... 13
+3.2.2 Einreichung von SDMX-ML-Dateien .................................................... 13
+3.2.3 Merkmale der übertragenen Daten ....................................................... 1413
+3.2.4 Nachreichungen .................................................................................... 14
+3.2.5 Schlüsselattribute ................................................................................ 15
+4 Datenqualitätsmanagement ................................................................................ 15
+4.1 Bewusstsein der Berichtserstatter bezüglich der Datenqualität .................. 15
+4.2 Dimensionen der geschäftlichen Datenqualitätsprüfungen ......................... 16
+4.2.1 Referenzielle Integrität .......................................................................... 16
+4.2.2 Konsistenz ........................................................................................... 1716
+4.2.3 Vollständigkeit ..................................................................................... 17
+4.2.4 Einzigartigkeit ....................................................................................... 17
+AnaCredit Berichtsanweisungen 4 / 27
+4.2.5 Datenkonformität ............................................................................... 1817
+4.2.6 Plausibilität .......................................................................................... 18
+4.2.7 Vergleich mit anderen statistischen und aufsichtsrechtlichen Berichten .. 18
+4.2.8 Überprüfung der referenziellen Datenqualität ....................................... 18
+4.2.9 Erweiterte Datenqualitätsprüfungen .................................................... 18
+4.3 Datenqualitätsberichte ............................................................................... 18
+4.4 Fehlertypen .................................................................................................. 20
+4.5 Überarbeitungsfristen und Datenaufbewahrung .......................................... 21
+4.6 Datenqualitätsindikatoren ab dem Referenzdatum September 2022 .......... 2321
+4.7 Datenqualitätsindikatoren ab dem Referenzdatum November 2025 ........... 2523
+2025-12-11 12:22:28,827 [INFO] regulai: [TranslationAgent] Translated document id=2
+2025-12-11 12:22:28,905 [INFO] regulai: [KeywordAnalysisAgent] Documents to analyse: 2
+2025-12-11 12:22:28,906 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 12:22:30,909 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 12:22:30,919 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=1 with keywords: []
+2025-12-11 12:22:30,919 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 12:22:33,718 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 12:22:33,761 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=2 with keywords: []
+2025-12-11 12:22:33,762 [INFO] regulai: [NotificationAgent] Documents to notify: 2
+2025-12-11 12:22:34,948 [INFO] regulai: [NotificationAgent] Notification sent for id=1
+2025-12-11 12:22:35,744 [INFO] regulai: [NotificationAgent] Notification sent for id=2
+2025-12-11 12:22:35,750 [INFO] regulai: [SchedulerAgent] Pipeline completed. New docs: 0
+2025-12-11 12:29:54,110 [INFO] regulai: [SchedulerAgent] Running full pipeline for authorities: ['BCL']
+2025-12-11 12:29:54,112 [INFO] regulai: [BCL] Fetching page: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/index.html
+2025-12-11 12:29:54,432 [INFO] regulai: [BCL] Found 27 PDF links
+2025-12-11 12:29:54,436 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 12:29:54,947 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/c69d7f4cea23f20794aae661a8a2861568e279451130a5e5591bac651fa9a1e6_Instructions.pdf
+2025-12-11 12:29:54,947 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 12:29:55,215 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/567fe6e49139a8ee889564b24172430c1b9a3eef2d971e911781bcc9e8e549ab_version with revision marks.pdf
+2025-12-11 12:29:55,215 [INFO] regulai: [BCL] Total NEW documents this run: 2
+2025-12-11 12:29:55,379 [INFO] regulai: [TranslationAgent] Documents to translate: 2
+2025-12-11 12:30:04,121 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 12:30:28,861 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 12:30:28,890 [INFO] regulai: TRANSLATED **AnaCredit Reporting Instructions**  
+**Reporting Instructions**  
+**Version 4.6**  
+**October 2025**  
+
+**Summary of Versions**  
+| Version | Date               | Comments                                                                 |
+|---------|--------------------|--------------------------------------------------------------------------|
+| 1.0     | 26 April 2017      | Initial version                                                          |
+| 2.0     | 20 July 2017       | Updated reporting dates                                                  |
+| 2.1     | 26 October 2017    | Description of the test phases                                           |
+| 2.1.1   | 10 November 2017   | Minor changes                                                           |
+| 2.3     | 11 January 2018    | Added data collection operation<br>Added data quality management        |
+| 2.3.1   | 2 February 2018    | Updated test phases                                                     |
+| 2.3.2   | 26 March 2018      | Minor changes                                                           |
+| 2.3.3   | 9 April 2018       | Minor changes                                                           |
+| 2.3.4   | 4 May 2018         | Changes related to the starting date of the second test phase          |
+| 2.3.5   | 9 August 2018      | Resident counterparts without national identifier<br>International organisations<br>Submission types |
+| 2.3.6   | 17 December 2018   | Action “Delete”                                                         |
+|         |                    | Use of Deltas                                                          |
+| 2.4     | 23 September 2019   | Use of “dummy values”                                                  |
+|         |                    | Key attributes                                                         |
+|         |                    | Elaboration of the data flows                                          |
+|         |                    | Extended use of the “Full replacement” transmission type                |
+| 2.4.1   | 24 October 2019    | Link to the guidance on non-EU entities identifiers search              |
+|         |                    | SDMX schemas versioning                                                |
+|         |                    | LEI codes reporting                                                    |
+| 2.4.2   | 8 June 2020        | Updated schema on data flows                                           |
+|         |                    | Clarification concerning quality report types                           |
+|         |                    | Chapter on DQIs                                                       |
+|         |                    | Clarification concerning international organisations                     |
+| 2.5     | 22 March 2021      | Restructuring of chapters on feedbacks                                  |
+|         |                    | Clarifications concerning the DQIs                                      |
+| 3.0     | 14 March 2022      | General update on the instructions                                      |
+|         |                    | New functioning of resubmissions                                        |
+| 4.0     | 10 October 2022    | New data quality framework from September 2022 onwards                 |
+| 4.1     | 27 January 2023    | Update of feedbacks                                                    |
+| 4.2     | 8 March 2023       | Information about the limitation of 10,000 errors per feedback added   |
+| 4.3     | 27 November 2023   | Minor update on the feedbacks sent                                      |
+| 4.4     | 6 February 2024    | Update of the deadline for T2Q                                         |
+|         |                    | Update of the correction timeline for any comparison with AnaCredit    |
+| 4.5     | 3 January 2025     | Update of the DQIs                                                    |
+| 4.6     | 23 October 2025     | Update of the Priorities                                               |
+|         |                    | Introduction of the alternative DQI                                     |
+
+**Contents**  
+1. **Introduction**  
+   1.1 Legal basis and reporting perimeter  
+   1.2 Reporting population and reporting requirements  
+   1.3 Reporting frequency and deadlines  
+      1.3.1 Monthly transmission to be carried out  
+      1.3.2 Quarterly transmission to be carried out  
+   1.4 Specific reporting requirements  
+      1.4.1 Provisions relating to Annex II and III of the Regulation  
+      1.4.2 Special cases  
+2. **The data to be reported**  
+   2.1 The counterparty identifiers to be used  
+   2.2 Special values (Non applicable – Not required)  
+   2.3 International organisations  
+3. **Data collection operation**  
+   3.1 Transmission channels  
+   3.2 Transmission principles  
+      3.2.1 Transmission standards  
+      3.2.2 Submission of SDMX-ML files  
+      3.2.3 Characteristics of the transmitted data  
+      3.2.4 Resubmissions  
+      3.2.5 Key attributes  
+4. **Data quality management**  
+   4.1 Reporting agents’ awareness regarding data quality  
+   4.2 Dimensions of the business data quality checks  
+      4.2.1 Referential integrity  
+      4.2.2 Consistency  
+      4.2.3 Completeness  
+      4.2.4 Uniqueness  
+      4.2.5 Data Compliance  
+      4.2.6 Plausibility  
+      4.2.7 Comparison with other statistical and prudential reports  
+      4.2.8 Referential data quality check  
+      4.2.9 Advanced data quality checks  
+   4.3 Data quality reports  
+   4.4 Error types  
+   4.5 Revision deadlines and data preservation  
+   4.6 Data quality indicators from the reference date of September 2022 onwards  
+   4.7 Data quality indicators from the reference date of November 2025 onwards  
+2025-12-11 12:30:28,905 [INFO] regulai: [TranslationAgent] Translated document id=1
+2025-12-11 12:30:33,184 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 12:31:19,872 [INFO] regulai: [SchedulerAgent] Running full pipeline for authorities: ['BCL']
+2025-12-11 12:31:19,874 [INFO] regulai: [BCL] Fetching page: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/index.html
+2025-12-11 12:31:20,180 [INFO] regulai: [BCL] Found 27 PDF links
+2025-12-11 12:31:20,182 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 12:31:20,453 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/c69d7f4cea23f20794aae661a8a2861568e279451130a5e5591bac651fa9a1e6_Instructions.pdf
+2025-12-11 12:31:20,453 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 12:31:20,776 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/567fe6e49139a8ee889564b24172430c1b9a3eef2d971e911781bcc9e8e549ab_version with revision marks.pdf
+2025-12-11 12:31:20,776 [INFO] regulai: [BCL] Total NEW documents this run: 2
+2025-12-11 12:31:20,952 [INFO] regulai: [TranslationAgent] Documents to translate: 2
+2025-12-11 12:31:24,933 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 12:31:47,818 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 12:31:47,838 [INFO] regulai: TRANSLATED Rapport AnaCredit  
+Instructions de reporting  
+Version 4.6  
+Octobre 2025  
+
+Résumé des versions  
+Version Date Commentaires  
+1.0 26 avril 2017 Version initiale  
+2.0 20 juillet 2017 Dates de reporting mises à jour  
+2.1 26 octobre 2017 Description des phases de test  
+2.1.1 10 novembre 2017 Changements mineurs  
+2.3 11 janvier 2018 Ajout de l'opération de collecte de données  
+Ajout de la gestion de la qualité des données  
+2.3.1 2 février 2018 Phases de test mises à jour  
+2.3.2 26 mars 2018 Changements mineurs  
+2.3.3 9 avril 2018 Changements mineurs  
+2.3.4 4 mai 2018 Changements liés à la date de début de la deuxième phase de test  
+2.3.5 9 août 2018 Contreparties résidentes sans identifiant national  
+Organisations internationales  
+Types de soumission  
+2.3.6 17 décembre 2018 Action « Supprimer »  
+Utilisation des Deltas  
+2.4 23 septembre 2019 Utilisation de « valeurs fictives »  
+Attributs clés  
+Élaboration des flux de données  
+Utilisation étendue du type de transmission « Remplacement complet »  
+2.4.1 24 octobre 2019 Lien vers les directives sur la recherche d'identifiants d'entités non-UE  
+Versionnage des schémas SDMX  
+Reporting des codes LEI  
+2.4.2 8 juin 2020 Schéma mis à jour sur les flux de données  
+Clarification concernant les types de rapports de qualité  
+Chapitre sur les DQI  
+Clarification concernant les organisations internationales  
+2.5 22 mars 2021 Restructuration des chapitres sur les retours  
+Clarifications concernant les DQI  
+3.0 14 mars 2022 Mise à jour générale des instructions  
+Nouveau fonctionnement des resoumissions  
+4.0 10 octobre 2022 Nouveau cadre de qualité des données à partir de septembre 2022  
+4.1 27 janvier 2023 Mise à jour des retours  
+4.2 8 mars 2023 Informations sur la limitation de 10 000 erreurs par retour ajoutées  
+4.3 27 novembre 2023 Mise à jour mineure sur les retours envoyés  
+4.4 6 février 2024 Mise à jour de la date limite pour T2Q  
+Mise à jour du calendrier de correction pour toute comparaison avec AnaCredit  
+Instructions de reporting AnaCredit 2 / 25  
+4.5 3 janvier 2025 Mise à jour des DQI  
+4.6 23 octobre 2025 Mise à jour des priorités  
+Introduction du DQI alternatif  
+Instructions de reporting AnaCredit 3 / 25  
+
+Contenu  
+1 Introduction .............................................................................................................. 6  
+1.1 Base légale et périmètre de reporting ................................................................. 6  
+1.2 Population de reporting et exigences de reporting ........................................... 6  
+1.3 Fréquence de reporting et délais ...................................................................... 7  
+1.3.1 Transmission mensuelle à réaliser .......................................................... 7  
+1.3.2 Transmission trimestrielle à réaliser ...................................................... 7  
+1.4 Exigences de reporting spécifiques .................................................................. 8  
+1.4.1 Dispositions relatives aux Annexes II et III du Règlement ...................... 8  
+1.4.2 Cas particuliers ....................................................................................... 8  
+2 Les données à reporter .......................................................................................... 9  
+2.1 Les identifiants de contrepartie à utiliser ......................................................... 9  
+2.2 Valeurs spéciales (Non applicable – Non requis) .......................................... 11  
+2.3 Organisations internationales ......................................................................... 12  
+3 Opération de collecte de données ....................................................................... 12  
+3.1 Canaux de transmission ................................................................................ 12  
+3.2 Principes de transmission .............................................................................. 13  
+3.2.1 Normes de transmission ......................................................................... 13  
+3.2.2 Soumission de fichiers SDMX-ML ........................................................ 13  
+3.2.3 Caractéristiques des données transmises ............................................... 13  
+3.2.4 Resoumissions ....................................................................................... 14  
+3.2.5 Attributs clés .......................................................................................... 15  
+4 Gestion de la qualité des données ......................................................................... 15  
+4.1 Sensibilisation des agents de reporting concernant la qualité des données ... 15  
+4.2 Dimensions des contrôles de qualité des données commerciales ................... 16  
+4.2.1 Intégrité référentielle .............................................................................. 16  
+4.2.2 Cohérence ............................................................................................. 16  
+4.2.3 Exhaustivité .......................................................................................... 17  
+4.2.4 Unicité ................................................................................................... 17  
+Instructions de reporting AnaCredit 4 / 25  
+4.2.5 Conformité des données ....................................................................... 17  
+4.2.6 Plausibilité ............................................................................................. 18  
+4.2.7 Comparaison avec d'autres rapports statistiques et prudentiels .............. 18  
+4.2.8 Contrôle de qualité des données référentielles ....................................... 18  
+4.2.9 Contrôles avancés de la qualité des données ....................................... 18  
+4.3 Rapports de qualité des données .................................................................... 18  
+4.4 Types d'erreurs .............................................................................................. 20  
+4.5 Délais de révision et conservation des données ........................................... 21  
+4.6 Indicateurs de qualité des données à partir de la date de référence de septembre 2022 21  
+4.7 Indicateurs de qualité des données à partir de la date de référence de novembre 2025 . 23  
+5
+2025-12-11 12:31:47,842 [INFO] regulai: [TranslationAgent] Translated document id=1
+2025-12-11 12:31:53,033 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 12:35:54,012 [INFO] regulai: [SchedulerAgent] Running full pipeline for authorities: ['BCL']
+2025-12-11 12:35:54,013 [INFO] regulai: [BCL] Fetching page: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/index.html
+2025-12-11 12:35:54,504 [INFO] regulai: [BCL] Found 27 PDF links
+2025-12-11 12:35:54,518 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 12:35:54,892 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/c69d7f4cea23f20794aae661a8a2861568e279451130a5e5591bac651fa9a1e6_Instructions.pdf
+2025-12-11 12:35:54,892 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 12:35:55,325 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/567fe6e49139a8ee889564b24172430c1b9a3eef2d971e911781bcc9e8e549ab_version with revision marks.pdf
+2025-12-11 12:35:55,326 [INFO] regulai: [BCL] Total NEW documents this run: 2
+2025-12-11 12:35:55,587 [INFO] regulai: [TranslationAgent] Documents to translate: 2
+2025-12-11 12:36:04,763 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 12:36:27,381 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 12:36:27,411 [INFO] regulai: TRANSLATED Rapport AnaCredit  
+Instructions de reporting  
+Version 4.6  
+Octobre 2025  
+
+Résumé des versions  
+Version Date Commentaires  
+1.0 26 avril 2017 Version initiale  
+2.0 20 juillet 2017 Dates de reporting mises à jour  
+2.1 26 octobre 2017 Description des phases de test  
+2.1.1 10 novembre 2017 Changements mineurs  
+2.3 11 janvier 2018 Ajout de l'opération de collecte de données  
+Ajout de la gestion de la qualité des données  
+2.3.1 2 février 2018 Phases de test mises à jour  
+2.3.2 26 mars 2018 Changements mineurs  
+2.3.3 9 avril 2018 Changements mineurs  
+2.3.4 4 mai 2018 Changements liés à la date de début de la deuxième phase de test  
+2.3.5 9 août 2018 Contreparties résidentes sans identifiant national  
+Organisations internationales  
+Types de soumission  
+2.3.6 17 décembre 2018 Action « Supprimer »  
+Utilisation des Deltas  
+2.4 23 septembre 2019 Utilisation de « valeurs fictives »  
+Attributs clés  
+Élaboration des flux de données  
+Utilisation étendue du type de transmission « Remplacement complet »  
+2.4.1 24 octobre 2019 Lien vers les directives sur la recherche d'identifiants d'entités non-UE  
+Versionnage des schémas SDMX  
+Reporting des codes LEI  
+2.4.2 8 juin 2020 Schéma mis à jour sur les flux de données  
+Clarification concernant les types de rapports de qualité  
+Chapitre sur les DQI  
+Clarification concernant les organisations internationales  
+2.5 22 mars 2021 Restructuration des chapitres sur les retours  
+Clarifications concernant les DQI  
+3.0 14 mars 2022 Mise à jour générale des instructions  
+Nouveau fonctionnement des resoumissions  
+4.0 10 octobre 2022 Nouveau cadre de qualité des données à partir de septembre 2022  
+4.1 27 janvier 2023 Mise à jour des retours  
+4.2 8 mars 2023 Informations sur la limitation de 10 000 erreurs par retour ajoutées  
+4.3 27 novembre 2023 Mise à jour mineure sur les retours envoyés  
+4.4 6 février 2024 Mise à jour de la date limite pour T2Q  
+Mise à jour du calendrier de correction pour toute comparaison avec AnaCredit  
+Instructions de reporting AnaCredit 2 / 25  
+4.5 3 janvier 2025 Mise à jour des DQI  
+4.6 23 octobre 2025 Mise à jour des priorités  
+Introduction du DQI alternatif  
+Instructions de reporting AnaCredit 3 / 25  
+
+Contenu  
+1 Introduction .............................................................................................................. 6  
+1.1 Base légale et périmètre de reporting ................................................................. 6  
+1.2 Population de reporting et exigences de reporting ........................................... 6  
+1.3 Fréquence de reporting et délais ...................................................................... 7  
+1.3.1 Transmission mensuelle à réaliser .......................................................... 7  
+1.3.2 Transmission trimestrielle à réaliser ....................................................... 7  
+1.4 Exigences spécifiques de reporting .................................................................. 8  
+1.4.1 Dispositions relatives aux annexes II et III du règlement ....................... 8  
+1.4.2 Cas particuliers ...................................................................................... 8  
+2 Les données à reporter .......................................................................................... 9  
+2.1 Les identifiants des contreparties à utiliser ..................................................... 9  
+2.2 Valeurs spéciales (Non applicable – Non requis) .......................................... 11  
+2.3 Organisations internationales ......................................................................... 12  
+3 Opération de collecte de données ....................................................................... 12  
+3.1 Canaux de transmission ................................................................................ 12  
+3.2 Principes de transmission .............................................................................. 13  
+3.2.1 Normes de transmission ......................................................................... 13  
+3.2.2 Soumission de fichiers SDMX-ML ........................................................ 13  
+3.2.3 Caractéristiques des données transmises ............................................... 13  
+3.2.4 Resoumissions ...................................................................................... 14  
+3.2.5 Attributs clés .......................................................................................... 15  
+4 Gestion de la qualité des données ......................................................................... 15  
+4.1 Sensibilisation des agents de reporting concernant la qualité des données ... 15  
+4.2 Dimensions des contrôles de qualité des données commerciales ................... 16  
+4.2.1 Intégrité référentielle .............................................................................. 16  
+4.2.2 Cohérence ............................................................................................. 16  
+4.2.3 Exhaustivité .......................................................................................... 17  
+4.2.4 Unicité ................................................................................................... 17  
+Instructions de reporting AnaCredit 4 / 25  
+4.2.5 Conformité des données ....................................................................... 17  
+4.2.6 Plausibilité ............................................................................................. 18  
+4.2.7 Comparaison avec d'autres rapports statistiques et prudentiels .............. 18  
+4.2.8 Contrôle de qualité des données référentielles ....................................... 18  
+4.2.9 Contrôles avancés de qualité des données ............................................. 18  
+4.3 Rapports de qualité des données .................................................................... 18  
+4.4 Types d'erreurs .............................................................................................. 20  
+4.5 Délais de révision et conservation des données ............................................. 21  
+4.6 Indicateurs de qualité des données à partir de la date de référence de septembre 2022 21  
+4.7 Indicateurs de qualité des données à partir de la date de référence de novembre 2025 . 23  
+5
+2025-12-11 12:36:27,416 [INFO] regulai: [TranslationAgent] Translated document id=1
+2025-12-11 12:36:31,459 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 12:36:54,031 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 12:36:54,034 [INFO] regulai: TRANSLATED Rapport AnaCredit  
+Instructions de reporting  
+Version 4.56  
+Octobre 2025  
+
+Résumé des versions  
+Version Date Commentaires  
+1.0 26 avril 2017 Version initiale  
+2.0 20 juillet 2017 Dates de reporting mises à jour  
+2.1 26 octobre 2017 Description des phases de test  
+2.1.1 10 novembre 2017 Changements mineurs  
+2.3 11 janvier 2018 Ajout de l'opération de collecte de données  
+Ajout de la gestion de la qualité des données  
+2.3.1 2 février 2018 Phases de test mises à jour  
+2.3.2 26 mars 2018 Changements mineurs  
+2.3.3 9 avril 2018 Changements mineurs  
+2.3.4 4 mai 2018 Changements liés à la date de début de la deuxième phase de test  
+2.3.5 9 août 2018 Contreparties résidentes sans identifiant national  
+Organisations internationales  
+Types de soumission  
+2.3.6 17 décembre 2018 Action « Supprimer »  
+Utilisation des Deltas  
+2.4 23 septembre 2019 Utilisation de « valeurs fictives »  
+Attributs clés  
+Élaboration des flux de données  
+Utilisation étendue du type de transmission « Remplacement complet »  
+2.4.1 24 octobre 2019 Lien vers les instructions sur la recherche d'identifiants d'entités non-UE  
+Versionnage des schémas SDMX  
+Reporting des codes LEI  
+2.4.2 8 juin 2020 Schéma mis à jour sur les flux de données  
+Clarification concernant les types de rapports de qualité  
+Chapitre sur les DQIs  
+Clarification concernant les organisations internationales  
+2.5 22 mars 2021 Restructuration des chapitres sur les retours  
+Clarifications concernant les DQIs  
+3.0 14 mars 2022 Mise à jour générale des instructions  
+Nouveau fonctionnement des resoumissions  
+4.0 10 octobre 2022 Nouveau cadre de qualité des données à partir de septembre 2022  
+4.1 27 janvier 2023 Mise à jour des retours  
+4.2 8 mars 2023 Information sur la limitation de 10 000 erreurs par retour ajoutée  
+4.3 27 novembre 2023 Mise à jour mineure sur les retours envoyés  
+4.4 6 février 2024 Mise à jour de la date limite pour T2Q  
+Mise à jour du calendrier de correction pour toute comparaison avec AnaCredit  
+Instructions de reporting AnaCredit 2 / 27  
+4.5 3 janvier 2025 Mise à jour des DQIs  
+4.6 23 octobre 2025 Mise à jour des priorités  
+Introduction du DQI alternatif  
+Instructions de reporting AnaCredit 3 / 27  
+
+Table des matières  
+1 Introduction .............................................................................................................. 6  
+1.1 Base légale et périmètre de reporting ............................................................... 6  
+1.2 Population de reporting et exigences de reporting ......................................... 6  
+1.3 Fréquence de reporting et délais .................................................................... 7  
+1.3.1 Transmission mensuelle à réaliser .......................................................... 7  
+1.3.2 Transmission trimestrielle à réaliser ....................................................... 7  
+1.4 Exigences spécifiques de reporting ................................................................ 8  
+1.4.1 Dispositions relatives aux annexes II et III du Règlement ....................... 8  
+1.4.2 Cas particuliers ....................................................................................... 8  
+2 Les données à reporter ......................................................................................... 9  
+2.1 Les identifiants de contrepartie à utiliser ....................................................... 9  
+2.2 Valeurs spéciales (Non applicable – Non requis) ........................................ 11  
+2.3 Organisations internationales ...................................................................... 12  
+3 Opération de collecte de données ...................................................................... 1312  
+3.1 Canaux de transmission .............................................................................. 1312  
+3.2 Principes de transmission ............................................................................. 13  
+3.2.1 Normes de transmission ......................................................................... 13  
+3.2.2 Soumission de fichiers SDMX-ML ....................................................... 13  
+3.2.3 Caractéristiques des données transmises .............................................. 1413  
+3.2.4 Resoumissions ....................................................................................... 14  
+3.2.5 Attributs clés .......................................................................................... 15  
+4 Gestion de la qualité des données ....................................................................... 15  
+4.1 Sensibilisation des agents de reporting concernant la qualité des données . 15  
+4.2 Dimensions des contrôles de qualité des données commerciales .................. 16  
+4.2.1 Intégrité référentielle .............................................................................. 16  
+4.2.2 Cohérence ............................................................................................ 1716  
+4.2.3 Exhaustivité .......................................................................................... 17  
+4.2.4 Unicité ................................................................................................... 17  
+Instructions de reporting AnaCredit 4 / 27  
+4.2.5 Conformité des données ....................................................................... 1817  
+4.2.6 Plausibilité ............................................................................................. 18  
+4.2.7 Comparaison avec d'autres rapports statistiques et prudentiels .............. 18  
+4.2.8 Contrôle de qualité des données référentielles ...................................... 18  
+4.2.9 Contrôles avancés de qualité des données ............................................ 18  
+4.3 Rapports de qualité des données .................................................................. 18  
+4.4 Types d'erreurs ............................................................................................. 20  
+4.5 Délais de révision et conservation des données .......................................... 21  
+4.6 Indicateurs de qualité des données à partir de la date de référence de septembre 2022 2321  
+4.7 Indicateurs de qualité des données à partir de la date de référence de novembre 2025 2523  
+2025-12-11 12:36:54,043 [INFO] regulai: [TranslationAgent] Translated document id=2
+2025-12-11 12:36:54,127 [INFO] regulai: [KeywordAnalysisAgent] Documents to analyse: 2
+2025-12-11 12:36:54,127 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 12:36:56,236 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 12:38:09,179 [INFO] regulai: [SchedulerAgent] Running full pipeline for authorities: ['BCL']
+2025-12-11 12:38:09,180 [INFO] regulai: [BCL] Fetching page: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/index.html
+2025-12-11 12:38:09,479 [INFO] regulai: [BCL] Found 27 PDF links
+2025-12-11 12:38:09,482 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 12:38:09,743 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/c69d7f4cea23f20794aae661a8a2861568e279451130a5e5591bac651fa9a1e6_Instructions.pdf
+2025-12-11 12:38:09,743 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 12:38:10,045 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/567fe6e49139a8ee889564b24172430c1b9a3eef2d971e911781bcc9e8e549ab_version with revision marks.pdf
+2025-12-11 12:38:10,046 [INFO] regulai: [BCL] Total NEW documents this run: 2
+2025-12-11 12:38:10,258 [INFO] regulai: [TranslationAgent] Documents to translate: 2
+2025-12-11 12:38:17,628 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 12:38:41,583 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 12:38:41,603 [INFO] regulai: TRANSLATED Bericht AnaCredit
+Berichtsanweisungen
+Version 4.6
+Oktober 2025
+Zusammenfassung der Versionen
+Version Datum Kommentare
+1.0 26. April 2017 Erstversion
+2.0 20. Juli 2017 Aktualisierte Berichtsfristen
+2.1 26. Oktober 2017 Beschreibung der Testphasen
+2.1.1 10. November 2017 Kleinere Änderungen
+2.3 11. Januar 2018 Hinzugefügte Datenerhebungsoperation
+Hinzugefügtes Datenqualitätsmanagement
+2.3.1 2. Februar 2018 Aktualisierte Testphasen
+2.3.2 26. März 2018 Kleinere Änderungen
+2.3.3 9. April 2018 Kleinere Änderungen
+2.3.4 4. Mai 2018 Änderungen bezüglich des Startdatums der zweiten Testphase
+2.3.5 9. August 2018 Ansässige Gegenparteien ohne nationale Identifikationsnummer
+Internationale Organisationen
+Einreichungsarten
+2.3.6 17. Dezember 2018 Aktion „Löschen“
+Verwendung von Deltas
+2.4 23. September 2019 Verwendung von „Dummy-Werten“
+Schlüsselattribute
+Ausarbeitung der Datenflüsse
+Erweiterte Verwendung des Übertragungsformats „Vollständiger Ersatz“
+2.4.1 24. Oktober 2019 Link zu den Leitlinien zur Suche nach Identifikatoren nicht-EU-Entitäten
+Versionierung der SDMX-Schemata
+Berichterstattung von LEI-Codes
+2.4.2 8. Juni 2020 Aktualisiertes Schema zu Datenflüssen
+Klarstellung zu den Typen von Qualitätsberichten
+Kapitel zu DQIs
+Klarstellung zu internationalen Organisationen
+2.5 22. März 2021 Umstrukturierung der Kapitel zu Rückmeldungen
+Klarstellungen zu den DQIs
+3.0 14. März 2022 Allgemeine Aktualisierung der Anweisungen
+Neue Funktionsweise von Nachreichungen
+4.0 10. Oktober 2022 Neuer Datenqualitätsrahmen ab September 2022
+4.1 27. Januar 2023 Aktualisierung der Rückmeldungen
+4.2 8. März 2023 Informationen über die Begrenzung von 10.000 Fehlern pro Rückmeldung hinzugefügt
+4.3 27. November 2023 Kleinere Aktualisierung der gesendeten Rückmeldungen
+4.4 6. Februar 2024 Aktualisierung der Frist für T2Q
+Aktualisierung des Zeitplans für Korrekturen im Vergleich zu AnaCredit
+AnaCredit Berichtsanweisungen 2 / 25
+4.5 3. Januar 2025 Aktualisierung der DQIs
+4.6 23. Oktober 2025 Aktualisierung der Prioritäten
+Einführung des alternativen DQI
+AnaCredit Berichtsanweisungen 3 / 25
+Inhalt
+1 Einführung .............................................................................................................. 6
+1.1 Rechtsgrundlage und Berichtsrahmen ................................................................ 6
+1.2 Berichtsbevölkerung und Berichtspflichten ......................................................... 6
+1.3 Berichtsfrequenz und Fristen ............................................................................. 7
+1.3.1 Monatliche Übertragung durchzuführen .................................................... 7
+1.3.2 Vierteljährliche Übertragung durchzuführen .............................................. 7
+1.4 Spezifische Berichtspflichten .............................................................................. 8
+1.4.1 Bestimmungen zu Anhang II und III der Verordnung ............................... 8
+1.4.2 Sonderfälle .............................................................................................. 8
+2 Die zu berichtenden Daten .................................................................................... 9
+2.1 Die zu verwendenden Gegenparteien-Identifikatoren ...................................... 9
+2.2 Sonderwerte (Nicht anwendbar – Nicht erforderlich) ...................................... 11
+2.3 Internationale Organisationen .......................................................................... 12
+3 Datenerhebungsoperation .................................................................................... 12
+3.1 Übertragungskanäle ......................................................................................... 12
+3.2 Übertragungsprinzipien .................................................................................... 13
+3.2.1 Übertragungsstandards ........................................................................... 13
+3.2.2 Einreichung von SDMX-ML-Dateien ....................................................... 13
+3.2.3 Merkmale der übertragenen Daten .......................................................... 13
+3.2.4 Nachreichungen ...................................................................................... 14
+3.2.5 Schlüsselattribute ................................................................................... 15
+4 Datenqualitätsmanagement .................................................................................. 15
+4.1 Bewusstsein der Berichtserstatter hinsichtlich der Datenqualität ................... 15
+4.2 Dimensionen der geschäftlichen Datenqualitätsprüfungen ............................. 16
+4.2.1 Referenzielle Integrität ............................................................................. 16
+4.2.2 Konsistenz .............................................................................................. 16
+4.2.3 Vollständigkeit ....................................................................................... 17
+4.2.4 Einzigartigkeit .......................................................................................... 17
+AnaCredit Berichtsanweisungen 4 / 25
+4.2.5 Datenkonformität .................................................................................... 17
+4.2.6 Plausibilität ............................................................................................. 18
+4.2.7 Vergleich mit anderen statistischen und aufsichtsrechtlichen Berichten .... 18
+4.2.8 Überprüfung der referenziellen Datenqualität ......................................... 18
+4.2.9 Erweiterte Datenqualitätsprüfungen ....................................................... 18
+4.3 Datenqualitätsberichte .................................................................................... 18
+4.4 Fehlertypen ...................................................................................................... 20
+4.5 Überarbeitungsfristen und Datenaufbewahrung .............................................. 21
+4.6 Datenqualitätsindikatoren ab dem Referenzdatum September 2022 ............ 21
+4.7 Datenqualitätsindikatoren ab dem Referenzdatum November 2025 .............. 23
+5
+2025-12-11 12:38:41,607 [INFO] regulai: [TranslationAgent] Translated document id=1
+2025-12-11 12:38:45,682 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 12:39:09,772 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 12:39:09,776 [INFO] regulai: TRANSLATED Bericht AnaCredit
+Berichtsanweisungen
+Version 4.56
+Januar Oktober 2025
+Zusammenfassung der Versionen
+Version Datum Kommentare
+1.0 26. April 2017 Erstversion
+2.0 20. Juli 2017 Aktualisierte Berichtsfristen
+2.1 26. Oktober 2017 Beschreibung der Testphasen
+2.1.1 10. November 2017 Kleinere Änderungen
+2.3 11. Januar 2018 Hinzugefügte Datenerhebungsoperation
+Hinzugefügtes Datenqualitätsmanagement
+2.3.1 2. Februar 2018 Aktualisierte Testphasen
+2.3.2 26. März 2018 Kleinere Änderungen
+2.3.3 9. April 2018 Kleinere Änderungen
+2.3.4 4. Mai 2018 Änderungen bezüglich des Startdatums der zweiten Testphase
+2.3.5 9. August 2018 Ansässige Gegenparteien ohne nationale Kennung
+Internationale Organisationen
+Einreichungsarten
+2.3.6 17. Dezember 2018 Aktion „Löschen“
+Verwendung von Deltas
+2.4 23. September 2019 Verwendung von „Dummy-Werten“
+Schlüsselattribute
+Ausarbeitung der Datenflüsse
+Erweiterte Verwendung des Übertragungsformats „Vollständiger Ersatz“
+2.4.1 24. Oktober 2019 Link zu den Leitlinien zur Suche nach Identifikatoren nicht-EU-Entitäten
+Versionierung der SDMX-Schemata
+Berichterstattung von LEI-Codes
+2.4.2 8. Juni 2020 Aktualisiertes Schema zu Datenflüssen
+Klarstellung zu den Arten von Qualitätsberichten
+Kapitel zu DQIs
+Klarstellung zu internationalen Organisationen
+2.5 22. März 2021 Umstrukturierung der Kapitel zu Rückmeldungen
+Klarstellungen zu den DQIs
+3.0 14. März 2022 Allgemeine Aktualisierung der Anweisungen
+Neue Funktionsweise von Nachreichungen
+4.0 10. Oktober 2022 Neuer Datenqualitätsrahmen ab September 2022
+4.1 27. Januar 2023 Aktualisierung der Rückmeldungen
+4.2 8. März 2023 Informationen über die Begrenzung von 10.000 Fehlern pro Rückmeldung hinzugefügt
+4.3 27. November 2023 Kleinere Aktualisierung der gesendeten Rückmeldungen
+4.4 6. Februar 2024 Aktualisierung der Frist für T2Q
+Aktualisierung des Zeitplans für Korrekturen im Vergleich zu AnaCredit
+AnaCredit Berichtsanweisungen 2 / 27
+4.5 3. Januar 2025 Aktualisierung der DQIs
+4.6 23. Oktober 2025 Aktualisierung der Prioritäten
+Einführung des alternativen DQI
+AnaCredit Berichtsanweisungen 3 / 27
+Inhalt
+1 Einführung .............................................................................................................. 6
+1.1 Rechtsgrundlage und Berichtsrahmen ................................................................ 6
+1.2 Berichtsbevölkerung und Berichtspflichten ......................................................... 6
+1.3 Berichterstattungsfrequenz und Fristen ............................................................. 7
+1.3.1 Monatliche Übertragung durchzuführen .................................................... 7
+1.3.2 Vierteljährliche Übertragung durchzuführen .............................................. 7
+1.4 Spezifische Berichtspflichten ............................................................................. 8
+1.4.1 Bestimmungen zu Anhang II und III der Verordnung ............................... 8
+1.4.2 Sonderfälle .............................................................................................. 8
+2 Die zu berichtenden Daten .................................................................................... 9
+2.1 Die zu verwendenden Gegenparteien-Identifikatoren ...................................... 9
+2.2 Sonderwerte (Nicht anwendbar – Nicht erforderlich) ...................................... 11
+2.3 Internationale Organisationen .......................................................................... 12
+3 Datenerhebungsoperation ................................................................................... 1312
+3.1 Übertragungskanäle ...................................................................................... 1312
+3.2 Übertragungsprinzipien ................................................................................... 13
+3.2.1 Übertragungsstandards ........................................................................... 13
+3.2.2 Einreichung von SDMX-ML-Dateien ...................................................... 13
+3.2.3 Merkmale der übertragenen Daten ......................................................... 1413
+3.2.4 Nachreichungen ...................................................................................... 14
+3.2.5 Schlüsselattribute .................................................................................. 15
+4 Datenqualitätsmanagement .................................................................................. 15
+4.1 Bewusstsein der Berichtserstatter hinsichtlich der Datenqualität .................. 15
+4.2 Dimensionen der geschäftlichen Datenqualitätsprüfungen ............................ 16
+4.2.1 Referenzielle Integrität ............................................................................. 16
+4.2.2 Konsistenz ............................................................................................ 1716
+4.2.3 Vollständigkeit ....................................................................................... 17
+4.2.4 Einzigartigkeit ........................................................................................ 17
+AnaCredit Berichtsanweisungen 4 / 27
+4.2.5 Datenkonformität .................................................................................. 1817
+4.2.6 Plausibilität ............................................................................................ 18
+4.2.7 Vergleich mit anderen statistischen und aufsichtsrechtlichen Berichten .... 18
+4.2.8 Überprüfung der referenziellen Datenqualität ......................................... 18
+4.2.9 Erweiterte Datenqualitätsprüfungen ...................................................... 18
+4.3 Datenqualitätsberichte ................................................................................... 18
+4.4 Fehlertypen .................................................................................................... 20
+4.5 Überarbeitungsfristen und Datenaufbewahrung .............................................. 21
+4.6 Datenqualitätsindikatoren ab dem Referenzdatum September 2022 ............ 2321
+4.7 Datenqualitätsindikatoren ab dem Referenzdatum November 2025 .............. 2523
+2025-12-11 12:39:09,783 [INFO] regulai: [TranslationAgent] Translated document id=2
+2025-12-11 12:39:09,869 [INFO] regulai: [KeywordAnalysisAgent] Documents to analyse: 2
+2025-12-11 12:39:09,869 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 12:39:12,376 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 12:41:32,493 [INFO] regulai: [SchedulerAgent] Running full pipeline for authorities: ['BCL']
+2025-12-11 12:41:32,494 [INFO] regulai: [BCL] Fetching page: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/index.html
+2025-12-11 12:41:32,788 [INFO] regulai: [BCL] Found 27 PDF links
+2025-12-11 12:41:32,791 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 12:41:33,056 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/c69d7f4cea23f20794aae661a8a2861568e279451130a5e5591bac651fa9a1e6_Instructions.pdf
+2025-12-11 12:41:33,056 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 12:41:33,385 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/567fe6e49139a8ee889564b24172430c1b9a3eef2d971e911781bcc9e8e549ab_version with revision marks.pdf
+2025-12-11 12:41:33,385 [INFO] regulai: [BCL] Total NEW documents this run: 2
+2025-12-11 12:41:33,555 [INFO] regulai: [TranslationAgent] Documents to translate: 2
+2025-12-11 12:41:37,414 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 12:42:01,803 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 12:42:01,825 [INFO] regulai: TRANSLATED Bericht AnaCredit
+Berichtsanweisungen
+Version 4.6
+Oktober 2025
+Zusammenfassung der Versionen
+Version Datum Kommentare
+1.0 26. April 2017 Erste Version
+2.0 20. Juli 2017 Aktualisierte Berichtsfristen
+2.1 26. Oktober 2017 Beschreibung der Testphasen
+2.1.1 10. November 2017 Kleinere Änderungen
+2.3 11. Januar 2018 Hinzugefügte Datenerhebungsoperation
+Hinzugefügtes Datenqualitätsmanagement
+2.3.1 2. Februar 2018 Aktualisierte Testphasen
+2.3.2 26. März 2018 Kleinere Änderungen
+2.3.3 9. April 2018 Kleinere Änderungen
+2.3.4 4. Mai 2018 Änderungen bezüglich des Startdatums der zweiten Testphase
+2.3.5 9. August 2018 Ansässige Gegenparteien ohne nationale Identifikationsnummer
+Internationale Organisationen
+Einreichungsarten
+2.3.6 17. Dezember 2018 Aktion „Löschen“
+Verwendung von Deltas
+2.4 23. September 2019 Verwendung von „Dummy-Werten“
+Schlüsselattribute
+Ausarbeitung der Datenflüsse
+Erweiterte Nutzung des Übertragungsformats „Vollständiger Ersatz“
+2.4.1 24. Oktober 2019 Link zu den Leitlinien zur Suche nach Identifikatoren für Nicht-EU-Einheiten
+Versionierung der SDMX-Schemata
+Berichterstattung über LEI-Codes
+2.4.2 8. Juni 2020 Aktualisiertes Schema zu Datenflüssen
+Klarstellung zu den Arten von Qualitätsberichten
+Kapitel zu DQIs
+Klarstellung zu internationalen Organisationen
+2.5 22. März 2021 Umstrukturierung der Kapitel zu Rückmeldungen
+Klarstellungen zu den DQIs
+3.0 14. März 2022 Allgemeine Aktualisierung der Anweisungen
+Neue Funktionsweise von Nachreichungen
+4.0 10. Oktober 2022 Neuer Datenqualitätsrahmen ab September 2022
+4.1 27. Januar 2023 Aktualisierung der Rückmeldungen
+4.2 8. März 2023 Informationen über die Begrenzung von 10.000 Fehlern pro Rückmeldung hinzugefügt
+4.3 27. November 2023 Kleinere Aktualisierung der gesendeten Rückmeldungen
+4.4 6. Februar 2024 Aktualisierung der Frist für T2Q
+Aktualisierung des Zeitplans für Korrekturen im Vergleich zu AnaCredit
+AnaCredit Berichtsanweisungen 2 / 25
+4.5 3. Januar 2025 Aktualisierung der DQIs
+4.6 23. Oktober 2025 Aktualisierung der Prioritäten
+Einführung des alternativen DQI
+AnaCredit Berichtsanweisungen 3 / 25
+Inhalt
+1 Einführung .............................................................................................................. 6
+1.1 Rechtsgrundlage und Berichtsrahmen ............................................................. 6
+1.2 Berichtsbevölkerung und Berichtspflichten .................................................... 6
+1.3 Berichterstattungsfrequenz und Fristen .......................................................... 7
+1.3.1 Monatliche Übertragung durchzuführen .................................................. 7
+1.3.2 Vierteljährliche Übertragung durchzuführen ............................................. 7
+1.4 Spezifische Berichtspflichten ........................................................................... 8
+1.4.1 Bestimmungen zu Anhang II und III der Verordnung .............................. 8
+1.4.2 Sonderfälle ............................................................................................. 8
+2 Die zu berichtenden Daten ................................................................................... 9
+2.1 Die zu verwendenden Gegenparteien-Identifikatoren ................................... 9
+2.2 Sonderwerte (Nicht anwendbar – Nicht erforderlich) .................................. 11
+2.3 Internationale Organisationen ....................................................................... 12
+3 Datenerhebungsoperation ................................................................................... 12
+3.1 Übertragungskanäle ...................................................................................... 12
+3.2 Übertragungsprinzipien ................................................................................ 13
+3.2.1 Übertragungsstandards ......................................................................... 13
+3.2.2 Einreichung von SDMX-ML-Dateien ..................................................... 13
+3.2.3 Merkmale der übermittelten Daten .......................................................... 13
+3.2.4 Nachreichungen .................................................................................... 14
+3.2.5 Schlüsselattribute .................................................................................. 15
+4 Datenqualitätsmanagement ................................................................................ 15
+4.1 Bewusstsein der Berichtserstatter hinsichtlich der Datenqualität ............... 15
+4.2 Dimensionen der geschäftlichen Datenqualitätsprüfungen .......................... 16
+4.2.1 Referenzielle Integrität ........................................................................... 16
+4.2.2 Konsistenz ............................................................................................. 16
+4.2.3 Vollständigkeit ...................................................................................... 17
+4.2.4 Einzigartigkeit ........................................................................................ 17
+AnaCredit Berichtsanweisungen 4 / 25
+4.2.5 Datenkonformität ................................................................................... 17
+4.2.6 Plausibilität ............................................................................................ 18
+4.2.7 Vergleich mit anderen statistischen und aufsichtsrechtlichen Berichten ... 18
+4.2.8 Überprüfung der referenziellen Datenqualität ....................................... 18
+4.2.9 Erweiterte Datenqualitätsprüfungen ..................................................... 18
+4.3 Datenqualitätsberichte ................................................................................ 18
+4.4 Fehlerarten ................................................................................................... 20
+4.5 Überarbeitungsfristen und Datenaufbewahrung ........................................... 21
+4.6 Datenqualitätsindikatoren ab dem Referenzdatum September 2022 ........ 21
+4.7 Datenqualitätsindikatoren ab dem Referenzdatum November 2025 .......... 23
+5
+2025-12-11 12:42:01,832 [INFO] regulai: [TranslationAgent] Translated document id=1
+2025-12-11 12:42:06,114 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 12:42:32,596 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 12:42:32,604 [INFO] regulai: TRANSLATED Bericht AnaCredit
+Berichtsanweisungen
+Version 4.56
+Januar Oktober 2025
+Zusammenfassung der Versionen
+Version Datum Kommentare
+1.0 26. April 2017 Erstversion
+2.0 20. Juli 2017 Aktualisierte Berichtsfristen
+2.1 26. Oktober 2017 Beschreibung der Testphasen
+2.1.1 10. November 2017 Kleinere Änderungen
+2.3 11. Januar 2018 Hinzugefügte Datenerhebungsoperation
+Hinzugefügtes Datenqualitätsmanagement
+2.3.1 2. Februar 2018 Aktualisierte Testphasen
+2.3.2 26. März 2018 Kleinere Änderungen
+2.3.3 9. April 2018 Kleinere Änderungen
+2.3.4 4. Mai 2018 Änderungen bezüglich des Startdatums der zweiten Testphase
+2.3.5 9. August 2018 Ansässige Gegenparteien ohne nationale Identifikationsnummer
+Internationale Organisationen
+Einreichungsarten
+2.3.6 17. Dezember 2018 Aktion „Löschen“
+Verwendung von Deltas
+2.4 23. September 2019 Verwendung von „Dummy-Werten“
+Schlüsselattribute
+Ausarbeitung der Datenflüsse
+Erweiterte Verwendung des Übertragungsformats „Vollständiger Ersatz“
+2.4.1 24. Oktober 2019 Link zu den Leitlinien zur Suche nach Identifikatoren nicht-EU-Entitäten
+Versionierung der SDMX-Schemata
+Berichterstattung von LEI-Codes
+2.4.2 8. Juni 2020 Aktualisiertes Schema zu Datenflüssen
+Klarstellung zu den Arten von Qualitätsberichten
+Kapitel zu DQIs
+Klarstellung zu internationalen Organisationen
+2.5 22. März 2021 Umstrukturierung der Kapitel zu Rückmeldungen
+Klarstellungen zu den DQIs
+3.0 14. März 2022 Allgemeine Aktualisierung der Anweisungen
+Neue Funktionsweise von Nachreichungen
+4.0 10. Oktober 2022 Neuer Datenqualitätsrahmen ab September 2022
+4.1 27. Januar 2023 Aktualisierung der Rückmeldungen
+4.2 8. März 2023 Informationen über die Begrenzung von 10.000 Fehlern pro Rückmeldung hinzugefügt
+4.3 27. November 2023 Kleinere Aktualisierung der gesendeten Rückmeldungen
+4.4 6. Februar 2024 Aktualisierung der Frist für T2Q
+Aktualisierung des Zeitplans für Korrekturen im Vergleich zu AnaCredit
+AnaCredit Berichtsanweisungen 2 / 27
+4.5 3. Januar 2025 Aktualisierung der DQIs
+4.6 23. Oktober 2025 Aktualisierung der Prioritäten
+Einführung des alternativen DQI
+AnaCredit Berichtsanweisungen 3 / 27
+Inhalt
+1 Einführung .............................................................................................................. 6
+1.1 Rechtsgrundlage und Berichtsrahmen ............................................................ 6
+1.2 Berichtsbevölkerung und Berichtspflichten .................................................... 6
+1.3 Berichtsfrequenz und Fristen ......................................................................... 7
+1.3.1 Monatliche Übertragung durchzuführen .................................................. 7
+1.3.2 Vierteljährliche Übertragung durchzuführen ............................................. 7
+1.4 Spezifische Berichtspflichten ........................................................................... 8
+1.4.1 Bestimmungen zu Anhang II und III der Verordnung .............................. 8
+1.4.2 Sonderfälle ............................................................................................ 8
+2 Die zu berichtenden Daten .................................................................................. 9
+2.1 Die zu verwendenden Gegenparteien-Identifikatoren .................................. 9
+2.2 Sonderwerte (Nicht anwendbar – Nicht erforderlich) .................................. 11
+2.3 Internationale Organisationen ....................................................................... 12
+3 Datenerhebungsoperation .................................................................................. 1312
+3.1 Übertragungskanäle .................................................................................... 1312
+3.2 Übertragungsprinzipien ................................................................................ 13
+3.2.1 Übertragungsstandards ......................................................................... 13
+3.2.2 Einreichung von SDMX-ML-Dateien .................................................... 13
+3.2.3 Merkmale der übertragenen Daten ....................................................... 1413
+3.2.4 Nachreichungen .................................................................................... 14
+3.2.5 Schlüsselattribute ................................................................................ 15
+4 Datenqualitätsmanagement ................................................................................ 15
+4.1 Bewusstsein der Berichtserstatter bezüglich der Datenqualität .................. 15
+4.2 Dimensionen der Überprüfungen der Datenqualität .................................... 16
+4.2.1 Referenzielle Integrität .......................................................................... 16
+4.2.2 Konsistenz ........................................................................................... 1716
+4.2.3 Vollständigkeit ..................................................................................... 17
+4.2.4 Einzigartigkeit ....................................................................................... 17
+AnaCredit Berichtsanweisungen 4 / 27
+4.2.5 Datenkonformität ............................................................................... 1817
+4.2.6 Plausibilität .......................................................................................... 18
+4.2.7 Vergleich mit anderen statistischen und aufsichtsrechtlichen Berichten .. 18
+4.2.8 Überprüfung der referenziellen Datenqualität ....................................... 18
+4.2.9 Erweiterte Überprüfungen der Datenqualität ........................................ 18
+4.3 Datenqualitätsberichte ................................................................................ 18
+4.4 Fehlertypen .................................................................................................. 20
+4.5 Überarbeitungsfristen und Datenaufbewahrung .......................................... 21
+4.6 Datenqualitätsindikatoren ab dem Referenzdatum September 2022 .......... 2321
+4.7 Datenqualitätsindikatoren ab dem Referenzdatum November 2025 ........... 2523
+2025-12-11 12:42:32,618 [INFO] regulai: [TranslationAgent] Translated document id=2
+2025-12-11 12:42:32,707 [INFO] regulai: [KeywordAnalysisAgent] Documents to analyse: 2
+2025-12-11 12:42:32,707 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 12:42:35,285 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 12:42:35,287 [INFO] regulai: {
+  "summary": "The document outlines the reporting instructions for AnaCredit, detailing the evolution of reporting requirements from its initial version in April 2017 to the latest update in October 2025. It includes information on reporting frequency, data collection operations, data quality management, and specific reporting obligations. The document emphasizes the importance of data quality and provides guidelines for data submission and error management. It also discusses the roles of international organizations and the use of identifiers for counterparties.",
+  "matched_keywords": [
+    "reporting"
+  ]
+}
+2025-12-11 12:42:35,290 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=1 with keywords: ['reporting']
+2025-12-11 12:42:35,290 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 12:42:37,240 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 12:42:37,241 [INFO] regulai: {
+  "summary": "The document outlines the reporting instructions for AnaCredit, detailing various versions and updates from its inception in April 2017 to the latest updates in October 2025. It includes information on reporting obligations, data collection operations, data quality management, and specific reporting requirements. The document emphasizes the importance of data quality and provides guidelines for data submission and error management.",
+  "matched_keywords": [
+    "reporting"
+  ]
+}
+2025-12-11 12:42:37,245 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=2 with keywords: ['reporting']
+2025-12-11 12:42:37,250 [INFO] regulai: [NotificationAgent] Documents to notify: 2
+2025-12-11 12:42:38,402 [INFO] regulai: [NotificationAgent] Notification sent for id=1
+2025-12-11 12:42:39,542 [INFO] regulai: [NotificationAgent] Notification sent for id=2
+2025-12-11 12:42:39,543 [INFO] regulai: [SchedulerAgent] Pipeline completed. New docs: 2
+2025-12-11 12:46:52,293 [INFO] regulai: [SchedulerAgent] Running full pipeline for authorities: ['BCL']
+2025-12-11 12:46:52,296 [INFO] regulai: [BCL] Fetching page: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/index.html
+2025-12-11 12:46:52,981 [INFO] regulai: [BCL] Found 27 PDF links
+2025-12-11 12:46:52,985 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 12:46:53,438 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/c69d7f4cea23f20794aae661a8a2861568e279451130a5e5591bac651fa9a1e6_Instructions.pdf
+2025-12-11 12:46:53,439 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 12:46:53,972 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/567fe6e49139a8ee889564b24172430c1b9a3eef2d971e911781bcc9e8e549ab_version with revision marks.pdf
+2025-12-11 12:46:53,973 [INFO] regulai: [BCL] Total NEW documents this run: 2
+2025-12-11 12:46:54,255 [INFO] regulai: [TranslationAgent] Documents to translate: 2
+2025-12-11 12:47:16,445 [INFO] regulai: [SchedulerAgent] Running full pipeline for authorities: ['BCL']
+2025-12-11 12:47:16,448 [INFO] regulai: [BCL] Fetching page: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/index.html
+2025-12-11 12:47:17,134 [INFO] regulai: [BCL] Found 27 PDF links
+2025-12-11 12:47:17,158 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 12:47:17,558 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/c69d7f4cea23f20794aae661a8a2861568e279451130a5e5591bac651fa9a1e6_Instructions.pdf
+2025-12-11 12:47:17,558 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 12:47:17,973 [INFO] regulai: [BCL] NEW document added: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/567fe6e49139a8ee889564b24172430c1b9a3eef2d971e911781bcc9e8e549ab_version with revision marks.pdf
+2025-12-11 12:47:17,974 [INFO] regulai: [BCL] Total NEW documents this run: 2
+2025-12-11 12:47:18,243 [INFO] regulai: [TranslationAgent] Documents to translate: 2
+2025-12-11 12:47:23,984 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 12:47:49,069 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 12:47:49,105 [INFO] regulai: [TranslationAgent] Translated document id=1
+2025-12-11 12:47:53,178 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 12:48:25,593 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 12:48:25,611 [INFO] regulai: [TranslationAgent] Translated document id=2
+2025-12-11 12:48:25,697 [INFO] regulai: [KeywordAnalysisAgent] Documents to analyse: 2
+2025-12-11 12:48:25,697 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 12:48:28,200 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 12:48:28,207 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=1 with keywords: []
+2025-12-11 12:48:28,208 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 12:48:31,361 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 12:48:31,371 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=2 with keywords: []
+2025-12-11 12:48:31,373 [INFO] regulai: [NotificationAgent] Documents to notify: 2
+2025-12-11 12:48:32,272 [INFO] regulai: [NotificationAgent] Notification sent for id=1
+2025-12-11 12:48:33,280 [INFO] regulai: [NotificationAgent] Notification sent for id=2
+2025-12-11 12:48:33,280 [INFO] regulai: [SchedulerAgent] Pipeline completed. New docs: 2

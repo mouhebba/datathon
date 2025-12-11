@@ -16,6 +16,7 @@ DEFAULT_KEYWORDS = [
     "leverage ratio",
     "credit risk",
     "operational risk",
+    "risque"
 ]
 
 class KeywordAnalysisAgent:
@@ -30,8 +31,8 @@ class KeywordAnalysisAgent:
         prompt = f"""
 You are a regulatory expert. Analyze the following translated regulatory document.
 
-1. Provide a concise summary (max 10 lines).
-2. Identify which of these keywords are clearly relevant in the document: {keywords_str}.
+1. Provide a concise summary IN THE TEXT LANGUAGE (max 10 lines).
+2. Identify which of these keywords are clearly relevant in the document (keep the same keywords): {keywords_str}.
 3. Do NOT hallucinate; only select a keyword if the topic is actually present.
 
 Return JSON with:
