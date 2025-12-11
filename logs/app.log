@@ -388,3 +388,678 @@
 2025-12-11 09:18:58,323 [INFO] regulai: [TranslationAgent] Documents to translate: 27
 2025-12-11 09:19:05,972 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
 2025-12-11 09:19:08,332 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-12-11 09:32:40,736 [INFO] regulai: [SchedulerAgent] Running full pipeline for authorities: ['BCL']
+2025-12-11 09:32:40,738 [INFO] regulai: [BCL] Fetching page: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/index.html
+2025-12-11 09:32:41,128 [INFO] regulai: [BCL] Found 27 PDF links
+2025-12-11 09:32:41,132 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 09:32:41,434 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083241_Instructions.pdf
+2025-12-11 09:32:41,456 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 09:32:41,456 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 09:32:41,793 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083241_version with revision marks.pdf
+2025-12-11 09:32:41,815 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 09:32:41,816 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_Member_States_EN.pdf
+2025-12-11 09:32:42,008 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083242_List of reporting Member States.pdf
+2025-12-11 09:32:42,012 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_Member_States_EN.pdf
+2025-12-11 09:32:42,012 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_member_states_EN_Revision_marks.pdf
+2025-12-11 09:32:42,234 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083242_version with revision marks.pdf
+2025-12-11 09:32:42,242 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_member_states_EN_Revision_marks.pdf
+2025-12-11 09:32:42,242 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN.pdf
+2025-12-11 09:32:42,635 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083242_Comparison methodology FINREP up to December 2023.pdf
+2025-12-11 09:32:42,650 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN.pdf
+2025-12-11 09:32:42,650 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN_Revision_marks.pdf
+2025-12-11 09:32:43,026 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083243_version with revision marks.pdf
+2025-12-11 09:32:43,048 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN_Revision_marks.pdf
+2025-12-11 09:32:43,048 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_2023_12_EN.pdf
+2025-12-11 09:32:43,441 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083243_Comparison methodology FINREP from December 2023 onwards.pdf
+2025-12-11 09:32:43,461 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_2023_12_EN.pdf
+2025-12-11 09:32:43,462 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_2023_12_EN_RM.pdf
+2025-12-11 09:32:43,927 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083243_version with revision marks.pdf
+2025-12-11 09:32:43,951 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_2023_12_EN_RM.pdf
+2025-12-11 09:32:43,952 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_iBSI_iMIR_EN.pdf
+2025-12-11 09:32:44,375 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083244_Comparison methodology iBSI-iMIR up to December 2023.pdf
+2025-12-11 09:32:44,389 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_iBSI_iMIR_EN.pdf
+2025-12-11 09:32:44,390 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_iBSI_iMIR_EN_revision_marks.pdf
+2025-12-11 09:32:44,763 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083244_version with revision marks.pdf
+2025-12-11 09:32:44,773 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_iBSI_iMIR_EN_revision_marks.pdf
+2025-12-11 09:32:44,773 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_BSI_MIR_2023_12_EN.pdf
+2025-12-11 09:32:45,190 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083245_Comparison methodology BSI-MIR from December 2023 onwards.pdf
+2025-12-11 09:32:45,210 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_BSI_MIR_2023_12_EN.pdf
+2025-12-11 09:32:45,210 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_BSI_MIR_2023_12_EN_Rm.pdf
+2025-12-11 09:32:45,788 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083245_version with revision marks.pdf
+2025-12-11 09:32:45,807 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_BSI_MIR_2023_12_EN_Rm.pdf
+2025-12-11 09:32:45,808 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_S25L_EN.pdf
+2025-12-11 09:32:46,113 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083246_Comparison methodology S 2.5-L from December 2025 onwards.pdf
+2025-12-11 09:32:46,129 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_S25L_EN.pdf
+2025-12-11 09:32:46,129 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_13.pdf
+2025-12-11 09:32:46,385 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083246_Technical specifications.pdf
+2025-12-11 09:32:46,391 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_13.pdf
+2025-12-11 09:32:46,391 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_13_revision_marks.pdf
+2025-12-11 09:32:46,626 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083246_version with revision marks.pdf
+2025-12-11 09:32:46,632 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_13_revision_marks.pdf
+2025-12-11 09:32:46,632 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_12.pdf
+2025-12-11 09:32:46,978 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083246_Technical specifications.pdf
+2025-12-11 09:32:46,985 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_12.pdf
+2025-12-11 09:32:46,985 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_12_track_changes.pdf
+2025-12-11 09:32:47,314 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083247_version with revision marks.pdf
+2025-12-11 09:32:47,329 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_12_track_changes.pdf
+2025-12-11 09:32:47,329 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_11.pdf
+2025-12-11 09:32:47,613 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083247_Technical specifications.pdf
+2025-12-11 09:32:47,627 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_11.pdf
+2025-12-11 09:32:47,628 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_11_revision_marks.pdf
+2025-12-11 09:32:47,911 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083247_version with revision marks.pdf
+2025-12-11 09:32:47,928 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_11_revision_marks.pdf
+2025-12-11 09:32:47,928 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_10.pdf
+2025-12-11 09:32:48,254 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083248_Technical specifications.pdf
+2025-12-11 09:32:48,266 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_10.pdf
+2025-12-11 09:32:48,267 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_10_revision_marks.pdf
+2025-12-11 09:32:48,542 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083248_version with revision marks.pdf
+2025-12-11 09:32:48,551 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_10_revision_marks.pdf
+2025-12-11 09:32:48,552 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_9.pdf
+2025-12-11 09:32:48,871 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083248_Technical specifications.pdf
+2025-12-11 09:32:48,876 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_9.pdf
+2025-12-11 09:32:48,876 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_9_Revision_marks.pdf
+2025-12-11 09:32:49,514 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083249_version with revision marks.pdf
+2025-12-11 09:32:49,523 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_9_Revision_marks.pdf
+2025-12-11 09:32:49,523 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_8_2023_EN.pdf
+2025-12-11 09:32:49,832 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083249_Technical specifications.pdf
+2025-12-11 09:32:49,843 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_8_2023_EN.pdf
+2025-12-11 09:32:49,844 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_8_2023_EN_Revision_marks.pdf
+2025-12-11 09:32:50,268 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083250_version with revision marks.pdf
+2025-12-11 09:32:50,281 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_8_2023_EN_Revision_marks.pdf
+2025-12-11 09:32:50,282 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_7.pdf
+2025-12-11 09:32:50,758 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083250_Technical specifications.pdf
+2025-12-11 09:32:50,773 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_7.pdf
+2025-12-11 09:32:50,774 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_7_Revision_marks.pdf
+2025-12-11 09:32:51,108 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083251_version with revision marks.pdf
+2025-12-11 09:32:51,119 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_7_Revision_marks.pdf
+2025-12-11 09:32:51,119 [INFO] regulai: [BCL] Total new documents: 0
+2025-12-11 09:32:51,345 [INFO] regulai: [TranslationAgent] Documents to translate: 27
+2025-12-11 09:38:03,992 [INFO] regulai: [SchedulerAgent] Running full pipeline for authorities: ['BCL']
+2025-12-11 09:38:03,993 [INFO] regulai: [BCL] Fetching page: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/index.html
+2025-12-11 09:38:04,483 [INFO] regulai: [BCL] Found 27 PDF links
+2025-12-11 09:38:04,487 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 09:38:05,459 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083805_Instructions.pdf
+2025-12-11 09:38:05,466 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 09:38:05,466 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 09:38:05,997 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083805_version with revision marks.pdf
+2025-12-11 09:38:06,012 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 09:38:06,012 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_Member_States_EN.pdf
+2025-12-11 09:38:06,319 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083806_List of reporting Member States.pdf
+2025-12-11 09:38:06,324 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_Member_States_EN.pdf
+2025-12-11 09:38:06,324 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_member_states_EN_Revision_marks.pdf
+2025-12-11 09:38:06,455 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083806_version with revision marks.pdf
+2025-12-11 09:38:06,458 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_member_states_EN_Revision_marks.pdf
+2025-12-11 09:38:06,458 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN.pdf
+2025-12-11 09:38:07,078 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083807_Comparison methodology FINREP up to December 2023.pdf
+2025-12-11 09:38:07,097 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN.pdf
+2025-12-11 09:38:07,097 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN_Revision_marks.pdf
+2025-12-11 09:38:07,563 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083807_version with revision marks.pdf
+2025-12-11 09:38:07,572 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN_Revision_marks.pdf
+2025-12-11 09:38:07,573 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_2023_12_EN.pdf
+2025-12-11 09:38:08,104 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083808_Comparison methodology FINREP from December 2023 onwards.pdf
+2025-12-11 09:38:08,116 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_2023_12_EN.pdf
+2025-12-11 09:38:08,117 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_2023_12_EN_RM.pdf
+2025-12-11 09:38:08,658 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083808_version with revision marks.pdf
+2025-12-11 09:38:08,665 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_2023_12_EN_RM.pdf
+2025-12-11 09:38:08,665 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_iBSI_iMIR_EN.pdf
+2025-12-11 09:38:09,995 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083809_Comparison methodology iBSI-iMIR up to December 2023.pdf
+2025-12-11 09:38:10,013 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_iBSI_iMIR_EN.pdf
+2025-12-11 09:38:10,013 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_iBSI_iMIR_EN_revision_marks.pdf
+2025-12-11 09:38:11,141 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083811_version with revision marks.pdf
+2025-12-11 09:38:11,157 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_iBSI_iMIR_EN_revision_marks.pdf
+2025-12-11 09:38:11,158 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_BSI_MIR_2023_12_EN.pdf
+2025-12-11 09:38:11,739 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083811_Comparison methodology BSI-MIR from December 2023 onwards.pdf
+2025-12-11 09:38:11,754 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_BSI_MIR_2023_12_EN.pdf
+2025-12-11 09:38:11,755 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_BSI_MIR_2023_12_EN_Rm.pdf
+2025-12-11 09:38:12,685 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083812_version with revision marks.pdf
+2025-12-11 09:38:12,705 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_BSI_MIR_2023_12_EN_Rm.pdf
+2025-12-11 09:38:12,706 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_S25L_EN.pdf
+2025-12-11 09:38:13,350 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083813_Comparison methodology S 2.5-L from December 2025 onwards.pdf
+2025-12-11 09:38:13,367 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_S25L_EN.pdf
+2025-12-11 09:38:13,367 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_13.pdf
+2025-12-11 09:38:13,625 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083813_Technical specifications.pdf
+2025-12-11 09:38:13,639 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_13.pdf
+2025-12-11 09:38:13,639 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_13_revision_marks.pdf
+2025-12-11 09:38:13,896 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083813_version with revision marks.pdf
+2025-12-11 09:38:13,922 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_13_revision_marks.pdf
+2025-12-11 09:38:13,922 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_12.pdf
+2025-12-11 09:38:14,671 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083814_Technical specifications.pdf
+2025-12-11 09:38:14,685 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_12.pdf
+2025-12-11 09:38:14,701 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_12_track_changes.pdf
+2025-12-11 09:38:15,388 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083815_version with revision marks.pdf
+2025-12-11 09:38:15,401 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_12_track_changes.pdf
+2025-12-11 09:38:15,401 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_11.pdf
+2025-12-11 09:38:15,827 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083815_Technical specifications.pdf
+2025-12-11 09:38:15,843 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_11.pdf
+2025-12-11 09:38:15,844 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_11_revision_marks.pdf
+2025-12-11 09:38:16,467 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083816_version with revision marks.pdf
+2025-12-11 09:38:16,482 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_11_revision_marks.pdf
+2025-12-11 09:38:16,482 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_10.pdf
+2025-12-11 09:38:16,870 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083816_Technical specifications.pdf
+2025-12-11 09:38:16,879 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_10.pdf
+2025-12-11 09:38:16,882 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_10_revision_marks.pdf
+2025-12-11 09:38:17,544 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083817_version with revision marks.pdf
+2025-12-11 09:38:17,555 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_10_revision_marks.pdf
+2025-12-11 09:38:17,556 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_9.pdf
+2025-12-11 09:38:17,872 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083817_Technical specifications.pdf
+2025-12-11 09:38:17,882 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_9.pdf
+2025-12-11 09:38:17,883 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_9_Revision_marks.pdf
+2025-12-11 09:38:18,425 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083818_version with revision marks.pdf
+2025-12-11 09:38:18,436 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_9_Revision_marks.pdf
+2025-12-11 09:38:18,437 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_8_2023_EN.pdf
+2025-12-11 09:38:18,900 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083818_Technical specifications.pdf
+2025-12-11 09:38:18,918 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_8_2023_EN.pdf
+2025-12-11 09:38:18,918 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_8_2023_EN_Revision_marks.pdf
+2025-12-11 09:38:19,520 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083819_version with revision marks.pdf
+2025-12-11 09:38:19,538 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_8_2023_EN_Revision_marks.pdf
+2025-12-11 09:38:19,539 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_7.pdf
+2025-12-11 09:38:19,903 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083819_Technical specifications.pdf
+2025-12-11 09:38:19,916 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_7.pdf
+2025-12-11 09:38:19,921 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_7_Revision_marks.pdf
+2025-12-11 09:38:20,554 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_083820_version with revision marks.pdf
+2025-12-11 09:38:20,568 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_7_Revision_marks.pdf
+2025-12-11 09:38:20,568 [INFO] regulai: [BCL] Total new documents: 0
+2025-12-11 09:38:20,839 [INFO] regulai: [TranslationAgent] Documents to translate: 27
+2025-12-11 09:40:16,937 [INFO] regulai: [SchedulerAgent] Running full pipeline for authorities: ['BCL']
+2025-12-11 09:40:16,940 [INFO] regulai: [BCL] Fetching page: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/index.html
+2025-12-11 09:40:17,279 [INFO] regulai: [BCL] Found 27 PDF links
+2025-12-11 09:40:17,287 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 09:40:17,642 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_084017_Instructions.pdf
+2025-12-11 09:40:17,660 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 09:40:18,124 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_084018_version with revision marks.pdf
+2025-12-11 09:40:18,148 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_Member_States_EN.pdf
+2025-12-11 09:40:18,595 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_084018_List of reporting Member States.pdf
+2025-12-11 09:40:18,613 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_member_states_EN_Revision_marks.pdf
+2025-12-11 09:40:18,871 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_084018_version with revision marks.pdf
+2025-12-11 09:40:18,878 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN.pdf
+2025-12-11 09:40:19,263 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_084019_Comparison methodology FINREP up to December 2023.pdf
+2025-12-11 09:40:19,279 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN_Revision_marks.pdf
+2025-12-11 09:40:19,622 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_084019_version with revision marks.pdf
+2025-12-11 09:40:19,640 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_2023_12_EN.pdf
+2025-12-11 09:40:19,978 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_084019_Comparison methodology FINREP from December 2023 onwards.pdf
+2025-12-11 09:40:19,991 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_2023_12_EN_RM.pdf
+2025-12-11 09:40:20,374 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_084020_version with revision marks.pdf
+2025-12-11 09:40:20,397 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_iBSI_iMIR_EN.pdf
+2025-12-11 09:40:20,793 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_084020_Comparison methodology iBSI-iMIR up to December 2023.pdf
+2025-12-11 09:40:20,810 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_iBSI_iMIR_EN_revision_marks.pdf
+2025-12-11 09:40:21,285 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_084021_version with revision marks.pdf
+2025-12-11 09:40:21,297 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_BSI_MIR_2023_12_EN.pdf
+2025-12-11 09:40:21,811 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_084021_Comparison methodology BSI-MIR from December 2023 onwards.pdf
+2025-12-11 09:40:21,831 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_BSI_MIR_2023_12_EN_Rm.pdf
+2025-12-11 09:40:22,382 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_084022_version with revision marks.pdf
+2025-12-11 09:40:22,408 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_S25L_EN.pdf
+2025-12-11 09:40:22,712 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_084022_Comparison methodology S 2.5-L from December 2025 onwards.pdf
+2025-12-11 09:40:22,727 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_13.pdf
+2025-12-11 09:40:22,949 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_084022_Technical specifications.pdf
+2025-12-11 09:40:22,960 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_13_revision_marks.pdf
+2025-12-11 09:40:23,271 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_084023_version with revision marks.pdf
+2025-12-11 09:40:23,279 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_12.pdf
+2025-12-11 09:40:23,592 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_084023_Technical specifications.pdf
+2025-12-11 09:40:23,610 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_12_track_changes.pdf
+2025-12-11 09:40:23,940 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_084023_version with revision marks.pdf
+2025-12-11 09:40:23,952 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_11.pdf
+2025-12-11 09:40:25,202 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_084025_Technical specifications.pdf
+2025-12-11 09:40:25,230 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_11_revision_marks.pdf
+2025-12-11 09:40:25,530 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_084025_version with revision marks.pdf
+2025-12-11 09:40:25,558 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_10.pdf
+2025-12-11 09:40:25,888 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_084025_Technical specifications.pdf
+2025-12-11 09:40:25,905 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_10_revision_marks.pdf
+2025-12-11 09:40:26,249 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_084026_version with revision marks.pdf
+2025-12-11 09:40:26,263 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_9.pdf
+2025-12-11 09:40:26,549 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_084026_Technical specifications.pdf
+2025-12-11 09:40:26,561 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_9_Revision_marks.pdf
+2025-12-11 09:40:26,878 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_084026_version with revision marks.pdf
+2025-12-11 09:40:26,892 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_8_2023_EN.pdf
+2025-12-11 09:40:27,461 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_084027_Technical specifications.pdf
+2025-12-11 09:40:27,486 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_8_2023_EN_Revision_marks.pdf
+2025-12-11 09:40:27,810 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_084027_version with revision marks.pdf
+2025-12-11 09:40:27,835 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_7.pdf
+2025-12-11 09:40:28,171 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_084028_Technical specifications.pdf
+2025-12-11 09:40:28,219 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_7_Revision_marks.pdf
+2025-12-11 09:40:28,560 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_084028_version with revision marks.pdf
+2025-12-11 09:40:28,584 [INFO] regulai: [BCL] Total new documents: 27
+2025-12-11 09:40:28,927 [INFO] regulai: [TranslationAgent] Documents to translate: 27
+2025-12-11 09:40:37,307 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 09:41:02,268 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:41:02,310 [INFO] regulai: [TranslationAgent] Translated document id=1
+2025-12-11 09:41:02,616 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 09:41:12,144 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:41:12,160 [INFO] regulai: [TranslationAgent] Translated document id=2
+2025-12-11 09:41:12,442 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 09:41:20,595 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:41:20,601 [INFO] regulai: [TranslationAgent] Translated document id=3
+2025-12-11 09:41:20,844 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 09:41:29,095 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:41:29,099 [INFO] regulai: [TranslationAgent] Translated document id=4
+2025-12-11 09:41:34,972 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 09:41:57,971 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:41:57,977 [INFO] regulai: [TranslationAgent] Translated document id=5
+2025-12-11 09:42:03,826 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 09:42:26,259 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:42:26,271 [INFO] regulai: [TranslationAgent] Translated document id=6
+2025-12-11 09:42:31,709 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 09:42:56,569 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:42:56,575 [INFO] regulai: [TranslationAgent] Translated document id=7
+2025-12-11 09:43:02,553 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 09:43:21,843 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:43:21,848 [INFO] regulai: [TranslationAgent] Translated document id=8
+2025-12-11 09:43:26,917 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 09:43:49,073 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:43:49,087 [INFO] regulai: [TranslationAgent] Translated document id=9
+2025-12-11 09:43:57,406 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 09:44:24,298 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:44:24,302 [INFO] regulai: [TranslationAgent] Translated document id=10
+2025-12-11 09:44:45,804 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 09:45:20,414 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:45:20,426 [INFO] regulai: [TranslationAgent] Translated document id=11
+2025-12-11 09:45:40,349 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 09:46:14,071 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:46:14,081 [INFO] regulai: [TranslationAgent] Translated document id=12
+2025-12-11 09:46:17,572 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 09:46:47,452 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:46:47,459 [INFO] regulai: [TranslationAgent] Translated document id=13
+2025-12-11 09:46:49,958 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 09:47:12,737 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:47:12,746 [INFO] regulai: [TranslationAgent] Translated document id=14
+2025-12-11 09:47:15,165 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 09:47:44,204 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:47:44,215 [INFO] regulai: [TranslationAgent] Translated document id=15
+2025-12-11 09:47:46,687 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 09:48:09,269 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:48:09,273 [INFO] regulai: [TranslationAgent] Translated document id=16
+2025-12-11 09:48:11,653 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 09:48:38,146 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:48:38,151 [INFO] regulai: [TranslationAgent] Translated document id=17
+2025-12-11 09:48:40,602 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 09:49:10,811 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:49:10,815 [INFO] regulai: [TranslationAgent] Translated document id=18
+2025-12-11 09:49:13,535 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 09:49:38,971 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:49:38,975 [INFO] regulai: [TranslationAgent] Translated document id=19
+2025-12-11 09:49:41,465 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 09:50:08,564 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:50:08,568 [INFO] regulai: [TranslationAgent] Translated document id=20
+2025-12-11 09:50:11,128 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 09:50:32,465 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:50:32,471 [INFO] regulai: [TranslationAgent] Translated document id=21
+2025-12-11 09:50:34,958 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 09:50:59,443 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:50:59,453 [INFO] regulai: [TranslationAgent] Translated document id=22
+2025-12-11 09:51:02,045 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 09:51:27,602 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:51:27,608 [INFO] regulai: [TranslationAgent] Translated document id=23
+2025-12-11 09:51:30,096 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 09:51:56,582 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:51:56,592 [INFO] regulai: [TranslationAgent] Translated document id=24
+2025-12-11 09:51:59,215 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 09:52:23,306 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:52:23,315 [INFO] regulai: [TranslationAgent] Translated document id=25
+2025-12-11 09:52:25,845 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 09:52:47,780 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:52:47,784 [INFO] regulai: [TranslationAgent] Translated document id=26
+2025-12-11 09:52:50,331 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 09:53:19,423 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:53:19,428 [INFO] regulai: [TranslationAgent] Translated document id=27
+2025-12-11 09:53:19,500 [INFO] regulai: [KeywordAnalysisAgent] Documents to analyse: 27
+2025-12-11 09:53:19,500 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 09:53:21,252 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:53:21,258 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=1 with keywords: []
+2025-12-11 09:53:21,258 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 09:53:23,902 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:53:23,911 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=2 with keywords: ['credit risk', 'reporting']
+2025-12-11 09:53:23,911 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 09:53:26,059 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:53:26,067 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=3 with keywords: ['credit risk', 'reporting']
+2025-12-11 09:53:26,068 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 09:53:28,666 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:53:28,677 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=4 with keywords: ['reporting', 'credit risk']
+2025-12-11 09:53:28,678 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 09:53:31,356 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:53:31,380 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=5 with keywords: ['reporting', 'credit risk']
+2025-12-11 09:53:31,380 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 09:53:33,862 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:53:33,872 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=6 with keywords: ['reporting', 'credit risk']
+2025-12-11 09:53:33,873 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 09:53:36,420 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:53:36,424 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=7 with keywords: ['reporting']
+2025-12-11 09:53:36,425 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 09:53:41,652 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:53:41,661 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=8 with keywords: ['reporting', 'credit risk']
+2025-12-11 09:53:41,662 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 09:53:44,612 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:53:44,616 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=9 with keywords: []
+2025-12-11 09:53:44,617 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 09:53:47,275 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:53:47,279 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=10 with keywords: ['reporting']
+2025-12-11 09:53:47,279 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 09:53:50,006 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:53:50,014 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=11 with keywords: []
+2025-12-11 09:53:50,015 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 09:53:52,122 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:53:52,130 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=12 with keywords: []
+2025-12-11 09:53:52,130 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 09:53:54,752 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:53:54,761 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=13 with keywords: []
+2025-12-11 09:53:54,761 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 09:53:57,378 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:53:57,383 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=14 with keywords: []
+2025-12-11 09:53:57,383 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 09:53:59,970 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:53:59,975 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=15 with keywords: ['reporting']
+2025-12-11 09:53:59,975 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 09:54:02,020 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:54:02,025 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=16 with keywords: []
+2025-12-11 09:54:02,025 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 09:54:04,063 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:54:04,069 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=17 with keywords: ['reporting']
+2025-12-11 09:54:04,069 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 09:54:06,219 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:54:06,225 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=18 with keywords: ['reporting']
+2025-12-11 09:54:06,227 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 09:54:08,677 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:54:08,683 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=19 with keywords: ['reporting']
+2025-12-11 09:54:08,697 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 09:54:13,694 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:54:13,698 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=20 with keywords: ['reporting']
+2025-12-11 09:54:13,698 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 09:54:16,173 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:54:16,181 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=21 with keywords: ['reporting']
+2025-12-11 09:54:16,182 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 09:54:18,506 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:54:18,511 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=22 with keywords: []
+2025-12-11 09:54:18,511 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 09:54:20,656 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:54:20,661 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=23 with keywords: ['reporting']
+2025-12-11 09:54:20,661 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 09:54:23,927 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:54:23,933 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=24 with keywords: ['reporting']
+2025-12-11 09:54:23,934 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 09:54:26,903 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:54:26,907 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=25 with keywords: ['reporting']
+2025-12-11 09:54:26,907 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 09:54:29,053 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:54:29,058 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=26 with keywords: ['reporting']
+2025-12-11 09:54:29,058 [INFO] regulai: [KeywordAnalysisAgent] Calling OpenAI for analysis...
+2025-12-11 09:54:31,550 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 09:54:31,557 [INFO] regulai: [KeywordAnalysisAgent] Analysed document id=27 with keywords: ['reporting']
+2025-12-11 09:54:31,560 [INFO] regulai: [NotificationAgent] Documents to notify: 27
+2025-12-11 10:29:09,226 [INFO] regulai: [SchedulerAgent] Running full pipeline for authorities: ['BCL']
+2025-12-11 10:29:09,229 [INFO] regulai: [BCL] Fetching page: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/index.html
+2025-12-11 10:29:09,703 [INFO] regulai: [BCL] Found 27 PDF links
+2025-12-11 10:29:09,707 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 10:29:11,249 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 10:29:11,249 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 10:29:13,339 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 10:29:13,340 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_Member_States_EN.pdf
+2025-12-11 10:29:13,482 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_Member_States_EN.pdf
+2025-12-11 10:29:13,482 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_member_states_EN_Revision_marks.pdf
+2025-12-11 10:29:15,431 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_member_states_EN_Revision_marks.pdf
+2025-12-11 10:29:15,432 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN.pdf
+2025-12-11 10:29:24,779 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN.pdf
+2025-12-11 10:29:24,779 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN_Revision_marks.pdf
+2025-12-11 10:29:26,474 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN_Revision_marks.pdf
+2025-12-11 10:29:26,474 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_2023_12_EN.pdf
+2025-12-11 10:29:27,108 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_2023_12_EN.pdf
+2025-12-11 10:29:27,108 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_2023_12_EN_RM.pdf
+2025-12-11 10:29:27,465 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_2023_12_EN_RM.pdf
+2025-12-11 10:29:27,465 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_iBSI_iMIR_EN.pdf
+2025-12-11 10:29:28,147 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_iBSI_iMIR_EN.pdf
+2025-12-11 10:29:28,147 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_iBSI_iMIR_EN_revision_marks.pdf
+2025-12-11 10:29:28,544 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_iBSI_iMIR_EN_revision_marks.pdf
+2025-12-11 10:29:28,545 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_BSI_MIR_2023_12_EN.pdf
+2025-12-11 10:29:29,200 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_BSI_MIR_2023_12_EN.pdf
+2025-12-11 10:29:29,200 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_BSI_MIR_2023_12_EN_Rm.pdf
+2025-12-11 10:29:29,962 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_BSI_MIR_2023_12_EN_Rm.pdf
+2025-12-11 10:29:29,962 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_S25L_EN.pdf
+2025-12-11 10:29:30,344 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_S25L_EN.pdf
+2025-12-11 10:29:30,345 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_13.pdf
+2025-12-11 10:29:30,557 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_13.pdf
+2025-12-11 10:29:30,557 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_13_revision_marks.pdf
+2025-12-11 10:29:31,033 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_13_revision_marks.pdf
+2025-12-11 10:29:31,033 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_12.pdf
+2025-12-11 10:29:31,453 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_12.pdf
+2025-12-11 10:29:31,453 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_12_track_changes.pdf
+2025-12-11 10:29:32,050 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_12_track_changes.pdf
+2025-12-11 10:29:32,050 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_11.pdf
+2025-12-11 10:29:32,391 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_11.pdf
+2025-12-11 10:29:32,392 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_11_revision_marks.pdf
+2025-12-11 10:29:32,657 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_11_revision_marks.pdf
+2025-12-11 10:29:32,657 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_10.pdf
+2025-12-11 10:29:33,091 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_10.pdf
+2025-12-11 10:29:33,092 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_10_revision_marks.pdf
+2025-12-11 10:29:33,434 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_10_revision_marks.pdf
+2025-12-11 10:29:33,434 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_9.pdf
+2025-12-11 10:29:33,697 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_9.pdf
+2025-12-11 10:29:33,697 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_9_Revision_marks.pdf
+2025-12-11 10:29:33,946 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_9_Revision_marks.pdf
+2025-12-11 10:29:33,946 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_8_2023_EN.pdf
+2025-12-11 10:29:34,205 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_8_2023_EN.pdf
+2025-12-11 10:29:34,206 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_8_2023_EN_Revision_marks.pdf
+2025-12-11 10:29:34,481 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_8_2023_EN_Revision_marks.pdf
+2025-12-11 10:29:34,481 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_7.pdf
+2025-12-11 10:29:34,727 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_7.pdf
+2025-12-11 10:29:34,727 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_7_Revision_marks.pdf
+2025-12-11 10:29:34,994 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_7_Revision_marks.pdf
+2025-12-11 10:29:34,994 [INFO] regulai: [BCL] Total NEW documents this run: 0
+2025-12-11 10:29:34,994 [WARNING] regulai: [TranslationAgent] OPENAI_API_KEY is not set!
+2025-12-11 10:29:35,147 [INFO] regulai: [TranslationAgent] Documents to translate: 0
+2025-12-11 10:29:35,147 [WARNING] regulai: [KeywordAnalysisAgent] OPENAI_API_KEY is not set!
+2025-12-11 10:29:35,213 [INFO] regulai: [KeywordAnalysisAgent] Documents to analyse: 0
+2025-12-11 10:29:35,214 [INFO] regulai: [NotificationAgent] Documents to notify: 27
+2025-12-11 10:29:45,452 [INFO] regulai: [SchedulerAgent] Running full pipeline for authorities: ['BCL']
+2025-12-11 10:29:45,454 [INFO] regulai: [BCL] Fetching page: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/index.html
+2025-12-11 10:29:45,686 [INFO] regulai: [BCL] Found 27 PDF links
+2025-12-11 10:29:45,689 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 10:29:45,953 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 10:29:45,953 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 10:29:46,245 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 10:29:46,245 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_Member_States_EN.pdf
+2025-12-11 10:29:46,366 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_Member_States_EN.pdf
+2025-12-11 10:29:46,367 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_member_states_EN_Revision_marks.pdf
+2025-12-11 10:29:46,506 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_member_states_EN_Revision_marks.pdf
+2025-12-11 10:29:46,506 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN.pdf
+2025-12-11 10:29:46,858 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN.pdf
+2025-12-11 10:29:46,858 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN_Revision_marks.pdf
+2025-12-11 10:29:47,179 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN_Revision_marks.pdf
+2025-12-11 10:29:47,180 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_2023_12_EN.pdf
+2025-12-11 10:29:47,539 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_2023_12_EN.pdf
+2025-12-11 10:29:47,539 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_2023_12_EN_RM.pdf
+2025-12-11 10:29:47,989 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_2023_12_EN_RM.pdf
+2025-12-11 10:29:47,989 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_iBSI_iMIR_EN.pdf
+2025-12-11 10:29:48,378 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_iBSI_iMIR_EN.pdf
+2025-12-11 10:29:48,378 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_iBSI_iMIR_EN_revision_marks.pdf
+2025-12-11 10:29:48,912 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_iBSI_iMIR_EN_revision_marks.pdf
+2025-12-11 10:29:48,912 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_BSI_MIR_2023_12_EN.pdf
+2025-12-11 10:29:49,376 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_BSI_MIR_2023_12_EN.pdf
+2025-12-11 10:29:49,376 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_BSI_MIR_2023_12_EN_Rm.pdf
+2025-12-11 10:29:49,889 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_BSI_MIR_2023_12_EN_Rm.pdf
+2025-12-11 10:29:49,889 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_S25L_EN.pdf
+2025-12-11 10:29:50,225 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_S25L_EN.pdf
+2025-12-11 10:29:50,225 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_13.pdf
+2025-12-11 10:29:50,413 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_13.pdf
+2025-12-11 10:29:50,413 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_13_revision_marks.pdf
+2025-12-11 10:29:50,596 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_13_revision_marks.pdf
+2025-12-11 10:29:50,596 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_12.pdf
+2025-12-11 10:29:50,865 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_12.pdf
+2025-12-11 10:29:50,865 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_12_track_changes.pdf
+2025-12-11 10:29:51,181 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_12_track_changes.pdf
+2025-12-11 10:29:51,182 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_11.pdf
+2025-12-11 10:29:51,433 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_11.pdf
+2025-12-11 10:29:51,433 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_11_revision_marks.pdf
+2025-12-11 10:29:51,705 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_11_revision_marks.pdf
+2025-12-11 10:29:51,705 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_10.pdf
+2025-12-11 10:29:51,945 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_10.pdf
+2025-12-11 10:29:51,945 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_10_revision_marks.pdf
+2025-12-11 10:29:52,275 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_10_revision_marks.pdf
+2025-12-11 10:29:52,276 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_9.pdf
+2025-12-11 10:29:52,602 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_9.pdf
+2025-12-11 10:29:52,602 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_9_Revision_marks.pdf
+2025-12-11 10:29:52,846 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_9_Revision_marks.pdf
+2025-12-11 10:29:52,846 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_8_2023_EN.pdf
+2025-12-11 10:29:53,087 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_8_2023_EN.pdf
+2025-12-11 10:29:53,088 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_8_2023_EN_Revision_marks.pdf
+2025-12-11 10:29:53,439 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_8_2023_EN_Revision_marks.pdf
+2025-12-11 10:29:53,439 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_7.pdf
+2025-12-11 10:29:53,697 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_7.pdf
+2025-12-11 10:29:53,698 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_7_Revision_marks.pdf
+2025-12-11 10:29:53,954 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_7_Revision_marks.pdf
+2025-12-11 10:29:53,955 [INFO] regulai: [BCL] Total NEW documents this run: 0
+2025-12-11 10:29:53,955 [WARNING] regulai: [TranslationAgent] OPENAI_API_KEY is not set!
+2025-12-11 10:29:54,028 [INFO] regulai: [TranslationAgent] Documents to translate: 0
+2025-12-11 10:29:54,028 [WARNING] regulai: [KeywordAnalysisAgent] OPENAI_API_KEY is not set!
+2025-12-11 10:29:54,094 [INFO] regulai: [KeywordAnalysisAgent] Documents to analyse: 0
+2025-12-11 10:29:54,095 [INFO] regulai: [NotificationAgent] Documents to notify: 27
+2025-12-11 10:29:58,706 [INFO] regulai: [SchedulerAgent] Running full pipeline for authorities: ['BCL']
+2025-12-11 10:29:58,708 [INFO] regulai: [BCL] Fetching page: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/index.html
+2025-12-11 10:29:58,935 [INFO] regulai: [BCL] Found 27 PDF links
+2025-12-11 10:29:58,938 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 10:29:59,182 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 10:29:59,182 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 10:29:59,510 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 10:29:59,510 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_Member_States_EN.pdf
+2025-12-11 10:29:59,679 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_Member_States_EN.pdf
+2025-12-11 10:29:59,680 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_member_states_EN_Revision_marks.pdf
+2025-12-11 10:29:59,818 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_member_states_EN_Revision_marks.pdf
+2025-12-11 10:29:59,818 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN.pdf
+2025-12-11 10:30:00,208 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN.pdf
+2025-12-11 10:30:00,208 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN_Revision_marks.pdf
+2025-12-11 10:30:00,558 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN_Revision_marks.pdf
+2025-12-11 10:30:00,558 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_2023_12_EN.pdf
+2025-12-11 10:30:00,886 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_2023_12_EN.pdf
+2025-12-11 10:30:00,886 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_2023_12_EN_RM.pdf
+2025-12-11 10:30:01,422 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_2023_12_EN_RM.pdf
+2025-12-11 10:30:01,422 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_iBSI_iMIR_EN.pdf
+2025-12-11 10:30:01,908 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_iBSI_iMIR_EN.pdf
+2025-12-11 10:30:01,908 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_iBSI_iMIR_EN_revision_marks.pdf
+2025-12-11 10:30:02,444 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_iBSI_iMIR_EN_revision_marks.pdf
+2025-12-11 10:30:02,444 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_BSI_MIR_2023_12_EN.pdf
+2025-12-11 10:30:02,868 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_BSI_MIR_2023_12_EN.pdf
+2025-12-11 10:30:02,869 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_BSI_MIR_2023_12_EN_Rm.pdf
+2025-12-11 10:30:03,463 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_BSI_MIR_2023_12_EN_Rm.pdf
+2025-12-11 10:30:03,463 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_S25L_EN.pdf
+2025-12-11 10:30:03,897 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_S25L_EN.pdf
+2025-12-11 10:30:03,897 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_13.pdf
+2025-12-11 10:30:04,093 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_13.pdf
+2025-12-11 10:30:04,093 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_13_revision_marks.pdf
+2025-12-11 10:30:04,302 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_13_revision_marks.pdf
+2025-12-11 10:30:04,303 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_12.pdf
+2025-12-11 10:30:04,604 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_12.pdf
+2025-12-11 10:30:04,604 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_12_track_changes.pdf
+2025-12-11 10:30:04,935 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_12_track_changes.pdf
+2025-12-11 10:30:04,936 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_11.pdf
+2025-12-11 10:30:05,179 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_11.pdf
+2025-12-11 10:30:05,179 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_11_revision_marks.pdf
+2025-12-11 10:30:05,474 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_11_revision_marks.pdf
+2025-12-11 10:30:05,474 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_10.pdf
+2025-12-11 10:30:05,743 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_10.pdf
+2025-12-11 10:30:05,744 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_10_revision_marks.pdf
+2025-12-11 10:30:06,103 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_10_revision_marks.pdf
+2025-12-11 10:30:06,104 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_9.pdf
+2025-12-11 10:30:06,403 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_9.pdf
+2025-12-11 10:30:06,403 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_9_Revision_marks.pdf
+2025-12-11 10:30:06,712 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_9_Revision_marks.pdf
+2025-12-11 10:30:06,713 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_8_2023_EN.pdf
+2025-12-11 10:30:06,974 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_8_2023_EN.pdf
+2025-12-11 10:30:06,974 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_8_2023_EN_Revision_marks.pdf
+2025-12-11 10:30:07,217 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_8_2023_EN_Revision_marks.pdf
+2025-12-11 10:30:07,217 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_7.pdf
+2025-12-11 10:30:07,485 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_7.pdf
+2025-12-11 10:30:07,485 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_7_Revision_marks.pdf
+2025-12-11 10:30:07,754 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_7_Revision_marks.pdf
+2025-12-11 10:30:07,754 [INFO] regulai: [BCL] Total NEW documents this run: 0
+2025-12-11 10:30:07,754 [WARNING] regulai: [TranslationAgent] OPENAI_API_KEY is not set!
+2025-12-11 10:30:07,839 [INFO] regulai: [TranslationAgent] Documents to translate: 0
+2025-12-11 10:30:07,839 [WARNING] regulai: [KeywordAnalysisAgent] OPENAI_API_KEY is not set!
+2025-12-11 10:30:07,903 [INFO] regulai: [KeywordAnalysisAgent] Documents to analyse: 0
+2025-12-11 10:30:07,905 [INFO] regulai: [NotificationAgent] Documents to notify: 27
+2025-12-11 10:51:20,098 [INFO] regulai: [SchedulerAgent] Running full pipeline for authorities: ['BCL']
+2025-12-11 10:51:20,100 [INFO] regulai: [BCL] Fetching page: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/index.html
+2025-12-11 10:51:20,489 [INFO] regulai: [BCL] Found 27 PDF links
+2025-12-11 10:51:20,491 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 10:51:20,769 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 10:51:20,770 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 10:51:21,089 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 10:51:21,090 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_Member_States_EN.pdf
+2025-12-11 10:51:21,327 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_Member_States_EN.pdf
+2025-12-11 10:51:21,328 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_member_states_EN_Revision_marks.pdf
+2025-12-11 10:51:21,461 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_member_states_EN_Revision_marks.pdf
+2025-12-11 10:51:21,461 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN.pdf
+2025-12-11 10:51:21,869 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN.pdf
+2025-12-11 10:51:21,869 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN_Revision_marks.pdf
+2025-12-11 10:51:22,198 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN_Revision_marks.pdf
+2025-12-11 10:51:22,198 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_2023_12_EN.pdf
+2025-12-11 10:51:22,678 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_2023_12_EN.pdf
+2025-12-11 10:51:22,678 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_2023_12_EN_RM.pdf
+2025-12-11 10:51:23,041 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_2023_12_EN_RM.pdf
+2025-12-11 10:51:23,042 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_iBSI_iMIR_EN.pdf
+2025-12-11 10:51:23,429 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_iBSI_iMIR_EN.pdf
+2025-12-11 10:51:23,429 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_iBSI_iMIR_EN_revision_marks.pdf
+2025-12-11 10:51:23,992 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_iBSI_iMIR_EN_revision_marks.pdf
+2025-12-11 10:51:23,992 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_BSI_MIR_2023_12_EN.pdf
+2025-12-11 10:51:24,422 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_BSI_MIR_2023_12_EN.pdf
+2025-12-11 10:51:24,422 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_BSI_MIR_2023_12_EN_Rm.pdf
+2025-12-11 10:51:24,931 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_BSI_MIR_2023_12_EN_Rm.pdf
+2025-12-11 10:51:24,931 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_S25L_EN.pdf
+2025-12-11 10:51:25,197 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_S25L_EN.pdf
+2025-12-11 10:51:25,198 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_13.pdf
+2025-12-11 10:51:25,376 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_13.pdf
+2025-12-11 10:51:25,376 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_13_revision_marks.pdf
+2025-12-11 10:51:25,604 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_13_revision_marks.pdf
+2025-12-11 10:51:25,605 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_12.pdf
+2025-12-11 10:51:25,885 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_12.pdf
+2025-12-11 10:51:25,885 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_12_track_changes.pdf
+2025-12-11 10:51:26,188 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_12_track_changes.pdf
+2025-12-11 10:51:26,188 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_11.pdf
+2025-12-11 10:51:26,454 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_11.pdf
+2025-12-11 10:51:26,455 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_11_revision_marks.pdf
+2025-12-11 10:51:26,698 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_11_revision_marks.pdf
+2025-12-11 10:51:26,698 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_10.pdf
+2025-12-11 10:51:26,938 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_10.pdf
+2025-12-11 10:51:26,938 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_10_revision_marks.pdf
+2025-12-11 10:51:27,206 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_10_revision_marks.pdf
+2025-12-11 10:51:27,208 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_9.pdf
+2025-12-11 10:51:27,448 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_9.pdf
+2025-12-11 10:51:27,448 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_9_Revision_marks.pdf
+2025-12-11 10:51:27,690 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_9_Revision_marks.pdf
+2025-12-11 10:51:27,690 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_8_2023_EN.pdf
+2025-12-11 10:51:27,931 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_8_2023_EN.pdf
+2025-12-11 10:51:27,931 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_8_2023_EN_Revision_marks.pdf
+2025-12-11 10:51:28,196 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_8_2023_EN_Revision_marks.pdf
+2025-12-11 10:51:28,196 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_7.pdf
+2025-12-11 10:51:28,442 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_7.pdf
+2025-12-11 10:51:28,443 [INFO] regulai: [BCL] Downloading for hash check: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_7_Revision_marks.pdf
+2025-12-11 10:51:28,713 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_7_Revision_marks.pdf
+2025-12-11 10:51:28,713 [INFO] regulai: [BCL] Total NEW documents this run: 0
+2025-12-11 10:51:28,713 [WARNING] regulai: [TranslationAgent] OPENAI_API_KEY is not set!
+2025-12-11 10:51:28,875 [INFO] regulai: [TranslationAgent] Documents to translate: 0
+2025-12-11 10:51:28,875 [WARNING] regulai: [KeywordAnalysisAgent] OPENAI_API_KEY is not set!
+2025-12-11 10:51:28,945 [INFO] regulai: [KeywordAnalysisAgent] Documents to analyse: 0
+2025-12-11 10:51:28,947 [INFO] regulai: [NotificationAgent] Documents to notify: 27
+2025-12-11 10:51:30,220 [INFO] regulai: [NotificationAgent] Notification sent for id=1
+2025-12-11 10:51:31,456 [INFO] regulai: [NotificationAgent] Notification sent for id=2
+2025-12-11 10:51:32,429 [INFO] regulai: [NotificationAgent] Notification sent for id=3
+2025-12-11 10:51:33,422 [INFO] regulai: [NotificationAgent] Notification sent for id=4
+2025-12-11 10:51:34,372 [INFO] regulai: [NotificationAgent] Notification sent for id=5
+2025-12-11 10:51:35,380 [INFO] regulai: [NotificationAgent] Notification sent for id=6
+2025-12-11 10:51:36,475 [INFO] regulai: [NotificationAgent] Notification sent for id=7
+2025-12-11 10:51:37,415 [INFO] regulai: [NotificationAgent] Notification sent for id=8
+2025-12-11 10:51:38,487 [INFO] regulai: [NotificationAgent] Notification sent for id=9
+2025-12-11 10:51:39,343 [INFO] regulai: [NotificationAgent] Notification sent for id=10
+2025-12-11 10:51:40,343 [INFO] regulai: [NotificationAgent] Notification sent for id=11
+2025-12-11 10:51:41,376 [INFO] regulai: [NotificationAgent] Notification sent for id=12
+2025-12-11 10:51:42,516 [INFO] regulai: [NotificationAgent] Notification sent for id=13
+2025-12-11 10:51:43,441 [INFO] regulai: [NotificationAgent] Notification sent for id=14
+2025-12-11 10:51:44,524 [INFO] regulai: [NotificationAgent] Notification sent for id=15
+2025-12-11 10:51:45,511 [INFO] regulai: [NotificationAgent] Notification sent for id=16
+2025-12-11 10:51:46,573 [INFO] regulai: [NotificationAgent] Notification sent for id=17
+2025-12-11 10:51:47,411 [INFO] regulai: [NotificationAgent] Notification sent for id=18
+2025-12-11 10:51:48,513 [INFO] regulai: [NotificationAgent] Notification sent for id=19
+2025-12-11 10:51:49,401 [INFO] regulai: [NotificationAgent] Notification sent for id=20
+2025-12-11 10:51:50,385 [INFO] regulai: [NotificationAgent] Notification sent for id=21
+2025-12-11 10:51:51,620 [INFO] regulai: [NotificationAgent] Notification sent for id=22
+2025-12-11 10:51:53,096 [INFO] regulai: [NotificationAgent] Notification sent for id=23
+2025-12-11 10:51:54,177 [INFO] regulai: [NotificationAgent] Notification sent for id=24
+2025-12-11 10:51:55,211 [INFO] regulai: [NotificationAgent] Notification sent for id=25
+2025-12-11 10:51:56,207 [INFO] regulai: [NotificationAgent] Notification sent for id=26
+2025-12-11 10:51:57,410 [INFO] regulai: [NotificationAgent] Notification sent for id=27
+2025-12-11 10:51:57,410 [INFO] regulai: [SchedulerAgent] Full pipeline done. New docs: 0

@@ -116,3 +116,11 @@ def get_recent_documents(limit: int = 20):
     rows = cur.fetchall()
     conn.close()
     return rows
+
+def delete_document(doc_id: int):
+    conn = get_connection()
+    cur = conn.cursor()
+    cur.execute("DELETE FROM documents WHERE id=?", (doc_id,))
+    conn.commit()
+    conn.close()
+    
