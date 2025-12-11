@@ -4,116 +4,67 @@ import hashlib
 from pathlib import Path
 import requests
 from bs4 import BeautifulSoup
-from datetime import datetime
 from urllib.parse import urljoin
 
 from ..config import DOCS_DIR, AUTHORITIES
-from ..utils.logging_utils import setup_logging
 from ..models import get_document_by_hash, insert_document
+from ..utils.logging_utils import setup_logging
 
 logger = setup_logging()
 
 class ExtractionAgent:
-    """
-    Generic extraction agent for any authority defined in AUTHORITIES.
-    Fixes:
-    - MissingSchema error (via urljoin)
-    - Handles relative URLs
-    - Safe filenames
-    """
 
     def __init__(self, authority_code: str):
         if authority_code not in AUTHORITIES:
             raise ValueError(f"Unknown authority: {authority_code}")
-
         self.code = authority_code
         self.config = AUTHORITIES[authority_code]
-
         self.docs_page = self.config["docs_page"]
-        self.base_url = self.config["base_url"]
 
-    # -----------------------------------------------
-    # URL NORMALIZATION FIX (prevents MissingSchema)
-    # -----------------------------------------------
     def normalize_url(self, href: str) -> str:
-        """
-        This fixes all Invalid URL errors.
-        - Converts relative URLs to absolute URLs
-        - Leaves absolute URLs unchanged
-        """
         return urljoin(self.docs_page, href)
 
-    # -----------------------------------------------
-    # Extract PDF links from authority public page
-    # -----------------------------------------------
     def fetch_document_links(self):
         logger.info(f"[{self.code}] Fetching page: {self.docs_page}")
+        html = requests.get(self.docs_page, timeout=30)
+        html.raise_for_status()
+        soup = BeautifulSoup(html.text, "html.parser")
 
-        response = requests.get(self.docs_page, timeout=30)
-        response.raise_for_status()
-
-        soup = BeautifulSoup(response.text, "html.parser")
-        pdf_links = []
-
-        # Find <a href="...pdf">
+        links = []
         for a in soup.find_all("a", href=True):
             href = a["href"].strip()
 
-            if href.lower().endswith(".pdf"):
-                full_url = self.normalize_url(href)
-                title = a.get_text(strip=True) or href.split("/")[-1]
+            if not href.lower().endswith(".pdf"):
+                continue
 
-                pdf_links.append({
-                    "url": full_url,
-                    "title": title
-                })
+            links.append({
+                "url": self.normalize_url(href),
+                "title": a.get_text(strip=True) or href.split("/")[-1],
+            })
 
-        logger.info(f"[{self.code}] Found {len(pdf_links)} PDF links")
-        return pdf_links
+        logger.info(f"[{self.code}] Found {len(links)} PDF links")
+        return links
 
-    # -----------------------------------------------
-    # Safe filename for saving PDFs
-    # -----------------------------------------------
-    def clean_filename(self, text: str) -> str:
-        return "".join(c if c.isalnum() or c in "._- " else "_" for c in text)[:120]
-
-    # -----------------------------------------------
-    # Download the PDF
-    # -----------------------------------------------
-    def download_file(self, url: str, title: str) -> Path:
-        logger.info(f"[{self.code}] Downloading: {url}")
-
+    def get_file_bytes(self, url: str) -> bytes:
+        logger.info(f"[{self.code}] Downloading for hash check: {url}")
         resp = requests.get(url, timeout=60)
         resp.raise_for_status()
+        return resp.content
 
-        # Storage path
+    def compute_hash(self, file_bytes: bytes) -> str:
+        return hashlib.sha256(file_bytes).hexdigest()
+
+    def save_file(self, file_bytes: bytes, filename: str) -> Path:
         folder = DOCS_DIR / self.code
         folder.mkdir(parents=True, exist_ok=True)
+        path = folder / filename
+        path.write_bytes(file_bytes)
+        return path
 
-        timestamp = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
-        filename = f"{timestamp}_{self.clean_filename(title)}.pdf"
-
-        pdf_path = folder / filename
-        pdf_path.write_bytes(resp.content)
-
-        logger.info(f"[{self.code}] Saved file: {pdf_path}")
-        return pdf_path
-
-    # -----------------------------------------------
-    # Hash for version detection
-    # -----------------------------------------------
-    def compute_hash(self, pdf_path: Path) -> str:
-        data = pdf_path.read_bytes()
-        return hashlib.sha256(data).hexdigest()
-
-    # -----------------------------------------------
-    # Main pipeline
-    # -----------------------------------------------
+    # -----------------------------------------------------------
+    # ✅ FINAL FIXED PIPELINE — IDENTITY BASED ON HASH (perfect)
+    # -----------------------------------------------------------
     def run(self) -> int:
-        """
-        Returns number of NEW or UPDATED documents.
-        """
-
         links = self.fetch_document_links()
         new_count = 0
 
@@ -121,19 +72,24 @@ class ExtractionAgent:
             url = item["url"]
             title = item["title"]
 
-            # Download
-            pdf_path = self.download_file(url, title)
+            # Step 1 — Download file into memory
+            file_bytes = self.get_file_bytes(url)
 
-            # Compute file hash
-            content_hash = self.compute_hash(pdf_path)
+            # Step 2 — Compute hash before saving
+            content_hash = self.compute_hash(file_bytes)
 
-            # Check duplicates
-            exists = get_document_by_hash(self.code, content_hash)
-            if exists:
+            # Step 3 — Check DB for existing version
+            existing = get_document_by_hash(self.code, content_hash)
+            if existing:
                 logger.info(f"[{self.code}] Duplicate detected, skipping: {url}")
                 continue
 
-            # Insert into DB
+            # Step 4 — Save file using HASH-BASED filename
+            clean_title = "".join(c if c.isalnum() or c in "._- " else "_" for c in title)[:60]
+            filename = f"{content_hash}_{clean_title}.pdf"
+            pdf_path = self.save_file(file_bytes, filename)
+
+            # Step 5 — Insert into DB
             insert_document(
                 authority=self.code,
                 title=title,
@@ -142,7 +98,8 @@ class ExtractionAgent:
                 content_hash=content_hash,
             )
 
+            logger.info(f"[{self.code}] NEW document added: {pdf_path}")
             new_count += 1
 
-        logger.info(f"[{self.code}] Total new documents: {new_count}")
+        logger.info(f"[{self.code}] Total NEW documents this run: {new_count}")
         return new_count

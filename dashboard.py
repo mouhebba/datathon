@@ -1,9 +1,24 @@
 # dashboard.py
+from pathlib import Path
 import streamlit as st
 
 from app.db import init_db
 from app.models import get_recent_documents
 from app.agents.scheduler_agent import run_full_pipeline
+
+LOG_FILE = Path("logs/app.log")
+
+def show_logs():
+    st.subheader("📜 Application Logs")
+
+    if not LOG_FILE.exists():
+        st.error("Log file not found.")
+        return
+
+    with open(LOG_FILE, "r") as f:
+        content = f.read()
+
+    st.text_area("Logs", content, height=400)
 
 def main():
     st.set_page_config(page_title="RegulAI Watcher", layout="wide")
@@ -31,14 +46,21 @@ def main():
     )
     extra_keywords = [k.strip() for k in extra_keywords_input.split(",") if k.strip()]
 
-    if st.sidebar.button("Run full pipeline now"):
-        with st.spinner("Running pipeline..."):
-            run_full_pipeline(
-                authority_codes=authorities,
-                target_language=target_language,
-                extra_keywords=extra_keywords,
-            )
-        st.success("Pipeline finished.")
+    if st.button("Run full pipeline"):
+        summary = run_full_pipeline(
+            authority_codes=authorities,
+            target_language=target_language,
+            extra_keywords=extra_keywords,
+        )
+
+        if summary["new_documents"] > 0:
+            st.success(f"🟢 {summary['new_documents']} new document(s) detected!")
+        else:
+            st.warning("🟡 No new documents found.")
+
+        with st.expander("Details"):
+            for auth, count in summary["authorities"].items():
+                st.write(f"**{auth}** → {count} new documents")
 
     st.header("Recent Documents")
     docs = get_recent_documents(limit=50)
@@ -57,6 +79,10 @@ def main():
             if doc["analysis_summary"]:
                 st.markdown("**Summary:**")
                 st.write(doc["analysis_summary"])
+
+    # 4️⃣ ⭐ Insert LOGS HERE ⭐
+    if st.checkbox("Show logs", value=False):
+        show_logs()
 
 if __name__ == "__main__":
     main()
