@@ -37,16 +37,16 @@ AUTHORITIES = {
     "BCL": {
         "code": "BCL",
         "base_url": "https://www.bcl.lu",
-        "docs_page": "https://www.bcl.lu/en/Media-and-publications/Legal-powers/index.html",
+        "docs_page": "https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/index.html",
     },
-    "ECB": {
-        "code": "ECB",
-        "base_url": "https://www.ecb.europa.eu",
-        "docs_page": "https://www.ecb.europa.eu/pub/legal/html/index.en.html",
-    },
-    "BDF": {
-        "code": "BDF",
-        "base_url": "https://www.banque-france.fr",
-        "docs_page": "https://www.banque-france.fr/la-banque-de-france/communiques",
-    },
+    # "ECB": {
+    #     "code": "ECB",
+    #     "base_url": "https://www.ecb.europa.eu",
+    #     "docs_page": "https://www.ecb.europa.eu/pub/legal/html/index.en.html",
+    # },
+    # "BDF": {
+    #     "code": "BDF",
+    #     "base_url": "https://www.banque-france.fr",
+    #     "docs_page": "https://www.banque-france.fr/la-banque-de-france/communiques",
+    # },
 }

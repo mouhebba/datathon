@@ -11,7 +11,8 @@ from .notifier import NotificationAgent
 logger = setup_logging()
 
 def run_full_pipeline(authority_codes=None, target_language="en", extra_keywords=None):
-    authority_codes = authority_codes or ["BCL", "ECB"]
+    # authority_codes = authority_codes or ["BCL", "ECB"]
+    authority_codes = authority_codes or ["BCL"]
     logger.info(f"[SchedulerAgent] Running full pipeline for authorities: {authority_codes}")
 
     # 1. Extraction

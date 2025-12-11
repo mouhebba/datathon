@@ -1,0 +1,390 @@
+2025-12-10 15:49:49,653 [INFO] regulai: [SchedulerAgent] Running full pipeline for authorities: ['BCL', 'ECB']
+2025-12-10 15:49:49,653 [INFO] regulai: [ExtractionAgent] Fetching page: https://www.bcl.lu/en/Media-and-publications/Legal-powers/index.html
+2025-12-10 15:49:51,078 [INFO] regulai: [ExtractionAgent] Found 0 PDF links
+2025-12-10 15:49:51,082 [INFO] regulai: [ExtractionAgent] New or changed documents: 0
+2025-12-10 15:49:51,083 [INFO] regulai: [ExtractionAgent] Fetching page: https://www.ecb.europa.eu/pub/legal/html/index.en.html
+2025-12-10 15:51:54,575 [INFO] regulai: [SchedulerAgent] Running full pipeline for authorities: ['BCL', 'ECB']
+2025-12-10 15:51:54,576 [INFO] regulai: [ExtractionAgent] Fetching page: https://www.bcl.lu/en/Media-and-publications/Legal-powers/index.html
+2025-12-10 15:51:55,005 [INFO] regulai: [ExtractionAgent] Found 0 PDF links
+2025-12-10 15:51:55,010 [INFO] regulai: [ExtractionAgent] New or changed documents: 0
+2025-12-10 15:51:55,011 [INFO] regulai: [ExtractionAgent] Fetching page: https://www.ecb.europa.eu/pub/legal/html/index.en.html
+2025-12-11 09:07:22,756 [INFO] regulai: [SchedulerAgent] Running full pipeline for authorities: ['BCL', 'ECB']
+2025-12-11 09:07:22,759 [INFO] regulai: [ExtractionAgent] Fetching page: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/index.html
+2025-12-11 09:07:23,081 [INFO] regulai: [ExtractionAgent] Found 27 PDF links
+2025-12-11 09:10:28,672 [INFO] regulai: [SchedulerAgent] Running full pipeline for authorities: ['BCL', 'ECB']
+2025-12-11 09:10:28,673 [INFO] regulai: [BCL] Fetching page: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/index.html
+2025-12-11 09:10:29,107 [INFO] regulai: [BCL] Found 27 PDF links
+2025-12-11 09:10:29,113 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 09:10:29,496 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081029_Instructions.pdf
+2025-12-11 09:10:29,512 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 09:10:30,080 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081030_version with revision marks.pdf
+2025-12-11 09:10:30,102 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_Member_States_EN.pdf
+2025-12-11 09:10:30,231 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081030_List of reporting Member States.pdf
+2025-12-11 09:10:30,247 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_member_states_EN_Revision_marks.pdf
+2025-12-11 09:10:30,383 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081030_version with revision marks.pdf
+2025-12-11 09:10:30,397 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN.pdf
+2025-12-11 09:10:30,714 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081030_Comparison methodology FINREP up to December 2023.pdf
+2025-12-11 09:10:30,727 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN_Revision_marks.pdf
+2025-12-11 09:10:31,072 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081031_version with revision marks.pdf
+2025-12-11 09:10:31,088 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_2023_12_EN.pdf
+2025-12-11 09:10:31,495 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081031_Comparison methodology FINREP from December 2023 onwards.pdf
+2025-12-11 09:10:31,509 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_2023_12_EN_RM.pdf
+2025-12-11 09:10:34,008 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081034_version with revision marks.pdf
+2025-12-11 09:10:34,022 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_iBSI_iMIR_EN.pdf
+2025-12-11 09:10:34,449 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081034_Comparison methodology iBSI-iMIR up to December 2023.pdf
+2025-12-11 09:10:34,476 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_iBSI_iMIR_EN_revision_marks.pdf
+2025-12-11 09:10:34,944 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081034_version with revision marks.pdf
+2025-12-11 09:10:34,965 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_BSI_MIR_2023_12_EN.pdf
+2025-12-11 09:10:35,545 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081035_Comparison methodology BSI-MIR from December 2023 onwards.pdf
+2025-12-11 09:10:35,570 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_BSI_MIR_2023_12_EN_Rm.pdf
+2025-12-11 09:10:36,244 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081036_version with revision marks.pdf
+2025-12-11 09:10:36,271 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_S25L_EN.pdf
+2025-12-11 09:10:36,594 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081036_Comparison methodology S 2.5-L from December 2025 onwards.pdf
+2025-12-11 09:10:36,625 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_13.pdf
+2025-12-11 09:10:36,953 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081036_Technical specifications.pdf
+2025-12-11 09:10:36,967 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_13_revision_marks.pdf
+2025-12-11 09:10:37,365 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081037_version with revision marks.pdf
+2025-12-11 09:10:37,407 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_12.pdf
+2025-12-11 09:10:37,996 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081037_Technical specifications.pdf
+2025-12-11 09:10:38,023 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_12_track_changes.pdf
+2025-12-11 09:10:38,494 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081038_version with revision marks.pdf
+2025-12-11 09:10:38,516 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_11.pdf
+2025-12-11 09:10:38,843 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081038_Technical specifications.pdf
+2025-12-11 09:10:38,858 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_11_revision_marks.pdf
+2025-12-11 09:10:39,427 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081039_version with revision marks.pdf
+2025-12-11 09:10:39,441 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_10.pdf
+2025-12-11 09:10:39,771 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081039_Technical specifications.pdf
+2025-12-11 09:10:39,785 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_10_revision_marks.pdf
+2025-12-11 09:10:40,103 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081040_version with revision marks.pdf
+2025-12-11 09:10:40,130 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_9.pdf
+2025-12-11 09:10:40,838 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081040_Technical specifications.pdf
+2025-12-11 09:10:40,853 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_9_Revision_marks.pdf
+2025-12-11 09:10:41,385 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081041_version with revision marks.pdf
+2025-12-11 09:10:41,404 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_8_2023_EN.pdf
+2025-12-11 09:10:41,754 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081041_Technical specifications.pdf
+2025-12-11 09:10:41,786 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_8_2023_EN_Revision_marks.pdf
+2025-12-11 09:10:42,295 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081042_version with revision marks.pdf
+2025-12-11 09:10:42,341 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_7.pdf
+2025-12-11 09:10:42,682 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081042_Technical specifications.pdf
+2025-12-11 09:10:42,704 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_7_Revision_marks.pdf
+2025-12-11 09:10:43,020 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081043_version with revision marks.pdf
+2025-12-11 09:10:43,038 [INFO] regulai: [BCL] Total new documents: 27
+2025-12-11 09:10:43,038 [INFO] regulai: [ECB] Fetching page: https://www.ecb.europa.eu/pub/legal/html/index.en.html
+2025-12-11 09:12:36,417 [INFO] regulai: [SchedulerAgent] Running full pipeline for authorities: ['BCL', 'ECB']
+2025-12-11 09:12:36,419 [INFO] regulai: [BCL] Fetching page: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/index.html
+2025-12-11 09:12:36,762 [INFO] regulai: [BCL] Found 27 PDF links
+2025-12-11 09:12:36,765 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 09:12:37,069 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081237_Instructions.pdf
+2025-12-11 09:12:37,080 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 09:12:37,081 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 09:12:37,397 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081237_version with revision marks.pdf
+2025-12-11 09:12:37,403 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 09:12:37,403 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_Member_States_EN.pdf
+2025-12-11 09:12:37,508 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081237_List of reporting Member States.pdf
+2025-12-11 09:12:37,512 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_Member_States_EN.pdf
+2025-12-11 09:12:37,512 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_member_states_EN_Revision_marks.pdf
+2025-12-11 09:12:37,622 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081237_version with revision marks.pdf
+2025-12-11 09:12:37,627 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_member_states_EN_Revision_marks.pdf
+2025-12-11 09:12:37,627 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN.pdf
+2025-12-11 09:12:37,966 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081237_Comparison methodology FINREP up to December 2023.pdf
+2025-12-11 09:12:37,972 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN.pdf
+2025-12-11 09:12:37,973 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN_Revision_marks.pdf
+2025-12-11 09:12:38,297 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081238_version with revision marks.pdf
+2025-12-11 09:12:38,313 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN_Revision_marks.pdf
+2025-12-11 09:12:38,313 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_2023_12_EN.pdf
+2025-12-11 09:12:38,658 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081238_Comparison methodology FINREP from December 2023 onwards.pdf
+2025-12-11 09:12:38,669 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_2023_12_EN.pdf
+2025-12-11 09:12:38,669 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_2023_12_EN_RM.pdf
+2025-12-11 09:12:39,018 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081239_version with revision marks.pdf
+2025-12-11 09:12:39,026 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_2023_12_EN_RM.pdf
+2025-12-11 09:12:39,026 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_iBSI_iMIR_EN.pdf
+2025-12-11 09:12:39,474 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081239_Comparison methodology iBSI-iMIR up to December 2023.pdf
+2025-12-11 09:12:39,487 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_iBSI_iMIR_EN.pdf
+2025-12-11 09:12:39,488 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_iBSI_iMIR_EN_revision_marks.pdf
+2025-12-11 09:12:39,876 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081239_version with revision marks.pdf
+2025-12-11 09:12:39,889 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_iBSI_iMIR_EN_revision_marks.pdf
+2025-12-11 09:12:39,889 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_BSI_MIR_2023_12_EN.pdf
+2025-12-11 09:12:40,379 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081240_Comparison methodology BSI-MIR from December 2023 onwards.pdf
+2025-12-11 09:12:40,390 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_BSI_MIR_2023_12_EN.pdf
+2025-12-11 09:12:40,390 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_BSI_MIR_2023_12_EN_Rm.pdf
+2025-12-11 09:12:40,949 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081240_version with revision marks.pdf
+2025-12-11 09:12:40,964 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_BSI_MIR_2023_12_EN_Rm.pdf
+2025-12-11 09:12:40,964 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_S25L_EN.pdf
+2025-12-11 09:12:41,237 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081241_Comparison methodology S 2.5-L from December 2025 onwards.pdf
+2025-12-11 09:12:41,243 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_S25L_EN.pdf
+2025-12-11 09:12:41,243 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_13.pdf
+2025-12-11 09:12:41,443 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081241_Technical specifications.pdf
+2025-12-11 09:12:41,448 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_13.pdf
+2025-12-11 09:12:41,448 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_13_revision_marks.pdf
+2025-12-11 09:12:41,653 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081241_version with revision marks.pdf
+2025-12-11 09:12:41,657 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_13_revision_marks.pdf
+2025-12-11 09:12:41,657 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_12.pdf
+2025-12-11 09:12:42,205 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081242_Technical specifications.pdf
+2025-12-11 09:12:42,216 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_12.pdf
+2025-12-11 09:12:42,217 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_12_track_changes.pdf
+2025-12-11 09:12:42,584 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081242_version with revision marks.pdf
+2025-12-11 09:12:42,596 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_12_track_changes.pdf
+2025-12-11 09:12:42,596 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_11.pdf
+2025-12-11 09:12:43,006 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081243_Technical specifications.pdf
+2025-12-11 09:12:43,014 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_11.pdf
+2025-12-11 09:12:43,014 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_11_revision_marks.pdf
+2025-12-11 09:12:43,364 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081243_version with revision marks.pdf
+2025-12-11 09:12:43,371 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_11_revision_marks.pdf
+2025-12-11 09:12:43,373 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_10.pdf
+2025-12-11 09:12:43,667 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081243_Technical specifications.pdf
+2025-12-11 09:12:43,677 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_10.pdf
+2025-12-11 09:12:43,677 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_10_revision_marks.pdf
+2025-12-11 09:12:43,996 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081243_version with revision marks.pdf
+2025-12-11 09:12:44,003 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_10_revision_marks.pdf
+2025-12-11 09:12:44,003 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_9.pdf
+2025-12-11 09:12:44,339 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081244_Technical specifications.pdf
+2025-12-11 09:12:44,352 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_9.pdf
+2025-12-11 09:12:44,355 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_9_Revision_marks.pdf
+2025-12-11 09:12:44,638 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081244_version with revision marks.pdf
+2025-12-11 09:12:44,647 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_9_Revision_marks.pdf
+2025-12-11 09:12:44,647 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_8_2023_EN.pdf
+2025-12-11 09:12:45,215 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081245_Technical specifications.pdf
+2025-12-11 09:12:45,226 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_8_2023_EN.pdf
+2025-12-11 09:12:45,226 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_8_2023_EN_Revision_marks.pdf
+2025-12-11 09:12:45,597 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081245_version with revision marks.pdf
+2025-12-11 09:12:45,610 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_8_2023_EN_Revision_marks.pdf
+2025-12-11 09:12:45,612 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_7.pdf
+2025-12-11 09:12:45,986 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081245_Technical specifications.pdf
+2025-12-11 09:12:45,995 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_7.pdf
+2025-12-11 09:12:45,995 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_7_Revision_marks.pdf
+2025-12-11 09:12:46,437 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081246_version with revision marks.pdf
+2025-12-11 09:12:46,444 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_7_Revision_marks.pdf
+2025-12-11 09:12:46,444 [INFO] regulai: [BCL] Total new documents: 0
+2025-12-11 09:14:54,536 [INFO] regulai: [SchedulerAgent] Running full pipeline for authorities: ['BCL']
+2025-12-11 09:14:54,537 [INFO] regulai: [BCL] Fetching page: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/index.html
+2025-12-11 09:14:54,846 [INFO] regulai: [BCL] Found 27 PDF links
+2025-12-11 09:14:54,849 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 09:14:55,109 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081455_Instructions.pdf
+2025-12-11 09:14:55,120 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 09:14:55,120 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 09:14:55,412 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081455_version with revision marks.pdf
+2025-12-11 09:14:55,420 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 09:14:55,420 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_Member_States_EN.pdf
+2025-12-11 09:14:55,577 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081455_List of reporting Member States.pdf
+2025-12-11 09:14:55,580 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_Member_States_EN.pdf
+2025-12-11 09:14:55,581 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_member_states_EN_Revision_marks.pdf
+2025-12-11 09:14:55,691 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081455_version with revision marks.pdf
+2025-12-11 09:14:55,695 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_member_states_EN_Revision_marks.pdf
+2025-12-11 09:14:55,695 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN.pdf
+2025-12-11 09:14:56,065 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081456_Comparison methodology FINREP up to December 2023.pdf
+2025-12-11 09:14:56,071 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN.pdf
+2025-12-11 09:14:56,072 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN_Revision_marks.pdf
+2025-12-11 09:14:56,467 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081456_version with revision marks.pdf
+2025-12-11 09:14:56,475 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN_Revision_marks.pdf
+2025-12-11 09:14:56,475 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_2023_12_EN.pdf
+2025-12-11 09:14:56,943 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081456_Comparison methodology FINREP from December 2023 onwards.pdf
+2025-12-11 09:14:56,956 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_2023_12_EN.pdf
+2025-12-11 09:14:56,956 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_2023_12_EN_RM.pdf
+2025-12-11 09:14:57,393 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081457_version with revision marks.pdf
+2025-12-11 09:14:57,409 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_2023_12_EN_RM.pdf
+2025-12-11 09:14:57,409 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_iBSI_iMIR_EN.pdf
+2025-12-11 09:14:57,915 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081457_Comparison methodology iBSI-iMIR up to December 2023.pdf
+2025-12-11 09:14:57,933 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_iBSI_iMIR_EN.pdf
+2025-12-11 09:14:57,934 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_iBSI_iMIR_EN_revision_marks.pdf
+2025-12-11 09:14:58,381 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081458_version with revision marks.pdf
+2025-12-11 09:14:58,397 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_iBSI_iMIR_EN_revision_marks.pdf
+2025-12-11 09:14:58,398 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_BSI_MIR_2023_12_EN.pdf
+2025-12-11 09:14:58,894 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081458_Comparison methodology BSI-MIR from December 2023 onwards.pdf
+2025-12-11 09:14:58,909 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_BSI_MIR_2023_12_EN.pdf
+2025-12-11 09:14:58,909 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_BSI_MIR_2023_12_EN_Rm.pdf
+2025-12-11 09:14:59,464 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081459_version with revision marks.pdf
+2025-12-11 09:14:59,483 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_BSI_MIR_2023_12_EN_Rm.pdf
+2025-12-11 09:14:59,483 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_S25L_EN.pdf
+2025-12-11 09:14:59,881 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081459_Comparison methodology S 2.5-L from December 2025 onwards.pdf
+2025-12-11 09:14:59,888 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_S25L_EN.pdf
+2025-12-11 09:14:59,889 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_13.pdf
+2025-12-11 09:15:00,086 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081500_Technical specifications.pdf
+2025-12-11 09:15:00,091 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_13.pdf
+2025-12-11 09:15:00,091 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_13_revision_marks.pdf
+2025-12-11 09:15:00,298 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081500_version with revision marks.pdf
+2025-12-11 09:15:00,309 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_13_revision_marks.pdf
+2025-12-11 09:15:00,310 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_12.pdf
+2025-12-11 09:15:00,629 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081500_Technical specifications.pdf
+2025-12-11 09:15:00,639 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_12.pdf
+2025-12-11 09:15:00,640 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_12_track_changes.pdf
+2025-12-11 09:15:00,988 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081500_version with revision marks.pdf
+2025-12-11 09:15:00,994 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_12_track_changes.pdf
+2025-12-11 09:15:00,994 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_11.pdf
+2025-12-11 09:15:01,257 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081501_Technical specifications.pdf
+2025-12-11 09:15:01,268 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_11.pdf
+2025-12-11 09:15:01,269 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_11_revision_marks.pdf
+2025-12-11 09:15:01,559 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081501_version with revision marks.pdf
+2025-12-11 09:15:01,564 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_11_revision_marks.pdf
+2025-12-11 09:15:01,564 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_10.pdf
+2025-12-11 09:15:01,828 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081501_Technical specifications.pdf
+2025-12-11 09:15:01,840 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_10.pdf
+2025-12-11 09:15:01,840 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_10_revision_marks.pdf
+2025-12-11 09:15:02,098 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081502_version with revision marks.pdf
+2025-12-11 09:15:02,114 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_10_revision_marks.pdf
+2025-12-11 09:15:02,115 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_9.pdf
+2025-12-11 09:15:02,397 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081502_Technical specifications.pdf
+2025-12-11 09:15:02,404 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_9.pdf
+2025-12-11 09:15:02,404 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_9_Revision_marks.pdf
+2025-12-11 09:15:02,697 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081502_version with revision marks.pdf
+2025-12-11 09:15:02,703 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_9_Revision_marks.pdf
+2025-12-11 09:15:02,703 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_8_2023_EN.pdf
+2025-12-11 09:15:02,940 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081502_Technical specifications.pdf
+2025-12-11 09:15:02,947 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_8_2023_EN.pdf
+2025-12-11 09:15:02,948 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_8_2023_EN_Revision_marks.pdf
+2025-12-11 09:15:03,252 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081503_version with revision marks.pdf
+2025-12-11 09:15:03,260 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_8_2023_EN_Revision_marks.pdf
+2025-12-11 09:15:03,260 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_7.pdf
+2025-12-11 09:15:03,568 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081503_Technical specifications.pdf
+2025-12-11 09:15:03,583 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_7.pdf
+2025-12-11 09:15:03,584 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_7_Revision_marks.pdf
+2025-12-11 09:15:03,942 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081503_version with revision marks.pdf
+2025-12-11 09:15:03,950 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_7_Revision_marks.pdf
+2025-12-11 09:15:03,951 [INFO] regulai: [BCL] Total new documents: 0
+2025-12-11 09:15:04,252 [INFO] regulai: [TranslationAgent] Documents to translate: 27
+2025-12-11 09:15:59,891 [INFO] regulai: [SchedulerAgent] Running full pipeline for authorities: ['BCL']
+2025-12-11 09:15:59,892 [INFO] regulai: [BCL] Fetching page: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/index.html
+2025-12-11 09:16:00,141 [INFO] regulai: [BCL] Found 27 PDF links
+2025-12-11 09:16:00,143 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 09:16:00,397 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081600_Instructions.pdf
+2025-12-11 09:16:00,402 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 09:16:00,403 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 09:16:00,667 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081600_version with revision marks.pdf
+2025-12-11 09:16:00,673 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 09:16:00,673 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_Member_States_EN.pdf
+2025-12-11 09:16:00,818 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081600_List of reporting Member States.pdf
+2025-12-11 09:16:00,822 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_Member_States_EN.pdf
+2025-12-11 09:16:00,822 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_member_states_EN_Revision_marks.pdf
+2025-12-11 09:16:00,943 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081600_version with revision marks.pdf
+2025-12-11 09:16:00,946 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_member_states_EN_Revision_marks.pdf
+2025-12-11 09:16:00,946 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN.pdf
+2025-12-11 09:16:01,268 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081601_Comparison methodology FINREP up to December 2023.pdf
+2025-12-11 09:16:01,279 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN.pdf
+2025-12-11 09:16:01,280 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN_Revision_marks.pdf
+2025-12-11 09:16:01,785 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081601_version with revision marks.pdf
+2025-12-11 09:16:01,792 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN_Revision_marks.pdf
+2025-12-11 09:16:01,793 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_2023_12_EN.pdf
+2025-12-11 09:16:02,400 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081602_Comparison methodology FINREP from December 2023 onwards.pdf
+2025-12-11 09:16:02,407 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_2023_12_EN.pdf
+2025-12-11 09:16:02,407 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_2023_12_EN_RM.pdf
+2025-12-11 09:16:02,796 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081602_version with revision marks.pdf
+2025-12-11 09:16:02,808 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_2023_12_EN_RM.pdf
+2025-12-11 09:16:02,809 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_iBSI_iMIR_EN.pdf
+2025-12-11 09:16:03,322 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081603_Comparison methodology iBSI-iMIR up to December 2023.pdf
+2025-12-11 09:16:03,332 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_iBSI_iMIR_EN.pdf
+2025-12-11 09:16:03,332 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_iBSI_iMIR_EN_revision_marks.pdf
+2025-12-11 09:16:03,786 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081603_version with revision marks.pdf
+2025-12-11 09:16:03,803 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_iBSI_iMIR_EN_revision_marks.pdf
+2025-12-11 09:16:03,804 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_BSI_MIR_2023_12_EN.pdf
+2025-12-11 09:16:04,301 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081604_Comparison methodology BSI-MIR from December 2023 onwards.pdf
+2025-12-11 09:16:04,318 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_BSI_MIR_2023_12_EN.pdf
+2025-12-11 09:16:04,319 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_BSI_MIR_2023_12_EN_Rm.pdf
+2025-12-11 09:16:04,875 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081604_version with revision marks.pdf
+2025-12-11 09:16:04,893 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_BSI_MIR_2023_12_EN_Rm.pdf
+2025-12-11 09:16:04,893 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_S25L_EN.pdf
+2025-12-11 09:16:05,408 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081605_Comparison methodology S 2.5-L from December 2025 onwards.pdf
+2025-12-11 09:16:05,423 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_S25L_EN.pdf
+2025-12-11 09:16:05,424 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_13.pdf
+2025-12-11 09:16:05,704 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081605_Technical specifications.pdf
+2025-12-11 09:16:05,720 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_13.pdf
+2025-12-11 09:16:05,720 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_13_revision_marks.pdf
+2025-12-11 09:16:06,155 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081606_version with revision marks.pdf
+2025-12-11 09:16:06,164 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_13_revision_marks.pdf
+2025-12-11 09:16:06,164 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_12.pdf
+2025-12-11 09:16:06,655 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081606_Technical specifications.pdf
+2025-12-11 09:16:06,676 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_12.pdf
+2025-12-11 09:16:06,676 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_12_track_changes.pdf
+2025-12-11 09:16:07,085 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081607_version with revision marks.pdf
+2025-12-11 09:16:07,097 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_12_track_changes.pdf
+2025-12-11 09:16:07,098 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_11.pdf
+2025-12-11 09:16:07,387 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081607_Technical specifications.pdf
+2025-12-11 09:16:07,396 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_11.pdf
+2025-12-11 09:16:07,396 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_11_revision_marks.pdf
+2025-12-11 09:16:07,789 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081607_version with revision marks.pdf
+2025-12-11 09:16:07,806 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_11_revision_marks.pdf
+2025-12-11 09:16:07,809 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_10.pdf
+2025-12-11 09:16:08,110 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081608_Technical specifications.pdf
+2025-12-11 09:16:08,121 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_10.pdf
+2025-12-11 09:16:08,121 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_10_revision_marks.pdf
+2025-12-11 09:16:08,496 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081608_version with revision marks.pdf
+2025-12-11 09:16:08,506 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_10_revision_marks.pdf
+2025-12-11 09:16:08,506 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_9.pdf
+2025-12-11 09:16:08,796 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081608_Technical specifications.pdf
+2025-12-11 09:16:08,808 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_9.pdf
+2025-12-11 09:16:08,808 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_9_Revision_marks.pdf
+2025-12-11 09:16:09,164 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081609_version with revision marks.pdf
+2025-12-11 09:16:09,174 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_9_Revision_marks.pdf
+2025-12-11 09:16:09,175 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_8_2023_EN.pdf
+2025-12-11 09:16:09,518 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081609_Technical specifications.pdf
+2025-12-11 09:16:09,538 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_8_2023_EN.pdf
+2025-12-11 09:16:09,538 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_8_2023_EN_Revision_marks.pdf
+2025-12-11 09:16:09,965 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081609_version with revision marks.pdf
+2025-12-11 09:16:09,986 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_8_2023_EN_Revision_marks.pdf
+2025-12-11 09:16:09,986 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_7.pdf
+2025-12-11 09:16:10,506 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081610_Technical specifications.pdf
+2025-12-11 09:16:10,516 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_7.pdf
+2025-12-11 09:16:10,517 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_7_Revision_marks.pdf
+2025-12-11 09:16:10,836 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081610_version with revision marks.pdf
+2025-12-11 09:16:10,847 [INFO] regulai: [BCL] Duplicate detected, skipping: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_7_Revision_marks.pdf
+2025-12-11 09:16:10,847 [INFO] regulai: [BCL] Total new documents: 0
+2025-12-11 09:16:11,076 [INFO] regulai: [TranslationAgent] Documents to translate: 27
+2025-12-11 09:18:45,844 [INFO] regulai: [SchedulerAgent] Running full pipeline for authorities: ['BCL']
+2025-12-11 09:18:45,846 [INFO] regulai: [BCL] Fetching page: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/index.html
+2025-12-11 09:18:46,206 [INFO] regulai: [BCL] Found 27 PDF links
+2025-12-11 09:18:46,209 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN.pdf
+2025-12-11 09:18:46,481 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081846_Instructions.pdf
+2025-12-11 09:18:46,491 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_instructions_EN_Revision_marks.pdf
+2025-12-11 09:18:46,754 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081846_version with revision marks.pdf
+2025-12-11 09:18:46,770 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_Member_States_EN.pdf
+2025-12-11 09:18:46,917 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081846_List of reporting Member States.pdf
+2025-12-11 09:18:46,934 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_list_reporting_member_states_EN_Revision_marks.pdf
+2025-12-11 09:18:47,198 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081847_version with revision marks.pdf
+2025-12-11 09:18:47,220 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN.pdf
+2025-12-11 09:18:47,773 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081847_Comparison methodology FINREP up to December 2023.pdf
+2025-12-11 09:18:47,792 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_EN_Revision_marks.pdf
+2025-12-11 09:18:48,280 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081848_version with revision marks.pdf
+2025-12-11 09:18:48,301 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_2023_12_EN.pdf
+2025-12-11 09:18:48,841 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081848_Comparison methodology FINREP from December 2023 onwards.pdf
+2025-12-11 09:18:48,988 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_FINREP_2023_12_EN_RM.pdf
+2025-12-11 09:18:49,496 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081849_version with revision marks.pdf
+2025-12-11 09:18:49,519 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_iBSI_iMIR_EN.pdf
+2025-12-11 09:18:49,962 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081849_Comparison methodology iBSI-iMIR up to December 2023.pdf
+2025-12-11 09:18:49,983 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_iBSI_iMIR_EN_revision_marks.pdf
+2025-12-11 09:18:50,411 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081850_version with revision marks.pdf
+2025-12-11 09:18:50,431 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_BSI_MIR_2023_12_EN.pdf
+2025-12-11 09:18:50,893 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081850_Comparison methodology BSI-MIR from December 2023 onwards.pdf
+2025-12-11 09:18:50,918 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_BSI_MIR_2023_12_EN_Rm.pdf
+2025-12-11 09:18:51,534 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081851_version with revision marks.pdf
+2025-12-11 09:18:51,604 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_methodology_comparison_report_S25L_EN.pdf
+2025-12-11 09:18:52,039 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081852_Comparison methodology S 2.5-L from December 2025 onwards.pdf
+2025-12-11 09:18:52,057 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_13.pdf
+2025-12-11 09:18:52,418 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081852_Technical specifications.pdf
+2025-12-11 09:18:52,435 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_13_revision_marks.pdf
+2025-12-11 09:18:52,748 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081852_version with revision marks.pdf
+2025-12-11 09:18:52,766 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_12.pdf
+2025-12-11 09:18:53,186 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081853_Technical specifications.pdf
+2025-12-11 09:18:53,217 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_12_track_changes.pdf
+2025-12-11 09:18:54,057 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081854_version with revision marks.pdf
+2025-12-11 09:18:54,098 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_11.pdf
+2025-12-11 09:18:54,439 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081854_Technical specifications.pdf
+2025-12-11 09:18:54,457 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_11_revision_marks.pdf
+2025-12-11 09:18:54,831 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081854_version with revision marks.pdf
+2025-12-11 09:18:54,849 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_10.pdf
+2025-12-11 09:18:55,214 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081855_Technical specifications.pdf
+2025-12-11 09:18:55,233 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_10_revision_marks.pdf
+2025-12-11 09:18:55,589 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081855_version with revision marks.pdf
+2025-12-11 09:18:55,606 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_9.pdf
+2025-12-11 09:18:55,950 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081855_Technical specifications.pdf
+2025-12-11 09:18:55,972 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_9_Revision_marks.pdf
+2025-12-11 09:18:56,376 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081856_version with revision marks.pdf
+2025-12-11 09:18:56,400 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_8_2023_EN.pdf
+2025-12-11 09:18:56,708 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081856_Technical specifications.pdf
+2025-12-11 09:18:56,724 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_8_2023_EN_Revision_marks.pdf
+2025-12-11 09:18:57,090 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081857_version with revision marks.pdf
+2025-12-11 09:18:57,106 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_7.pdf
+2025-12-11 09:18:57,573 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081857_Technical specifications.pdf
+2025-12-11 09:18:57,586 [INFO] regulai: [BCL] Downloading: https://www.bcl.lu/en/Regulatory-reporting/Etablissements_credit/AnaCredit/Instructions/AnaCredit_Technical_specifications_v1_0_7_Revision_marks.pdf
+2025-12-11 09:18:57,931 [INFO] regulai: [BCL] Saved file: /Users/YannMenochet/Documents/GitHub/datathon/data/documents/BCL/20251211_081857_version with revision marks.pdf
+2025-12-11 09:18:57,949 [INFO] regulai: [BCL] Total new documents: 27
+2025-12-11 09:18:58,323 [INFO] regulai: [TranslationAgent] Documents to translate: 27
+2025-12-11 09:19:05,972 [INFO] regulai: [TranslationAgent] Calling OpenAI for translation...
+2025-12-11 09:19:08,332 [INFO] httpx: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
